@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
-  m_Name: New Koreography
+  m_Name: SSS Koreo
   m_EditorClassIdentifier: 
   mSourceClip: {fileID: 8300000, guid: dd593934b0ecdae429d9ea9cdfb2514a, type: 3}
   mAudioFilePath: 
