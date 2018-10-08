@@ -65,6 +65,7 @@ namespace Platformer
 
         private void Update()
         {
+            Debug.Log(_characterVelocity);
             bool isGrounded = Grounded();
 
             if (_canMove)
@@ -105,9 +106,11 @@ namespace Platformer
             _force *= massCoeficcient;
             _characterVelocity += _force;
             _characterVelocity.x *= frictionCoefficient;
-
+            /*if (_characterVelocity.x < maxSpeed)
+            {
+                _characterController.Move((_characterVelocity) * Time.deltaTime);
+            }*/
             _characterController.Move((_characterVelocity) * Time.deltaTime);
-
             // Orients the player toward the character velocity direction
             //if (_canMove) Orient();
 
@@ -119,7 +122,8 @@ namespace Platformer
         {
             if (Mathf.Abs(_characterVelocity.x) < maxSpeed)
             {
-                _force.x = Input.GetAxis(horizontalAxis) * acceleration;
+                //_force.x = Input.GetAxis(horizontalAxis) * acceleration;
+                _force.x = maxSpeed;
             }
         }
 

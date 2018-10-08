@@ -12,7 +12,19 @@ MonoBehaviour:
   m_Name: HalfBeatTrack
   m_EditorClassIdentifier: 
   mEventID: HalfBeatTrack
-  mEventList: []
+  mEventList:
+  - mStartSample: 334100
+    mEndSample: 334100
+  - mStartSample: 396115
+    mEndSample: 396115
+  - mStartSample: 478803
+    mEndSample: 478803
+  - mStartSample: 540818
+    mEndSample: 540818
+  - mStartSample: 582162
+    mEndSample: 582162
+  - mStartSample: 623506
+    mEndSample: 623506
   _SerializedPayloadTypes: []
   _AssetPayloads: []
   _AssetPayloadIdxs: 
