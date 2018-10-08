@@ -11,6 +11,8 @@ public class BeatBatSample : MonoBehaviour {
     Animator animator;
     int index; // the current waypoint index in the waypoints array
     float speed, agentSpeed; // current agent speed and NavMeshAgent component speed
+    Vector3 start = new Vector3(0, 1, 0);
+    Vector3 end = new Vector3(1, 1, 0);
 
     void Awake()
     {
@@ -21,17 +23,28 @@ public class BeatBatSample : MonoBehaviour {
     // Use this for initialization
     void Start () {
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", animateBat);
+        //Debug.DrawLine(Vector3.zero, end, Color.red, 20f);
     }
 
 
 	// Update is called once per frame
 	void Update () {
-        animator.SetFloat("Speed", agent.velocity.magnitude);
+       // animator.SetFloat("Speed", agent.velocity.magnitude);
 
     }
 
     void animateBat(KoreographyEvent evt)
     {
+        if (end.x == 10)
+        {
+            end.x = 1;
+        }
+        else
+        {
+            end.x++;
+        }
+       //Debug.Log(end);
+        //Debug.DrawLine(start, end, Color.red, .5f);
         //Debug.Log("Code reached");
         index = index == waypoints.Length - 1 ? 0 : index + 1;
         agent.destination = waypoints[index].position;
