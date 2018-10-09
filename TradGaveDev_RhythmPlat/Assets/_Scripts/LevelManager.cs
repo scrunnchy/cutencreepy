@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
     UnityEvent conductor = new UnityEvent();
     public bool paused { get; private set; }
     Button continueButton;
+    Camera pauseCamera;
 
     private void Awake()
     {
@@ -20,6 +21,12 @@ public class LevelManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        //Get camera and disable 
+        GameObject pauseObject = GameObject.Find("Pause Camera");
+        if (pauseObject != null)
+            pauseCamera = pauseObject.GetComponent<Camera>();
+        pauseCamera.enabled = false;
+
         //Get button and add a listener 
         GameObject continueObject = GameObject.Find("ContinueButton");
         if (continueObject != null)
@@ -69,11 +76,13 @@ public class LevelManager : MonoBehaviour
         if (Time.timeScale == 0f)
         {
             Time.timeScale = 1f;
+            pauseCamera.enabled = false;
             paused = false;
         }
         else
         {
             Time.timeScale = 0f;
+            pauseCamera.enabled = true;
             paused = true;
         }
     }
