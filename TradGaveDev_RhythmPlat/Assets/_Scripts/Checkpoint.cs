@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 /// <summary>
 /// This class is a component for all checkpoints in the game.
 /// The class will respond to player collision by changing its "Reached" field and sending a collision event
@@ -8,7 +10,11 @@ using UnityEngine;
 /// </summary>
 public class Checkpoint : MonoBehaviour
 {
-    //create collision event for reaching the checkpoint
+    //create collision event for reaching the checkpoint and reversal event.
+    public static UnityEvent CheckpointCollision = new UnityEvent();
+    public static UnityEvent CheckpointReverse = new UnityEvent();
+    //define as rversal point
+    public bool reversalPoint;
 
     //track if checkpoint is reached
     public bool Reached { get; private set; }
@@ -16,9 +22,14 @@ public class Checkpoint : MonoBehaviour
     
     void Start()
     {
+
         Reached = false;
 
-        //register for reversal event
+        //register for reversal event if not reversal point.
+        if (!reversalPoint)
+        {
+            CheckpointReverse.AddListener(TurnAroundAndReset);
+        }
     }
 
     // Update is called once per frame
@@ -37,6 +48,12 @@ public class Checkpoint : MonoBehaviour
         {
             Reached = true;
             //trigger "CheckpointCollision" event
+            CheckpointCollision.Invoke();
+            //trigger reversal conditionally
+            if (reversalPoint)
+            {
+                CheckpointReverse.Invoke();
+            }
         }
     }
 

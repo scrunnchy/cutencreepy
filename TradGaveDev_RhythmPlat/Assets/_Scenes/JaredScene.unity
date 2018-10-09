@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 1249875235}
   - component: {fileID: 1249875234}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: FakeCheckpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -795,6 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a1d71116fe496419e6b634e1807991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  reversalPoint: 0
 --- !u!54 &1249875235
 Rigidbody:
   m_ObjectHideFlags: 0

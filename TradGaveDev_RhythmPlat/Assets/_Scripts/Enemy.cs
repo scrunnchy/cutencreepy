@@ -9,14 +9,14 @@ public class Enemy : MonoBehaviour {
     private bool isExpended;
 
     // create event for damage "enemyPlayerCollision"
-    
+    public static UnityEvent enemyPlayerCollision = new UnityEvent();
 
 	// On start, an enemy will:
     // retrieve collider component
     // register as an event listener for beats and level reversal
 	void Start () {
 
-        //Register for koreography.
+        //Register for koreography beats.
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
     }
 	
@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour {
             {
                 Debug.Log("damage dealt");
                 //trigger Damage event
+                enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
         }
@@ -56,7 +57,6 @@ public class Enemy : MonoBehaviour {
         //Dance (blink on and off)
         SpriteRenderer enemySpriteRen = (SpriteRenderer)GetComponent("SpriteRenderer");
         enemySpriteRen.enabled = enemySpriteRen.enabled ? false : true;
-        
     }
 
     /// <summary>
