@@ -22,7 +22,10 @@ namespace Platformer
         public string attackAxis = "Fire1";
 
         [Header("Movment Properties")]
-        public float maxSpeed = 10f;
+        // Unity meters 10 : 12.2 (Track 1)
+        // Unity meters 5 : 6.05 (Track 2)
+        // Unity meters 3 : 3.6 (Track 3)
+        public float maxSpeed = 3.6f;
         public float acceleration = 2f;
         [Range(0f, 1f)]
         public float frictionCoefficient = 0.85f;
