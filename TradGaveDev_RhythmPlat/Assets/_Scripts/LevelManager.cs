@@ -10,7 +10,7 @@ public class LevelManager : MonoBehaviour
 
     UnityEvent conductor = new UnityEvent();
     public bool paused { get; private set; }
-    Button continueButton;
+
     Camera pauseCamera;
 
     private void Awake()
@@ -27,12 +27,6 @@ public class LevelManager : MonoBehaviour
             pauseCamera = pauseObject.GetComponent<Camera>();
         pauseCamera.enabled = false;
 
-        //Get button and add a listener 
-        GameObject continueObject = GameObject.Find("ContinueButton");
-        if (continueObject != null)
-            continueButton = continueObject.GetComponent<Button>();
-        continueButton.onClick.AddListener(onContinue);
-
         //Add listeners for collision events
         conductor.AddListener(enemyPlayerCollision);
         conductor.AddListener(checkpointCollision);
@@ -44,12 +38,6 @@ public class LevelManager : MonoBehaviour
     void Update()
     {
 
-    }
-
-    void onContinue()
-    {
-        if (paused)
-            togglePause();
     }
 
     private void enemyPlayerCollision()
