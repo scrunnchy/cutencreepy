@@ -15,7 +15,9 @@ public class LevelManager : MonoBehaviour
 
     private void Awake()
     {
+        // ensure time is moving upon awake
         paused = false;
+        Time.timeScale = 1f;
     }
 
     // Use this for initialization
@@ -61,17 +63,31 @@ public class LevelManager : MonoBehaviour
 /// <returns></returns>
     public void togglePause()
     {
+        // if paused, play
         if (Time.timeScale == 0f)
         {
             Time.timeScale = 1f;
             pauseCamera.enabled = false;
             paused = false;
         }
+        // if playing, pause
         else
         {
             Time.timeScale = 0f;
             pauseCamera.enabled = true;
             paused = true;
         }
+    }
+
+    /// <summary>
+    /// Moves the given camera a given distance and angle
+    /// </summary>
+    /// <param name="camera">camera</param>
+    /// <param name="distance">added distance</param>
+    /// <param name="angle">angle of rotation</param>
+    public void flipCamera(Camera camera, Vector3 distance, Vector3 angle)
+    {
+        camera.transform.Translate(distance);
+        camera.transform.Rotate(angle);
     }
 }
