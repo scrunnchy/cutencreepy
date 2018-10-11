@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
     {
         checkForKeyStroke();
     }
+
     /// <summary>
     /// Exits game
     /// </summary>
