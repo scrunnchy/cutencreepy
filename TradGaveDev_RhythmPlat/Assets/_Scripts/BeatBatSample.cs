@@ -48,7 +48,7 @@ public class BeatBatSample : MonoBehaviour {
         //Debug.Log("Code reached");
         index = index == waypoints.Length - 1 ? 0 : index + 1;
         agent.destination = waypoints[index].position;
-        Debug.Log(agent.destination);
+        //Debug.Log(agent.destination);
         agent.speed = agentSpeed;
     }
 }
