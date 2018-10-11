@@ -14,6 +14,7 @@ namespace Platformer
             idle,
             moving
         }
+        bool isGrounded;
 
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
@@ -24,20 +25,21 @@ namespace Platformer
         // Unity meters 10 : 12.2 (Track 1)
         // Unity meters 5 : 6.05 (Track 2)
         // Unity meters 3 : 3.6 (Track 3)
-        public float maxSpeed = 3.6f;
+        public float maxSpeed = 6.4f;
         public float acceleration = 2f;
         [Range(0f, 1f)]
         public float frictionCoefficient = 0.85f;
         public float massCoeficcient = 0.85f;
 
         [Header("Jump Properties")]
-        public float jumpForce = 3f;
-        public float fallMultiplier = 2.5f;
+        public float jumpForce = 5f;
+        public float fallMultiplier = 20f;
         public float lowJumpMultiplier = 2f;
         [Range(0f, 1f)]
         public float airControl = 0.85f;
         public float gravityModifier = 2.5f;
         public float terminalVelocity = 25f;
+        public float yVelocityLowerLimit = 5f;
 
 
         //Private Memeber Variables
@@ -65,7 +67,8 @@ namespace Platformer
 
         private void Update()
         {
-            Debug.Log(Input.GetAxis(jumpAxis));
+            //Debug.Log(Input.GetAxis(jumpAxis));
+            Debug.Log(_characterVelocity.y);
             //Debug.Log(_characterVelocity);
             bool isGrounded = Grounded();
 
@@ -90,11 +93,11 @@ namespace Platformer
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
-                /*if (_characterVelocity.y > 0 && _characterVelocity.y < .5)
+                if (_characterVelocity.y > 0 && _characterVelocity.y < .5)
                 {
 
-                }*/
-                if (_characterVelocity.y < .5)
+                }
+                if (_characterVelocity.y < yVelocityLowerLimit && _characterController.transform.position.y > 2)
                 {
                     _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
                 }
@@ -124,7 +127,8 @@ namespace Platformer
 
         private void Jump()
         {
-            if (Input.GetAxis(jumpAxis) > 0f)
+            //Input.GetAxis(jumpAxis) > 0f
+            if (!_inJump)
             {
                 // Nuke player y velocity and set jump force
                 _characterVelocity.y = 0f;
