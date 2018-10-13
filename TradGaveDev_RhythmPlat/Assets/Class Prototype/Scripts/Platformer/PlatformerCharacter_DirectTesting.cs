@@ -14,7 +14,12 @@ namespace Platformer
             idle,
             moving
         }
+        Animator anim;
+
         bool isGrounded;
+        bool isDodging;
+
+        float startTime;
 
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
@@ -52,6 +57,9 @@ namespace Platformer
         private bool _canAttack = true;
 
         private bool _inJump = false;
+        private bool _inSlide = false;
+        private bool _inDodge = false;
+        private bool _inDash = false;
 
         private float _jumpMomentum = 0f;
         private Vector3 _storedVelocity = Vector3.zero;
@@ -61,24 +69,31 @@ namespace Platformer
         void Start()
         {
             _characterController = this.GetComponent<CharacterController>();
-
-
+            anim = GetComponent<Animator>();
+            startTime = Time.realtimeSinceStartup;
         }
 
         private void Update()
         {
+            anim.SetFloat("Speed", _characterVelocity.x);
             //Debug.Log(Input.GetAxis(jumpAxis));
-            Debug.Log(_characterVelocity.y);
+            //Debug.Log(_characterVelocity.y);
             //Debug.Log(_characterVelocity);
             bool isGrounded = Grounded();
-
+            if (isGrounded)
+            {
+                anim.SetBool("inJump", false);
+            }
             if (_canMove)
             {
                 Move();
+                Dash();
+                Slide();
+                Dodge();
             }
 
 
-            if (_canJump && isGrounded)
+            if (_canJump && isGrounded && !_inSlide && !_inDash && !_inDodge)
             {
                 Jump();
             }
@@ -93,6 +108,7 @@ namespace Platformer
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
+                // anim.SetBool("inJump", true);
                 if (_characterVelocity.y > 0 && _characterVelocity.y < .5)
                 {
 
@@ -125,31 +141,62 @@ namespace Platformer
             }
         }
 
+        private void Dash()
+        {
+            if (Input.GetAxis("Dash") > 0f)
+            {
+                anim.SetBool("Dashing", true);
+                _canJump = false;
+            }
+        }
+
+        private void Slide()
+        {
+            if (Input.GetAxis("Slide") > 0f && !_inSlide)
+            {
+                resetTimer();
+                anim.SetBool("Sliding", true);
+                _canJump = false;
+                _inSlide = true;
+            }
+            if (Time.realtimeSinceStartup >= startTime + .3f)
+            {
+                anim.SetBool("Sliding", false);
+                _canJump = true;
+                if (Input.GetAxis("Slide") == 0f)
+                    _inSlide = false;
+            }
+        }
+
+        public void resetTimer()
+        {
+            startTime = Time.realtimeSinceStartup;
+        }
+
+        private void Dodge()
+        {
+            if (Input.GetAxis("Dodge") > 0f)
+            {
+                anim.SetBool("Dodging", true);
+                _canJump = false;
+                isDodging = true;
+            }
+        }
+
         private void Jump()
         {
+            //anim.SetFloat("yHeight", _characterController.transform.position.y);
             //Input.GetAxis(jumpAxis) > 0f
-            if (!_inJump)
+            // !_inJump
+            if (Input.GetAxis(jumpAxis) > 0f)
             {
+                anim.SetBool("inJump", true);
                 // Nuke player y velocity and set jump force
                 _characterVelocity.y = 0f;
                 _force.y = jumpForce;
 
                 _inJump = true;
                 _canJump = false;
-            }
-            //Debug.Log(_characterVelocity.y);
-            if (_inJump)
-            {
-                /*if (_characterVelocity.y < 0)
-                {
-                    //Debug.Log("Falling");
-                    _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-                }
-                else if (_characterVelocity.y > 0 && !(Input.GetAxis(jumpAxis) > 0f))
-                {
-                    Debug.Log("Low Jumping");
-                    _characterVelocity += Vector3.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
-                }*/
             }
         }
 
