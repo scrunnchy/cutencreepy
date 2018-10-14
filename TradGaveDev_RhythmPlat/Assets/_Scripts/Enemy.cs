@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using SonicBloom.Koreo;
 using UnityEngine.Events;
+using Platformer;
 
 public class Enemy : MonoBehaviour {
     // store enemy collider and isExpended
@@ -37,10 +38,9 @@ public class Enemy : MonoBehaviour {
     {
         if (!isExpended && collider.gameObject.tag == "Player")
         {
-            //TODO: change player script and bool to real type/name
-            TestPlayerDummy playerInfo = collider.gameObject.GetComponent<TestPlayerDummy>();
+            Player playerInfo = collider.gameObject.GetComponent<Player>();
             // check the boolean isDodging.
-            if (!playerInfo.isDodging)
+            if (!playerInfo._inDodge) 
             {
                 Debug.Log("damage dealt");
                 //trigger Damage event
