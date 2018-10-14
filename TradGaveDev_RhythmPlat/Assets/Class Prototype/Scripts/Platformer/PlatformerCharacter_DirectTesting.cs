@@ -17,9 +17,10 @@ namespace Platformer
         Animator anim;
 
         bool isGrounded;
-        bool isDodging;
+        public bool isDodging;
 
         float startTime;
+        float currentTime;
 
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
@@ -54,6 +55,8 @@ namespace Platformer
 
         private bool _canMove = true;
         private bool _canJump = true;
+        private bool _canDodge = true;
+        private bool _canDash = true;
         private bool _canAttack = true;
 
         private bool _inJump = false;
@@ -69,27 +72,35 @@ namespace Platformer
         void Start()
         {
             _characterController = this.GetComponent<CharacterController>();
-            anim = GetComponent<Animator>();
-            startTime = Time.realtimeSinceStartup;
+            anim = this.GetComponent<Animator>();
+            _characterVelocity.x = maxSpeed;
+            anim.SetFloat("Speed", _characterVelocity.x);
         }
 
         private void Update()
         {
-            anim.SetFloat("Speed", _characterVelocity.x);
-            //Debug.Log(Input.GetAxis(jumpAxis));
             //Debug.Log(_characterVelocity.y);
-            //Debug.Log(_characterVelocity);
-            bool isGrounded = Grounded();
-            if (isGrounded)
+            //Debug.Log(_characterController.transform.position.y);
+            if (isGrounded = Grounded())
             {
+                // nuke character velocity
+                _characterVelocity.y = 0f;
                 anim.SetBool("inJump", false);
             }
-            if (_canMove)
+            if (_canMove && !_inJump)
             {
-                Move();
-                Dash();
-                Slide();
-                Dodge();
+                if (!_inSlide && !_inDodge)
+                {
+                    Dash();
+                }
+                if(!_inSlide && !_inDash)
+                {
+                    Dodge();
+                }
+                if (!_inDodge && !_inDash)
+                {
+                    Slide();
+                }
             }
 
 
@@ -108,11 +119,7 @@ namespace Platformer
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
-                // anim.SetBool("inJump", true);
-                if (_characterVelocity.y > 0 && _characterVelocity.y < .5)
-                {
-
-                }
+                anim.SetFloat("yHeight", _characterController.transform.position.y);
                 if (_characterVelocity.y < yVelocityLowerLimit && _characterController.transform.position.y > 2)
                 {
                     _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
@@ -127,26 +134,40 @@ namespace Platformer
             _force *= massCoeficcient;
             _characterVelocity += _force;
             _characterController.Move((_characterVelocity) * Time.deltaTime);
-
-            // Orients the player toward the character velocity direction -- commented for testing purposes
-            //if (_canMove) Orient();
-
-        }
-
-        private void Move()
-        {
-            if (Mathf.Abs(_characterVelocity.x) < maxSpeed)
-            {
-                _characterVelocity.x = maxSpeed;
-            }
         }
 
         private void Dash()
         {
-            if (Input.GetAxis("Dash") > 0f)
+            //currentTime = Time.realtimeSinceStartup + 2f;
+            if (Input.GetAxis("Dash") > 0f && _canDash)
             {
+                // Still need to implement the actual dash
+                resetTimer();
                 anim.SetBool("Dashing", true);
                 _canJump = false;
+                _inDash = true;
+                _canDash = false;
+            }
+
+            if (_inDash)
+            {
+                //Debug.Log("In Dash");
+                if (Time.realtimeSinceStartup >= startTime + .5f)
+                {
+                    currentTime = Time.time;
+                    anim.SetBool("Dashing", false);
+                    _canJump = true;
+                    _inDash = false;
+                }
+            }
+            if (!_inDash && !_canDash)
+            {
+                //Debug.Log("Dash Cooldown");
+                //Debug.Log(currentTime);
+                if (Time.time >= currentTime + .3f)
+                {
+                    _canDash = true;
+                }
             }
         }
 
@@ -175,17 +196,37 @@ namespace Platformer
 
         private void Dodge()
         {
-            if (Input.GetAxis("Dodge") > 0f)
+            currentTime = Time.realtimeSinceStartup + 2f;
+            if (Input.GetAxis("Dodge") > 0f && _canDodge)
             {
+                resetTimer();
                 anim.SetBool("Dodging", true);
                 _canJump = false;
-                isDodging = true;
+                _inDodge = true;
+                _canDodge = false;
+            }
+        if (_inDodge)
+        { 
+            if (Time.realtimeSinceStartup >= startTime + .5f)
+            {
+                currentTime = Time.realtimeSinceStartup;
+                anim.SetBool("Dodging", false);
+                _canJump = true;
+                _inDodge = false;
+            }
+        }
+
+            if (!_inDodge && !_canDodge)
+            {
+                if (Time.realtimeSinceStartup >= currentTime + .3f)
+                {
+                    _canDodge = true;
+                }
             }
         }
 
         private void Jump()
         {
-            //anim.SetFloat("yHeight", _characterController.transform.position.y);
             //Input.GetAxis(jumpAxis) > 0f
             // !_inJump
             if (Input.GetAxis(jumpAxis) > 0f)
@@ -199,16 +240,6 @@ namespace Platformer
                 _canJump = false;
             }
         }
-
-        /*
-        private void Orient()
-        {
-            Vector3 orientation = Vector3.zero;
-
-            orientation.x = _characterVelocity.x;
-
-            if (orientation != Vector3.zero) this.transform.forward = orientation;
-        }*/
 
         private bool Grounded()
         {
