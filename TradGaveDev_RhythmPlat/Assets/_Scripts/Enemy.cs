@@ -18,6 +18,8 @@ public class Enemy : MonoBehaviour {
 
         //Register for koreography beats.
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
+        //Register for reversal.
+        Checkpoint.CheckpointReverse.AddListener(TurnAround);
     }
 	
 	// Once per frame, 
