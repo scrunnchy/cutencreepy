@@ -42,10 +42,11 @@ public class Checkpoint : MonoBehaviour
     /// triggers the "CheckpointCollision" event once and adjusts public field
     /// </summary>
     /// <param name="collision"></param>
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collider)
     {
-        if (!Reached && collision.gameObject.tag == "Player")
+        if (!Reached && collider.gameObject.tag == "Player")
         {
+            Debug.Log("checkpoint reached");
             Reached = true;
             //trigger "CheckpointCollision" event
             CheckpointCollision.Invoke();
