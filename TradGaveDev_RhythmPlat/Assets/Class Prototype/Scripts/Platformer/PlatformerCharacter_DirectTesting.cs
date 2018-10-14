@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Platformer
 {
     [RequireComponent(typeof(CharacterController))]
-    public class Player : MonoBehaviour
+    public class PlatformerCharacter_DirectTesting : MonoBehaviour
     {
 
         public enum CharacterState
@@ -17,6 +17,7 @@ namespace Platformer
         Animator anim;
 
         bool isGrounded;
+        public bool isDodging;
 
         float startTime;
         float currentTime;
@@ -221,7 +222,6 @@ namespace Platformer
             {
                 if (Time.realtimeSinceStartup >= currentTime + .3f)
                 {
-                    
                 }
             }*/
         }
