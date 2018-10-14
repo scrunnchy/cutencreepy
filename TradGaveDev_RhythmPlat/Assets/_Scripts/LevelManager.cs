@@ -53,15 +53,28 @@ public class LevelManager : MonoBehaviour
         throw new NotImplementedException();
     }
 
-/// <summary>
-/// Toggles the pause state
-/// </summary>
-/// <returns></returns>
+    /// <summary>
+    /// Toggles the pause state
+    /// </summary>
+    /// <returns></returns>
     public void togglePause()
     {
+        Camera gameCamera;
+        AudioSource audio;
+        GameObject gameObject = GameObject.Find("Main Camera");
+        if (gameObject != null)
+        {
+            gameCamera = gameObject.GetComponent<Camera>();
+            audio = gameCamera.GetComponent<AudioSource>();
+        }
+        else
+            audio = new AudioSource();
+
         // if paused, play
         if (Time.timeScale == 0f)
         {
+            // play audio
+            audio.Play();
             Time.timeScale = 1f;
             pauseCamera.enabled = false;
             paused = false;
@@ -69,6 +82,8 @@ public class LevelManager : MonoBehaviour
         // if playing, pause
         else
         {
+            // pause audio
+            audio.Pause();
             Time.timeScale = 0f;
             pauseCamera.enabled = true;
             paused = true;
