@@ -16,7 +16,11 @@ namespace Platformer
         }
         Animator anim;
 
+
         bool isGrounded;
+
+        float magicNumber = 0.0001f;
+        private Vector3 moveVector;
 
         float startTime;
         float currentTime;
@@ -82,6 +86,8 @@ namespace Platformer
             //Debug.Log(_characterController.transform.position.y);
             if (isGrounded = Grounded())
             {
+                moveVector.y = magicNumber;
+                //Debug.Log("isGrounded");
                 // nuke character velocity
                 _characterVelocity.y = 0f;
                 anim.SetBool("inJump", false);
@@ -118,6 +124,7 @@ namespace Platformer
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
+                //Debug.Log("is not grounded");
                 anim.SetFloat("yHeight", _characterController.transform.position.y);
                 if (_characterVelocity.y < yVelocityLowerLimit && _characterController.transform.position.y > 2)
                 {
@@ -132,6 +139,7 @@ namespace Platformer
 
             _force *= massCoeficcient;
             _characterVelocity += _force;
+            _characterController.Move(moveVector * Time.deltaTime);
             _characterController.Move((_characterVelocity) * Time.deltaTime);
         }
 
