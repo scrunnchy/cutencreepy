@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
 
-    UnityEvent conductor = new UnityEvent();
     public bool paused { get; private set; }
+    public int cameraDistanceFromPlayer;
 
     Camera pauseCamera;
 
@@ -29,11 +29,7 @@ public class LevelManager : MonoBehaviour
             pauseCamera = pauseObject.GetComponent<Camera>();
         pauseCamera.enabled = false;
 
-        //Add listeners for collision events
-        conductor.AddListener(enemyPlayerCollision);
-        conductor.AddListener(checkpointCollision);
-        conductor.AddListener(composerEvent);
-
+        Checkpoint.CheckpointReverse.AddListener(flipCamera);
     }
 
     // Update is called once per frame
@@ -79,13 +75,26 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void flipCamera()
+    {
+        Camera gameCamera;
+        GameObject gameObject = GameObject.Find("Main Camera");
+        if (gameObject != null)
+        {
+            gameCamera = gameObject.GetComponent<Camera>();
+            Vector3 angle = new Vector3(0, 180, 0);
+            Vector3 pos = new Vector3(0, 0, cameraDistanceFromPlayer);
+            flipCamera(gameCamera, pos, angle);
+        }
+    }
+
     /// <summary>
     /// Moves the given camera a given distance and angle
     /// </summary>
     /// <param name="camera">camera</param>
     /// <param name="distance">added distance</param>
     /// <param name="angle">angle of rotation</param>
-    public void flipCamera(Camera camera, Vector3 distance, Vector3 angle)
+    private void flipCamera(Camera camera, Vector3 distance, Vector3 angle)
     {
         camera.transform.Translate(distance);
         camera.transform.Rotate(angle);
