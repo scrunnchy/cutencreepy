@@ -208,20 +208,22 @@ namespace Platformer
         { 
             if (Time.realtimeSinceStartup >= startTime + .5f)
             {
+                Debug.Log("Dodged");
                 currentTime = Time.realtimeSinceStartup;
                 anim.SetBool("Dodging", false);
                 _canJump = true;
                 _inDodge = false;
-            }
+                _canDodge = true;
+                }
         }
 
-            if (!_inDodge && !_canDodge)
+            /*if (!_inDodge && !_canDodge)
             {
                 if (Time.realtimeSinceStartup >= currentTime + .3f)
                 {
-                    _canDodge = true;
+                    
                 }
-            }
+            }*/
         }
 
         private void Jump()
