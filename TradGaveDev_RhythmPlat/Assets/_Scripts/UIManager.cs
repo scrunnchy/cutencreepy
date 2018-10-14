@@ -51,20 +51,6 @@ public class UIManager : MonoBehaviour
     {
         if (Input.GetButtonDown("pauseButton"))
             LM.togglePause();
-
-        //Test for flipCamera
-        if (Input.GetButtonDown("Horizontal"))
-        {
-            Camera gameCamera;
-            GameObject gameObject = GameObject.Find("Main Camera");
-            if (gameObject != null)
-            {
-                gameCamera = gameObject.GetComponent<Camera>();
-                Vector3 angle = new Vector3(0, 180, 0);
-                Vector3 pos = new Vector3(0, 0, 100);
-                LM.flipCamera(gameCamera, pos, angle);
-            }
-        }
     }
 }
 
