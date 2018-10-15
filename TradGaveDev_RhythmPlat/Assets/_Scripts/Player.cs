@@ -16,7 +16,11 @@ namespace Platformer
         }
         Animator anim;
 
+
         bool isGrounded;
+
+        float magicNumber = 0.0001f;
+        private Vector3 moveVector;
 
         float startTime;
         float currentTime;
@@ -78,13 +82,15 @@ namespace Platformer
 
         private void Update()
         {
-            //Debug.Log(_characterVelocity.y);
+            Debug.Log(_characterVelocity.y);
             //Debug.Log(_characterController.transform.position.y);
             if (isGrounded = Grounded())
             {
+                moveVector.y = magicNumber;
+                //Debug.Log("isGrounded");
                 // nuke character velocity
-                _characterVelocity.y = 0f;
-                anim.SetBool("inJump", false);
+                //_characterVelocity.y = 0f;
+                anim.SetBool("Jumping", false);
             }
             if (_canMove && !_inJump)
             {
@@ -118,8 +124,10 @@ namespace Platformer
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
+                //Debug.Log("is not grounded");
                 anim.SetFloat("yHeight", _characterController.transform.position.y);
-                if (_characterVelocity.y < yVelocityLowerLimit && _characterController.transform.position.y > 2)
+                //&& _characterController.transform.position.y > 2
+                if (_characterVelocity.y < yVelocityLowerLimit)
                 {
                     _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
                 }
@@ -132,6 +140,7 @@ namespace Platformer
 
             _force *= massCoeficcient;
             _characterVelocity += _force;
+            _characterController.Move(moveVector * Time.deltaTime);
             _characterController.Move((_characterVelocity) * Time.deltaTime);
         }
 
@@ -208,20 +217,22 @@ namespace Platformer
         { 
             if (Time.realtimeSinceStartup >= startTime + .5f)
             {
+                Debug.Log("Dodged");
                 currentTime = Time.realtimeSinceStartup;
                 anim.SetBool("Dodging", false);
                 _canJump = true;
                 _inDodge = false;
+                _canDodge = true;
             }
         }
 
-            if (!_inDodge && !_canDodge)
+            /*if (!_inDodge && !_canDodge)
             {
                 if (Time.realtimeSinceStartup >= currentTime + .3f)
                 {
-                    _canDodge = true;
+                    
                 }
-            }
+            }*/
         }
 
         private void Jump()
@@ -230,10 +241,11 @@ namespace Platformer
             // !_inJump
             if (Input.GetAxis(jumpAxis) > 0f)
             {
-                anim.SetBool("inJump", true);
+                anim.SetBool("Jumping", true);
                 // Nuke player y velocity and set jump force
                 _characterVelocity.y = 0f;
-                _force.y = jumpForce;
+                _characterVelocity.y = 20f;
+                //_force.y = jumpForce;
 
                 _inJump = true;
                 _canJump = false;
@@ -242,11 +254,23 @@ namespace Platformer
 
         private bool Grounded()
         {
-            bool controllerGrounded = _characterController.isGrounded;
+            /*bool controllerGrounded = _characterController.isGrounded;
 
             _inJump = !controllerGrounded;
 
-            return controllerGrounded;
+            return controllerGrounded;*/
+            
+            RaycastHit raycastHit;
+            if (Physics.Raycast(this.transform.position, Vector3.down, out raycastHit, 1.2f))
+            {
+                if (raycastHit.collider.gameObject != this.gameObject)
+                {
+                    _characterVelocity.y = 0f;
+                    _inJump = false;
+                    return true;
+                }
+            }
+            return false;
         }
 
 

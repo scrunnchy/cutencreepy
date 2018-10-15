@@ -21,8 +21,8 @@ GameObject:
   - component: {fileID: 4114087666715784}
   - component: {fileID: 212489357056457660}
   - component: {fileID: 143260013595451472}
-  - component: {fileID: 114763371467075106}
   - component: {fileID: 95647695293786776}
+  - component: {fileID: 114003899346071828}
   m_Layer: 0
   m_Name: CharacterRun
   m_TagString: Untagged
@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1384518169052340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.15, z: -39.37}
+  m_LocalPosition: {x: 1.26, y: 1.62, z: 0.6525955}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -61,7 +61,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114763371467075106
+--- !u!114 &114003899346071828
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,10 +69,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1384518169052340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45abd440b04bb834bac189997fba9a21, type: 3}
+  m_Script: {fileID: 11500000, guid: 95925281b476b104d977456ff77fd54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDodging: 0
   horizontalAxis: Horizontal
   verticalAxis: Vertical
   jumpAxis: Jump
@@ -87,6 +86,7 @@ MonoBehaviour:
   gravityModifier: 6.7
   terminalVelocity: 25
   yVelocityLowerLimit: 7.4
+  _inDodge: 0
 --- !u!143 &143260013595451472
 CharacterController:
   m_ObjectHideFlags: 1
