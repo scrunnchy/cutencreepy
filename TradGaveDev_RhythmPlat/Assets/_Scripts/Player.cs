@@ -82,7 +82,6 @@ namespace Platformer
 
         private void Update()
         {
-            Debug.Log(_characterVelocity.y);
             //Debug.Log(_characterController.transform.position.y);
             if (isGrounded = Grounded())
             {
