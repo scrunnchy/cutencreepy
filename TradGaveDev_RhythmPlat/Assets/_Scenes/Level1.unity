@@ -3824,15 +3824,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4114087666715784, guid: 306cac8353286034fae39f198a340d43, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9.64
+      value: 473.59
       objectReference: {fileID: 0}
     - target: {fileID: 4114087666715784, guid: 306cac8353286034fae39f198a340d43, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.69
+      value: 12.8
       objectReference: {fileID: 0}
     - target: {fileID: 4114087666715784, guid: 306cac8353286034fae39f198a340d43, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 21.65
+      value: 23.7
       objectReference: {fileID: 0}
     - target: {fileID: 4114087666715784, guid: 306cac8353286034fae39f198a340d43, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3868,8 +3868,7 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114763371467075106, guid: 306cac8353286034fae39f198a340d43, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 306cac8353286034fae39f198a340d43, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1298096706
@@ -4779,32 +4778,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1384518169052340, guid: 306cac8353286034fae39f198a340d43,
     type: 2}
   m_PrefabInternal: {fileID: 1282877771}
---- !u!114 &1551726601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1551726600}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95925281b476b104d977456ff77fd54b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalAxis: Horizontal
-  verticalAxis: Vertical
-  jumpAxis: Jump
-  maxSpeed: 6.4
-  acceleration: 2
-  frictionCoefficient: 0.85
-  massCoeficcient: 0.85
-  jumpForce: 5
-  fallMultiplier: 20
-  lowJumpMultiplier: 2
-  airControl: 0.85
-  gravityModifier: 2.5
-  terminalVelocity: 25
-  yVelocityLowerLimit: 5
-  _inDodge: 0
 --- !u!65 &1551726605
 BoxCollider:
   m_ObjectHideFlags: 0
