@@ -18,6 +18,7 @@ namespace Platformer
         }
         Animator anim;
 
+        #region Fields and properties
         [Header("Player Information")]
         public int playerHealth;
         public float delayBetweenBlinks;
@@ -74,6 +75,8 @@ namespace Platformer
         private Vector3 _storedVelocity = Vector3.zero;
 
         private CharacterState state = CharacterState.idle;
+
+        #endregion
 
         void Start()
         {
@@ -346,7 +349,6 @@ namespace Platformer
                 SceneManager.LoadScene(2);
             }
         }
-
 
         /// <summary>
         /// Flashes player sprite
