@@ -18,11 +18,14 @@ namespace Platformer
         }
         Animator anim;
 
+        int playerHealth = 2;
+        public LoadSceneOnClick loader;
         #region Fields and properties
         [Header("Player Information")]
         public int playerHealth;
         public float delayBetweenBlinks;
 
+        bool isGrounded;
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
         public string verticalAxis = "Vertical";
@@ -48,6 +51,10 @@ namespace Platformer
         public float terminalVelocity = 25f;
         public float yVelocityLowerLimit = 5f;
 
+        [Header("Action Delays")]
+        public float slideDelay = 10f;
+        public float dodgeDelay = .46875f;
+        public float dashDelay;
 
         //Private Memeber Variables
         bool isGrounded;
@@ -92,13 +99,10 @@ namespace Platformer
 
         private void Update()
         {
+            Debug.Log(_inDodge);
             //Debug.Log(_characterController.transform.position.y);
             if (isGrounded = Grounded())
             {
-                moveVector.y = magicNumber;
-                //Debug.Log("isGrounded");
-                // nuke character velocity
-                //_characterVelocity.y = 0f;
                 anim.SetBool("Jumping", false);
             }
             if (_canMove && !_inJump)
@@ -111,9 +115,10 @@ namespace Platformer
                 {
                     Dodge();
                 }
-                if (!_inDodge && !_inDash)
+                if (!_inDodge && !_inDash && Input.GetAxis("Slide") > 0f && !_inSlide)
                 {
-                    Slide();
+                    StartCoroutine("Slide");
+                    //Slide();
                 }
             }
 
@@ -192,28 +197,25 @@ namespace Platformer
             }
         }
 
-        private void Slide()
+        IEnumerator Slide()
         {
-            if (Input.GetAxis("Slide") > 0f && !_inSlide)
-            {
-                resetTimer();
-                anim.SetBool("Sliding", true);
-                _canJump = false;
-                _inSlide = true;
 
-                //added for demo
-                _inDodge = true;
-            }
-            if (Time.realtimeSinceStartup >= startTime + .3f)
-            {
-                anim.SetBool("Sliding", false);
-                _canJump = true;
-                //added for demo
-                //_inDodge = false;
+            //Debug.Log("In Slide");
+            anim.SetBool("Sliding", true);
+            _canJump = false;
+            _inSlide = true;
 
-                if (Input.GetAxis("Slide") == 0f)
-                    _inSlide = false;
-            }
+            //added for demo
+            _inDodge = true;
+            yield return new  WaitForSeconds(slideDelay);
+            //ActionWaiter(slideDelay);
+
+            //Debug.Log("Out of Slide");
+            anim.SetBool("Sliding", false);
+            _canJump = true;
+            //added for demo
+            //_inDodge = false;
+            _inSlide = false;
         }
 
         public void resetTimer()
@@ -223,7 +225,7 @@ namespace Platformer
 
         private void Dodge()
         {
-            currentTime = Time.realtimeSinceStartup + 2f;
+            /*currentTime = Time.realtimeSinceStartup + 2f;
             if (Input.GetAxis("Dodge") > 0f && _canDodge)
             {
                 resetTimer();
@@ -240,10 +242,10 @@ namespace Platformer
                     currentTime = Time.realtimeSinceStartup;
                     anim.SetBool("Dodging", false);
                     _canJump = true;
-                    _inDodge = false;
+                    //_inDodge = false;
                     _canDodge = true;
                 }
-            }
+            }*/
 
             /*if (!_inDodge && !_canDodge)
             {
@@ -291,7 +293,7 @@ namespace Platformer
                     _inJump = false;
 
                     //added for demo
-                    _inDodge = false;
+                    //_inDodge = false;
 
                     return true;
                 }
@@ -328,6 +330,7 @@ namespace Platformer
         /// </summary>
         private void flipPlayer()
         {
+            _characterVelocity.x = -maxSpeed;
             GetComponent<SpriteRenderer>().flipX = true;
             moveVector.x = -moveVector.x;
         }
@@ -340,11 +343,31 @@ namespace Platformer
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
+<<<<<<< HEAD
+                int numberOfBlinks = 3;
+                while (numberOfBlinks < 0)
+                {
+                    GetComponent<SpriteRenderer>().enabled = true;
+                    IEnumerator wait = BlinkWaiter();
+                    GetComponent<SpriteRenderer>().enabled = false;
+                    numberOfBlinks -= 1;
+                }
+=======
                 StartCoroutine(waiter());
+>>>>>>> 515854badd26cc991c65b43244541f225af86119
             }
 
             else
             {
+<<<<<<< HEAD
+                //TODO: Says we die :I
+                //Debug.Log("Dead");
+                //loader.LoadByIndex(2);
+            }
+        }
+
+        private IEnumerator BlinkWaiter()
+=======
                 Debug.Log("Dead");
                 SceneManager.LoadScene(2);
             }
@@ -355,10 +378,16 @@ namespace Platformer
         /// </summary>
         /// <returns></returns>
         private IEnumerator waiter()
+>>>>>>> 515854badd26cc991c65b43244541f225af86119
         {
             GetComponent<SpriteRenderer>().enabled = false;
             yield return new WaitForSeconds(delayBetweenBlinks);
             GetComponent<SpriteRenderer>().enabled = true;
+        }
+
+        private IEnumerator ActionWaiter()
+        {
+            yield return new WaitForSeconds(slideDelay);
         }
     }
 }
