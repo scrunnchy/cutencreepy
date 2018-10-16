@@ -48,17 +48,16 @@ namespace Platformer
         public float terminalVelocity = 25f;
         public float yVelocityLowerLimit = 5f;
 
-        [Header("Action Delays")]
-        public float slideDelay = 10f;
-        public float dodgeDelay = .46875f;
-        public float dashDelay;
+        [Header("Action Delays and Cooldowns")]
+        public float slideDelay = .5f;
+        public float dodgeDelay = 1f;
+        public float dashDelay = 1f;
+        public float dashCooldown = .2f;
+        public float dodgeCooldown = .2f;
 
         //Private Memeber Variables
         bool isGrounded;
-        float magicNumber = 0.0001f;
         private Vector3 moveVector;
-        float startTime;
-        float currentTime;
 
         private CharacterController _characterController;
         private Vector3 _characterVelocity = Vector3.zero;
@@ -94,22 +93,25 @@ namespace Platformer
 
         private void Update()
         {
-            Debug.Log(_inDodge);
-            //Debug.Log(_characterController.transform.position.y);
+            // Check if the player is currently grounded, sets inJump to true or false (opposite of isGrounded)
             if (isGrounded = Grounded())
             {
                 anim.SetBool("Jumping", false);
             }
+            // Only executed if the game is not frozen and the player is not in a jump
             if (_canMove && !_inJump)
             {
+                // Preconditions before using a dash. Player is not currently dodging or sliding. Player has to be able to dash and must also be pressing dash key
                 if (!_inSlide && !_inDodge && Input.GetAxis("Dash") > 0f && _canDash)
                 {
                     StartCoroutine("Dash");
                 }
+                // Preconditions before using a dodge. Player is not currently dashing or sliding. Player has to be able to dodge and must also be pressing dodge key
                 if (!_inSlide && !_inDash && Input.GetAxis("Dodge") > 0f && _canDodge)
                 {
                     StartCoroutine("Dodge");
                 }
+                // Preconditions before using a slide. Player is not currently dashing, dodging or sliding. Player is also pressing slide key
                 if (!_inDodge && !_inDash && Input.GetAxis("Slide") > 0f && !_inSlide)
                 {
                     StartCoroutine("Slide");
@@ -154,17 +156,25 @@ namespace Platformer
 
         IEnumerator Dash()
         {
+            Debug.Log("In Dash");
             anim.SetBool("Dashing", true);
             _canJump = false;
             _inDash = true;
+            _canDash = false;
             _inDodge = true;
 
             yield return new WaitForSeconds(dashDelay);
 
+            Debug.Log("Out of Dash");
             anim.SetBool("Dashing", false);
             _canJump = true;
             _inDodge = false;
             _inDash = false;
+            // temp _canDash variable. Will change when cooldown is implemented.
+            _canDash = true;
+            // cooldown code. yet to be tested
+            /*yield return new WaitForSeconds(dashCooldown);
+            _canDash = true;*/
         }
 
         IEnumerator Slide()
@@ -180,23 +190,29 @@ namespace Platformer
           
             anim.SetBool("Sliding", false);
             _canJump = true;
-            //added for demo
-            //_inDodge = false;
+            _inDodge = false;
             _inSlide = false;
         }
 
         IEnumerator Dodge()
         {
-            //Debug.Log("In Dodge");
+            Debug.Log("In Dodge");
             anim.SetBool("Dodging", true);
             _canJump = false;
             _inDodge = true;
 
             yield return new WaitForSeconds(dodgeDelay);
 
+            Debug.Log("Out of Dodge");
             anim.SetBool("Dodging", false);
             _canJump = true;
             _inDodge = false;
+            // temp _canDodge variable. Will change when cooldown is implemented.
+            _canDodge = true;
+
+            // cooldown code. yet to be tested
+            /*yield return new WaitForSeconds(dodgeCooldown);
+            _canDash = true;*/
         }
 
         private void Jump()
@@ -213,9 +229,6 @@ namespace Platformer
 
                 _inJump = true;
                 _canJump = false;
-
-                //added for demo
-                _inDodge = true;
             }
         }
 
@@ -267,6 +280,7 @@ namespace Platformer
         /// </summary>
         private void flipPlayer()
         {
+            anim.SetBool("Reversed", true);
             _characterVelocity.x = -maxSpeed;
             GetComponent<SpriteRenderer>().flipX = true;
             moveVector.x = -moveVector.x;
@@ -320,3 +334,4 @@ namespace Platformer
         }
     }
 }
+ 
