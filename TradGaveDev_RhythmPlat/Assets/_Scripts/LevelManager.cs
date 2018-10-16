@@ -83,11 +83,12 @@ public class LevelManager : MonoBehaviour
         if (gameObject != null)
         {
             gameCamera = gameObject.GetComponent<Camera>();
-            Vector3 angle = new Vector3(0, 180, 0);
-            Vector3 pos = new Vector3(0, 0, cameraDistanceFromPlayer);
+            Vector3 angle = new Vector3(00, 180, 0);
+            Vector3 pos = new Vector3(-8, 0, cameraDistanceFromPlayer);
             flipCamera(gameCamera, pos, angle);
             audio = gameCamera.GetComponent<AudioSource>();
             audio.pitch = -1;
+
 
         }
     }
