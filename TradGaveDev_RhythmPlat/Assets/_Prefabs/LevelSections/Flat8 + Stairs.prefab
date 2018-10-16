@@ -1219,7 +1219,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1030584622122648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.2000003, z: 7.3128204}
+  m_LocalPosition: {x: 0, y: 1.2000003, z: 0}
   m_LocalScale: {x: 0.33333334, y: 1, z: 0.33333334}
   m_Children: []
   m_Father: {fileID: 4185826041673128}
@@ -1594,7 +1594,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538157087712096}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113.05, y: -4.955926, z: -2.4278896}
+  m_LocalPosition: {x: -78.04547, y: 8.976066, z: -13.572089}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4169417872778344}
@@ -2536,8 +2536,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 3, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2, y: 6, z: 2}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!65 &65155968898432750
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2608,8 +2608,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 3, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2, y: 6, z: 2}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!65 &65385392101362050
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2620,8 +2620,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 5, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2, y: 6, z: 2}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!65 &65472779468544884
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2692,8 +2692,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 5, z: 2}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.2, y: 6, z: 2}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!65 &65694909233063382
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2753,6 +2753,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea4f00ed95941c4ba6e15c5165d1a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisapearsAtReverse: 0
+  AppearsAtReverse: 0
 --- !u!114 &114344125352057370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2764,6 +2766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea4f00ed95941c4ba6e15c5165d1a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisapearsAtReverse: 0
+  AppearsAtReverse: 0
 --- !u!114 &114613411730038436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2775,6 +2779,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea4f00ed95941c4ba6e15c5165d1a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisapearsAtReverse: 0
+  AppearsAtReverse: 0
 --- !u!114 &114831510671699716
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2786,6 +2792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea4f00ed95941c4ba6e15c5165d1a73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DisapearsAtReverse: 0
+  AppearsAtReverse: 0
 --- !u!212 &212040676998335560
 SpriteRenderer:
   m_ObjectHideFlags: 1
