@@ -226,7 +226,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 12
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_RootOrder: 11
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &320188489
 Prefab:
@@ -270,6 +276,173 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
   m_IsPrefabAsset: 0
+<<<<<<< HEAD
+=======
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &122651643
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 122651641}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &122651644
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 122651641}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &122651645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 122651641}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1710154935}
+  m_RootOrder: 1
+=======
+  m_RootOrder: 12
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &320188489
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+<<<<<<< HEAD
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &136109933
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136109931}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &136109934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136109931}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &136109935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 136109931}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1710154935}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167015394989894, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aab667a352271ef488abb90ce064a3f3, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &322300291
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,7 +510,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_RootOrder: 4
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &331902292
 Prefab:
@@ -389,6 +568,59 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
   m_IsPrefabAsset: 0
+<<<<<<< HEAD
+=======
+=======
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &331902292
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 56.47057
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.93753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 8.983801
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4542370283028764, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b2cfd5e4ccb37d4aaa27da9c8c97cc3, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &374500362
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,6 +701,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60,
     type: 2}
   m_PrefabInternal: {fileID: 597763417}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1001 &415199764
 Prefab:
   m_ObjectHideFlags: 0
@@ -478,7 +717,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 8
+=======
+      value: 8.335284
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
       objectReference: {fileID: 0}
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -506,11 +749,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 1
+=======
+<<<<<<< HEAD
+      value: 3
+=======
+      value: 9
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
   m_IsPrefabAsset: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &429044156
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,7 +857,19 @@ RectTransform:
   m_Children:
   - {fileID: 749113043}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_RootOrder: 5
+=======
+  m_RootOrder: 4
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+  m_RootOrder: 6
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -728,7 +999,13 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 448868397}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1001 &597763417
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!1001 &509126888
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -765,7 +1042,178 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759068836209620, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
+      propertyPath: m_Name
+      value: Flat8 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &548190238
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 843226374}
+    m_Modifications:
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &553100021
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 994989408}
+    m_Modifications:
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567815525557466, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_Name
+      value: BeatBat (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+  m_IsPrefabAsset: 0
+=======
+--- !u!4 &504143353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8,
+    type: 2}
+  m_PrefabInternal: {fileID: 1353997349}
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+--- !u!1001 &597763417
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
+<<<<<<< HEAD
+      value: -1.835284
+=======
+      value: 4.5
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+      value: -1.5
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
       objectReference: {fileID: 0}
     - target: {fileID: 143175239084085800, guid: da1b9725c429c3f48bd8aab24012ef60,
         type: 2}
@@ -777,14 +1225,72 @@ Prefab:
       propertyPath: _inDodge
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4766230187872512, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
+  m_IsPrefabAsset: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!1001 &626668096
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 286202120}
+    m_Modifications:
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.80999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
   m_IsPrefabAsset: 0
+<<<<<<< HEAD
+=======
+--- !u!4 &685470303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4857463514656534, guid: 604f6ae2cf02cb74997513827cc9c5a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 415199764}
 --- !u!1 &708538685
+=======
+--- !u!1 &642887071
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
+--- !u!1 &708538685
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -844,7 +1350,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 7
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &749113042
 GameObject:
@@ -917,6 +1427,187 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 749113042}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!4 &843226374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4447952563616618, guid: 604f6ae2cf02cb74997513827cc9c5a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1178923555}
+--- !u!1001 &862137325
+Prefab:
+=======
+--- !u!1 &758268705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 758268709}
+  - component: {fileID: 758268708}
+  - component: {fileID: 758268707}
+  - component: {fileID: 758268706}
+  m_Layer: 0
+  m_Name: LevelmeasueBeat (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &758268706
+BoxCollider:
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+--- !u!1001 &754375397
+Prefab:
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_Modification:
+    m_TransformParent: {fileID: 316431301}
+    m_Modifications:
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.4
+=======
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 19.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.29
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 65703607725233376, guid: 997b1fdee6473dd478d3874b21121dc8,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0
+=======
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567815525557466, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_Name
+      value: BeatBat (1)
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+  m_IsPrefabAsset: 0
+<<<<<<< HEAD
+--- !u!4 &876905988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4764765240914596, guid: 604f6ae2cf02cb74997513827cc9c5a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 415199764}
+=======
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &758268707
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 758268705}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &758268708
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 758268705}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &758268709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 758268705}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 504143353}
+  m_Father: {fileID: 1710154935}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &918220987
 GameObject:
   m_ObjectHideFlags: 0
@@ -936,6 +1627,8 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &918220988
 RectTransform:
+<<<<<<< HEAD
+=======
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -992,6 +1685,369 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 918220987}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!4 &994989408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4857463514656534, guid: 604f6ae2cf02cb74997513827cc9c5a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 509126888}
+--- !u!1001 &1074264484
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1238831582}
+    m_Modifications:
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -1.1204464
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_Name
+      value: MelodyMummy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.3333334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1105238711
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2034180921}
+    m_Modifications:
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.5454652
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.5498512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &1166647098
+=======
+--- !u!1 &926702012
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 926702013}
+  - component: {fileID: 926702016}
+  - component: {fileID: 926702015}
+  - component: {fileID: 926702014}
+  m_Layer: 0
+  m_Name: LevelmeasueBeat (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &926702013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926702012}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1854446947}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &926702014
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926702012}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &926702015
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926702012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &926702016
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926702012}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+--- !u!4 &1166647102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1166647098}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.056, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1178923555
+=======
+--- !u!1001 &964131273
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
+      value: 29
+=======
+      value: 17.531364
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.48131752
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522295278774566, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759068836209620, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
+      propertyPath: m_Name
+      value: Flat8 (1)
+=======
+      value: 1
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1 &1089015464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089015465}
+  - component: {fileID: 1089015468}
+  - component: {fileID: 1089015467}
+  - component: {fileID: 1089015466}
+  m_Layer: 0
+  m_Name: LevelmeasueBeat (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1089015465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1089015464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1854446947}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1089015466
+BoxCollider:
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918220987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1528600076}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &918220989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918220987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Game
+--- !u!222 &918220990
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 918220987}
+  m_CullTransparentMesh: 0
+=======
+  m_GameObject: {fileID: 1089015464}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &1166647098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,7 +2131,11 @@ Transform:
   m_LocalScale: {x: 3, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 13
+=======
+  m_RootOrder: 14
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1178923555
 Prefab:
@@ -1086,7 +2146,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 29
+=======
+      value: 29.33529
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
       objectReference: {fileID: 0}
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1114,7 +2178,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4101696033174066, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 0
+=======
+      value: 11
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
       objectReference: {fileID: 0}
     - target: {fileID: 1759068836209620, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
       propertyPath: m_Name
@@ -1187,7 +2255,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 4
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1299742958
 GameObject:
@@ -1303,8 +2375,92 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1483235862
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 10.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 21.938461
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD
+<<<<<<< HEAD
+      value: 1
+=======
+      value: 0
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567815525557466, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_Name
+      value: BeatBat (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!1001 &1378547876
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 642887072}
+    m_Modifications:
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748812444154296, guid: b3cfa46e8234c464fa37dd2cc039782c, type: 2}
+      propertyPath: m_LocalPosition.y
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534403776136226, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_Name
+      value: SalsaSpider (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534403776136226, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &1528600075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,7 +2623,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 10
+=======
+  m_RootOrder: 8
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1579909982
 GameObject:
@@ -1564,6 +2724,97 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1579909982}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+--- !u!1001 &1658104695
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+<<<<<<< HEAD
+    m_TransformParent: {fileID: 876905988}
+    m_Modifications:
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.80999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 4.4649014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.1343136
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 21.938461
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534403776136226, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4439688919221100, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 65020905237921534, guid: 1800a849798ea2d4db56e6a412502947,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2
+=======
+      value: 3
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1800a849798ea2d4db56e6a412502947, type: 2}
+  m_IsPrefabAsset: 0
+<<<<<<< HEAD
+=======
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
 --- !u!1 &1704615389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1889,6 +3140,7 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1729186636}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
 --- !u!1001 &2010548599
 Prefab:
   m_ObjectHideFlags: 0
@@ -1935,3 +3187,170 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 604f6ae2cf02cb74997513827cc9c5a0, type: 2}
   m_IsPrefabAsset: 0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!4 &2034180921 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4002322113778856, guid: 604f6ae2cf02cb74997513827cc9c5a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1178923555}
+=======
+--- !u!1 &1854446946
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1854446947}
+  m_Layer: 0
+  m_Name: LevelMeasure4 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854446947
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1854446946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_Children:
+  - {fileID: 642887072}
+  - {fileID: 1937112053}
+  - {fileID: 1089015465}
+  - {fileID: 926702013}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937112052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937112053}
+  - component: {fileID: 1937112056}
+  - component: {fileID: 1937112055}
+  - component: {fileID: 1937112054}
+  m_Layer: 0
+  m_Name: LevelmeasueBeat (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937112053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937112052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1854446947}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1937112054
+BoxCollider:
+=======
+--- !u!1001 &1808079317
+Prefab:
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+<<<<<<< HEAD
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1937112055
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937112052}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1937112056
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937112052}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> 592672e086c080d36c519afd44093226c024b839
+=======
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 16.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4350890382479670, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> parent of 592672e... Revert "Merge branch 'master' of https://github.com/scrunnchy/cutencreepy"
+>>>>>>> 853dd448bb886bc33eb6c801124439cfe0ba5603
