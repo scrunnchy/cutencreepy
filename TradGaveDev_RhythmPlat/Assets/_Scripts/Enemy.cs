@@ -56,9 +56,9 @@ public class Enemy : MonoBehaviour {
     /// <param name="beat"></param>
     private void IdleAnimation(KoreographyEvent beat)
     {
-        //Dance (blink on and off)
-        SpriteRenderer enemySpriteRen = (SpriteRenderer)GetComponent("SpriteRenderer");
-        enemySpriteRen.enabled = enemySpriteRen.enabled ? false : true;
+        ////Dance (blink on and off)
+        //SpriteRenderer enemySpriteRen = (SpriteRenderer)GetComponent("SpriteRenderer");
+        //enemySpriteRen.enabled = enemySpriteRen.enabled ? false : true;
     }
 
     /// <summary>
