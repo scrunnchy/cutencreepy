@@ -2098,6 +2098,11 @@ Prefab:
       propertyPath: dashDelay
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114165931229679824, guid: da1b9725c429c3f48bd8aab24012ef60,
+        type: 2}
+      propertyPath: killZone
+      value: -22
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
   m_IsPrefabAsset: 0

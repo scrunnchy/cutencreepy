@@ -22,6 +22,7 @@ namespace Platformer
         [Header("Player Information")]
         public int playerHealth;
         public float delayBetweenBlinks;
+        public float killZone;
 
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
@@ -97,6 +98,11 @@ namespace Platformer
             if (isGrounded = Grounded())
             {
                 anim.SetBool("Jumping", false);
+            }
+            //Check if player has fallen into the kill zone
+            if (!isGrounded)
+            {
+                checkForKillZone();
             }
             // Only executed if the game is not frozen and the player is not in a jump
             if (_canMove && !_inJump)
@@ -310,12 +316,19 @@ namespace Platformer
 
             else
             {
-                //TODO: Says we die :I
                 //Debug.Log("Dead");
-                //loader.LoadByIndex(2);
+                //SceneManager.LoadScene(2)
             }
         }
         
+        private void checkForKillZone()
+        {
+            if (_characterController.transform.position.y <= killZone)
+            {
+                Debug.Log("Kill Zone");
+                SceneManager.LoadScene(2);
+            }
+        }
 
         /// <summary>
         /// Flashes player sprite
