@@ -68,17 +68,15 @@ namespace Platformer
         private bool _canJump = true;
         private bool _canDodge = true;
         private bool _canDash = true;
-        private bool _canAttack = true;
 
         public bool _inJump = false;
         public bool _inSlide = false;
         public bool _inDodge = false;
         public bool _inDash = false;
-
-        private float _jumpMomentum = 0f;
+        
         private Vector3 _storedVelocity = Vector3.zero;
 
-        private CharacterState state = CharacterState.idle;
+        //private CharacterState state = CharacterState.idle;
 
         #endregion
 
@@ -104,18 +102,17 @@ namespace Platformer
             }
             if (_canMove && !_inJump)
             {
-                if (!_inSlide && !_inDodge)
+                if (!_inSlide && !_inDodge && Input.GetAxis("Dash") > 0f && _canDash)
                 {
-                    Dash();
+                    StartCoroutine("Dash");
                 }
-                if (!_inSlide && !_inDash)
+                if (!_inSlide && !_inDash && Input.GetAxis("Dodge") > 0f && _canDodge)
                 {
-                    Dodge();
+                    StartCoroutine("Dodge");
                 }
                 if (!_inDodge && !_inDash && Input.GetAxis("Slide") > 0f && !_inSlide)
                 {
                     StartCoroutine("Slide");
-                    //Slide();
                 }
             }
 
@@ -155,43 +152,19 @@ namespace Platformer
             _characterController.Move((_characterVelocity) * Time.deltaTime);
         }
 
-        private void Dash()
+        IEnumerator Dash()
         {
-            //currentTime = Time.realtimeSinceStartup + 2f;
-            if (Input.GetAxis("Dash") > 0f && _canDash)
-            {
-                // Still need to implement the actual dash
-                resetTimer();
-                anim.SetBool("Dashing", true);
-                _canJump = false;
-                _inDash = true;
-                _canDash = false;
-                //added for demo
-                _inDodge = true;
-            }
+            anim.SetBool("Dashing", true);
+            _canJump = false;
+            _inDash = true;
+            _inDodge = true;
 
-            if (_inDash)
-            {
-                //Debug.Log("In Dash");
-                if (Time.realtimeSinceStartup >= startTime + .5f)
-                {
-                    currentTime = Time.time;
-                    anim.SetBool("Dashing", false);
-                    _canJump = true;
-                    _inDash = false;
-                    //added for demo
-                    _inDodge = false;
-                }
-            }
-            if (!_inDash && !_canDash)
-            {
-                //Debug.Log("Dash Cooldown");
-                //Debug.Log(currentTime);
-                if (Time.time >= currentTime + .3f)
-                {
-                    _canDash = true;
-                }
-            }
+            yield return new WaitForSeconds(dashDelay);
+
+            anim.SetBool("Dashing", false);
+            _canJump = true;
+            _inDodge = false;
+            _inDash = false;
         }
 
         IEnumerator Slide()
@@ -201,13 +174,10 @@ namespace Platformer
             anim.SetBool("Sliding", true);
             _canJump = false;
             _inSlide = true;
-
-            //added for demo
             _inDodge = true;
-            yield return new  WaitForSeconds(slideDelay);
-            //ActionWaiter(slideDelay);
 
-            //Debug.Log("Out of Slide");
+            yield return new  WaitForSeconds(slideDelay);
+          
             anim.SetBool("Sliding", false);
             _canJump = true;
             //added for demo
@@ -215,42 +185,18 @@ namespace Platformer
             _inSlide = false;
         }
 
-        public void resetTimer()
+        IEnumerator Dodge()
         {
-            startTime = Time.realtimeSinceStartup;
-        }
+            //Debug.Log("In Dodge");
+            anim.SetBool("Dodging", true);
+            _canJump = false;
+            _inDodge = true;
 
-        private void Dodge()
-        {
-            /*currentTime = Time.realtimeSinceStartup + 2f;
-            if (Input.GetAxis("Dodge") > 0f && _canDodge)
-            {
-                resetTimer();
-                anim.SetBool("Dodging", true);
-                _canJump = false;
-                _inDodge = true;
-                _canDodge = false;
-            }
-            if (_inDodge)
-            {
-                if (Time.realtimeSinceStartup >= startTime + .5f)
-                {
-                    Debug.Log("Dodged");
-                    currentTime = Time.realtimeSinceStartup;
-                    anim.SetBool("Dodging", false);
-                    _canJump = true;
-                    //_inDodge = false;
-                    _canDodge = true;
-                }
-            }*/
+            yield return new WaitForSeconds(dodgeDelay);
 
-            /*if (!_inDodge && !_canDodge)
-            {
-                if (Time.realtimeSinceStartup >= currentTime + .3f)
-                {
-                    
-                }
-            }*/
+            anim.SetBool("Dodging", false);
+            _canJump = true;
+            _inDodge = false;
         }
 
         private void Jump()
@@ -275,12 +221,6 @@ namespace Platformer
 
         private bool Grounded()
         {
-            /*bool controllerGrounded = _characterController.isGrounded;
-
-            _inJump = !controllerGrounded;
-
-            return controllerGrounded;*/
-
             RaycastHit raycastHit;
             if (Physics.Raycast(this.transform.position, Vector3.down, out raycastHit, 1.2f))
             {
@@ -340,42 +280,34 @@ namespace Platformer
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
-<<<<<<< HEAD
+
                 int numberOfBlinks = 3;
                 while (numberOfBlinks < 0)
                 {
                     GetComponent<SpriteRenderer>().enabled = true;
-                    IEnumerator wait = BlinkWaiter();
+                    IEnumerator wait = waiter();
                     GetComponent<SpriteRenderer>().enabled = false;
                     numberOfBlinks -= 1;
                 }
-=======
+
                 StartCoroutine(waiter());
->>>>>>> 515854badd26cc991c65b43244541f225af86119
+
             }
 
             else
             {
-<<<<<<< HEAD
                 //TODO: Says we die :I
                 //Debug.Log("Dead");
                 //loader.LoadByIndex(2);
             }
         }
-
-        private IEnumerator BlinkWaiter()
-=======
-                Debug.Log("Dead");
-                SceneManager.LoadScene(2);
-            }
-        }
+        
 
         /// <summary>
         /// Flashes player sprite
         /// </summary>
         /// <returns></returns>
         private IEnumerator waiter()
->>>>>>> 515854badd26cc991c65b43244541f225af86119
         {
             GetComponent<SpriteRenderer>().enabled = false;
             yield return new WaitForSeconds(delayBetweenBlinks);
