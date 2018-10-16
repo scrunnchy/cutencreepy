@@ -209,7 +209,7 @@ namespace Platformer
                 anim.SetBool("Sliding", false);
                 _canJump = true;
                 //added for demo
-                _inDodge = false;
+                //_inDodge = false;
 
                 if (Input.GetAxis("Slide") == 0f)
                     _inSlide = false;
