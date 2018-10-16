@@ -66,10 +66,10 @@ namespace Platformer
         private bool _canDash = true;
         private bool _canAttack = true;
 
-        private bool _inJump = false;
-        private bool _inSlide = false;
+        public bool _inJump = false;
+        public bool _inSlide = false;
         public bool _inDodge = false;
-        private bool _inDash = false;
+        public bool _inDash = false;
 
         private float _jumpMomentum = 0f;
         private Vector3 _storedVelocity = Vector3.zero;
