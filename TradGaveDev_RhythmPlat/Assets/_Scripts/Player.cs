@@ -18,14 +18,11 @@ namespace Platformer
         }
         Animator anim;
 
-        int playerHealth = 2;
-        public LoadSceneOnClick loader;
         #region Fields and properties
         [Header("Player Information")]
         public int playerHealth;
         public float delayBetweenBlinks;
 
-        bool isGrounded;
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
         public string verticalAxis = "Vertical";
