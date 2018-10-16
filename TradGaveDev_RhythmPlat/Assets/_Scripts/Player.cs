@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +17,9 @@ namespace Platformer
         }
         Animator anim;
 
+        int playerHealth = 2;
+        public LoadSceneOnClick loader;
+        public float delayBetweenBlinks;
 
         bool isGrounded;
 
@@ -71,13 +75,19 @@ namespace Platformer
         private Vector3 _storedVelocity = Vector3.zero;
 
         private CharacterState state = CharacterState.idle;
+        private bool isFlipped;
 
         void Start()
         {
+            isFlipped = false;
             _characterController = this.GetComponent<CharacterController>();
             anim = this.GetComponent<Animator>();
             _characterVelocity.x = maxSpeed;
             anim.SetFloat("Speed", _characterVelocity.x);
+
+            //listeners
+            Checkpoint.CheckpointReverse.AddListener(flipPlayer);
+            Enemy.enemyPlayerCollision.AddListener(DecrementHealth);
         }
 
         private void Update()
@@ -97,7 +107,7 @@ namespace Platformer
                 {
                     Dash();
                 }
-                if(!_inSlide && !_inDash)
+                if (!_inSlide && !_inDash)
                 {
                     Dodge();
                 }
@@ -154,6 +164,8 @@ namespace Platformer
                 _canJump = false;
                 _inDash = true;
                 _canDash = false;
+                //added for demo
+                _inDodge = true;
             }
 
             if (_inDash)
@@ -165,6 +177,8 @@ namespace Platformer
                     anim.SetBool("Dashing", false);
                     _canJump = true;
                     _inDash = false;
+                    //added for demo
+                    _inDodge = false;
                 }
             }
             if (!_inDash && !_canDash)
@@ -186,11 +200,17 @@ namespace Platformer
                 anim.SetBool("Sliding", true);
                 _canJump = false;
                 _inSlide = true;
+
+                //added for demo
+                _inDodge = true;
             }
             if (Time.realtimeSinceStartup >= startTime + .3f)
             {
                 anim.SetBool("Sliding", false);
                 _canJump = true;
+                //added for demo
+                _inDodge = false;
+
                 if (Input.GetAxis("Slide") == 0f)
                     _inSlide = false;
             }
@@ -212,18 +232,18 @@ namespace Platformer
                 _inDodge = true;
                 _canDodge = false;
             }
-        if (_inDodge)
-        { 
-            if (Time.realtimeSinceStartup >= startTime + .5f)
+            if (_inDodge)
             {
-                Debug.Log("Dodged");
-                currentTime = Time.realtimeSinceStartup;
-                anim.SetBool("Dodging", false);
-                _canJump = true;
-                _inDodge = false;
-                _canDodge = true;
+                if (Time.realtimeSinceStartup >= startTime + .5f)
+                {
+                    Debug.Log("Dodged");
+                    currentTime = Time.realtimeSinceStartup;
+                    anim.SetBool("Dodging", false);
+                    _canJump = true;
+                    _inDodge = false;
+                    _canDodge = true;
+                }
             }
-        }
 
             /*if (!_inDodge && !_canDodge)
             {
@@ -248,6 +268,9 @@ namespace Platformer
 
                 _inJump = true;
                 _canJump = false;
+
+                //added for demo
+                _inDodge = true;
             }
         }
 
@@ -258,7 +281,7 @@ namespace Platformer
             _inJump = !controllerGrounded;
 
             return controllerGrounded;*/
-            
+
             RaycastHit raycastHit;
             if (Physics.Raycast(this.transform.position, Vector3.down, out raycastHit, 1.2f))
             {
@@ -266,13 +289,15 @@ namespace Platformer
                 {
                     _characterVelocity.y = 0f;
                     _inJump = false;
+
+                    //added for demo
+                    _inDodge = false;
+
                     return true;
                 }
             }
             return false;
         }
-
-
 
         /// <summary>
         /// Freeze the character in place, store the current character velocity, or unfreeze the character and resume character velocity.
@@ -296,6 +321,39 @@ namespace Platformer
                 _characterVelocity = _storedVelocity;
 
             }
+        }
+
+        private void flipPlayer()
+        {
+            GetComponent<SpriteRenderer>().flipX = true;
+            isFlipped = true;
+        }
+
+        private void DecrementHealth()
+        {
+            if (playerHealth < 1)
+            {
+                playerHealth -= 1;
+                int numberOfBlinks = 3;
+                while (numberOfBlinks < 0)
+                {
+                    GetComponent<SpriteRenderer>().enabled = true;
+                    GetComponent<SpriteRenderer>().enabled = false;
+                    numberOfBlinks -= 1;
+                    IEnumerator wait = waiter();
+                }
+            }
+            else
+            {
+                //TODO: Says we die :I
+                Debug.Log("Dead");
+                //loader.LoadByIndex(2);
+            }
+        }
+
+        private IEnumerator waiter()
+        {
+            yield return new WaitForSeconds(delayBetweenBlinks);
         }
     }
 }

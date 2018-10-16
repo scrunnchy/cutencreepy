@@ -38,21 +38,6 @@ public class LevelManager : MonoBehaviour
 
     }
 
-    private void enemyPlayerCollision()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void composerEvent()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void checkpointCollision()
-    {
-        throw new NotImplementedException();
-    }
-
     /// <summary>
     /// Toggles the pause state
     /// </summary>
@@ -93,6 +78,7 @@ public class LevelManager : MonoBehaviour
     public void flipCamera()
     {
         Camera gameCamera;
+        AudioSource audio;
         GameObject gameObject = GameObject.Find("Main Camera");
         if (gameObject != null)
         {
@@ -100,6 +86,9 @@ public class LevelManager : MonoBehaviour
             Vector3 angle = new Vector3(0, 180, 0);
             Vector3 pos = new Vector3(0, 0, cameraDistanceFromPlayer);
             flipCamera(gameCamera, pos, angle);
+            audio = gameCamera.GetComponent<AudioSource>();
+            audio.pitch = -1;
+
         }
     }
 
