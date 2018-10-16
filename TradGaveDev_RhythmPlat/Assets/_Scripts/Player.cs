@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Platformer
 {
@@ -19,16 +20,12 @@ namespace Platformer
 
         int playerHealth = 2;
         public LoadSceneOnClick loader;
+        #region Fields and properties
+        [Header("Player Information")]
+        public int playerHealth;
         public float delayBetweenBlinks;
 
         bool isGrounded;
-
-        float magicNumber = 0.0001f;
-        private Vector3 moveVector;
-
-        float startTime;
-        float currentTime;
-
         [Header("Input Axes")]
         public string horizontalAxis = "Horizontal";
         public string verticalAxis = "Vertical";
@@ -60,6 +57,12 @@ namespace Platformer
         public float dashDelay;
 
         //Private Memeber Variables
+        bool isGrounded;
+        float magicNumber = 0.0001f;
+        private Vector3 moveVector;
+        float startTime;
+        float currentTime;
+
         private CharacterController _characterController;
         private Vector3 _characterVelocity = Vector3.zero;
         private Vector3 _force = Vector3.zero;
@@ -79,11 +82,11 @@ namespace Platformer
         private Vector3 _storedVelocity = Vector3.zero;
 
         private CharacterState state = CharacterState.idle;
-        private bool isFlipped;
+
+        #endregion
 
         void Start()
         {
-            isFlipped = false;
             _characterController = this.GetComponent<CharacterController>();
             anim = this.GetComponent<Animator>();
             _characterVelocity.x = maxSpeed;
@@ -322,18 +325,25 @@ namespace Platformer
             }
         }
 
+        /// <summary>
+        /// Flips the player on reversal point
+        /// </summary>
         private void flipPlayer()
         {
             _characterVelocity.x = -maxSpeed;
             GetComponent<SpriteRenderer>().flipX = true;
-            isFlipped = true;
+            moveVector.x = -moveVector.x;
         }
 
+        /// <summary>
+        /// Decrements health
+        /// </summary>
         private void DecrementHealth()
         {
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
+<<<<<<< HEAD
                 int numberOfBlinks = 3;
                 while (numberOfBlinks < 0)
                 {
@@ -342,9 +352,14 @@ namespace Platformer
                     GetComponent<SpriteRenderer>().enabled = false;
                     numberOfBlinks -= 1;
                 }
+=======
+                StartCoroutine(waiter());
+>>>>>>> 515854badd26cc991c65b43244541f225af86119
             }
+
             else
             {
+<<<<<<< HEAD
                 //TODO: Says we die :I
                 //Debug.Log("Dead");
                 //loader.LoadByIndex(2);
@@ -352,8 +367,22 @@ namespace Platformer
         }
 
         private IEnumerator BlinkWaiter()
+=======
+                Debug.Log("Dead");
+                SceneManager.LoadScene(2);
+            }
+        }
+
+        /// <summary>
+        /// Flashes player sprite
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator waiter()
+>>>>>>> 515854badd26cc991c65b43244541f225af86119
         {
+            GetComponent<SpriteRenderer>().enabled = false;
             yield return new WaitForSeconds(delayBetweenBlinks);
+            GetComponent<SpriteRenderer>().enabled = true;
         }
 
         private IEnumerator ActionWaiter()
