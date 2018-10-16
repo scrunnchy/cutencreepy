@@ -74,11 +74,9 @@ namespace Platformer
         private Vector3 _storedVelocity = Vector3.zero;
 
         private CharacterState state = CharacterState.idle;
-        private bool isFlipped;
 
         void Start()
         {
-            isFlipped = false;
             _characterController = this.GetComponent<CharacterController>();
             anim = this.GetComponent<Animator>();
             _characterVelocity.x = maxSpeed;
@@ -328,7 +326,7 @@ namespace Platformer
         private void flipPlayer()
         {
             GetComponent<SpriteRenderer>().flipX = true;
-            isFlipped = true;
+            moveVector.x = -moveVector.x;
         }
 
         /// <summary>
@@ -356,12 +354,9 @@ namespace Platformer
         /// <returns></returns>
         private IEnumerator waiter()
         {
-            for (int i = 0; i < 3; i++)
-            {
-                GetComponent<SpriteRenderer>().enabled = false;
-                yield return new WaitForSeconds(delayBetweenBlinks);
-                GetComponent<SpriteRenderer>().enabled = true;
-            }
+            GetComponent<SpriteRenderer>().enabled = false;
+            yield return new WaitForSeconds(delayBetweenBlinks);
+            GetComponent<SpriteRenderer>().enabled = true;
         }
     }
 }

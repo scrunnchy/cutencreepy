@@ -1950,7 +1950,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 154.71
+      value: 165.38
       objectReference: {fileID: 0}
     - target: {fileID: 4553214519248778, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
       propertyPath: m_LocalPosition.y
@@ -2002,6 +2002,11 @@ Prefab:
         type: 2}
       propertyPath: delayBetweenBlinks
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 114165931229679824, guid: da1b9725c429c3f48bd8aab24012ef60,
+        type: 2}
+      propertyPath: playerHealth
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da1b9725c429c3f48bd8aab24012ef60, type: 2}
