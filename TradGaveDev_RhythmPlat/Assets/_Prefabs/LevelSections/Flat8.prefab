@@ -302,7 +302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4101696033174066}
   m_Layer: 0
-  m_Name: FlatLevelSection8
+  m_Name: Flat8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
