@@ -304,9 +304,9 @@ namespace Platformer
                 int numberOfBlinks = 3;
                 while (numberOfBlinks < 0)
                 {
-                    //GetComponent<SpriteRenderer>().enabled = true;
+                    GetComponent<SpriteRenderer>().enabled = true;
                     IEnumerator wait = waiter();
-                    //GetComponent<SpriteRenderer>().enabled = false;
+                    GetComponent<SpriteRenderer>().enabled = false;
                     numberOfBlinks -= 1;
                 }
 
@@ -317,7 +317,7 @@ namespace Platformer
             else
             {
                 //Debug.Log("Dead");
-                //SceneManager.LoadScene(2)
+                SceneManager.LoadScene(2);
             }
         }
         
