@@ -49,9 +49,9 @@ public class Enemy : MonoBehaviour {
         {
             Player playerInfo = collider.gameObject.GetComponent<Player>();
             // check if the layer is in any valid avoid state.
-            if (!(playerInfo._inDodge || playerInfo._inDash || playerInfo._inJump || playerInfo._inJump)) 
+            if (!(playerInfo._inDodge || playerInfo._inDash || playerInfo._inJump || playerInfo._inSlide)) 
             {
-                //Debug.Log("damage dealt");
+                Debug.Log("damage dealt");
                 //trigger Damage event
                 enemyPlayerCollision.Invoke();
                 isExpended = true;
