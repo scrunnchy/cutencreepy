@@ -14,21 +14,61 @@ public class Enemy : MonoBehaviour {
     public bool AppearsAtReverse;
     // create event for damage "enemyPlayerCollision"
     public static UnityEvent enemyPlayerCollision = new UnityEvent();
+    //determine what enemy this is by
+    //associating to key 0-4: 0 - BeatBat, 1 - FunkyFrankenstein, 2 - MelodyMummy,
+    //3 - SalsaSpider, 4 - ZumbaZombie
+    public int enemyTypeKey;
+    //store sprites from folder across all enemies.
+    private static Dictionary<string, Sprite> spriteSet;
+    //store reference to sprite renderer component
+    private SpriteRenderer spriteR;
 
-	// On start, an enemy will:
+    // On start, an enemy will:
     // retrieve collider component
     // register as an event listener for beats and level reversal
-	void Start () {
+    void Start () {
+        spriteR = GetComponent<SpriteRenderer>();
+        //set sprites in dictionary with names
+        if (spriteSet == null)
+        {
+            spriteSet = new Dictionary<string, Sprite>();
+            foreach (Sprite s in Resources.LoadAll("_Art Assets/_Sprites/_Enemies", typeof(Sprite)))
+            {
+                spriteSet.Add(s.name, s);
+            }
+        }
+
+        //set sprite to normal version based on type.
+        if (enemyTypeKey == 0)
+        {
+            spriteR.sprite = spriteSet["BEAT_BAT"];
+        }
+        else if (enemyTypeKey == 1)
+        {
+            spriteR.sprite = spriteSet["FUNKY_FRANKENSTEIN"];
+        }
+        else if (enemyTypeKey == 2)
+        {
+            spriteR.sprite = spriteSet["MELODY_MUMMY"];
+        }
+        else if (enemyTypeKey == 3)
+        {
+            spriteR.sprite = spriteSet["SALSA_SPIDER"];
+        }
+        else if (enemyTypeKey == 4)
+        {
+            spriteR.sprite = spriteSet["ZUMBA_ZOMBIE"];
+        }
 
         //Register for koreography beats.
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(TurnAround);
+        Checkpoint.CheckpointReverse.AddListener(TurnAroundAndChangeTexture);
         //disappear if enemy is to appear later
         if (AppearsAtReverse)
         {
             GetComponent<BoxCollider>().enabled = false;
-            GetComponent<SpriteRenderer>().enabled = false;
+            spriteR.enabled = false;
         }
     }
 	
@@ -78,24 +118,46 @@ public class Enemy : MonoBehaviour {
     /// 
     /// Will also manage appearing/dissappearing the enemy based on settings.
     /// </summary>
-    private void TurnAround() 
+    private void TurnAroundAndChangeTexture() 
     {
-        if (!GetComponent<SpriteRenderer>().flipX) // if it has not already been flipped
+        //set sprite to reverse version based on type.
+        if (enemyTypeKey == 0)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            spriteR.sprite = spriteSet["R_BEAT_BAT"];
         }
-        isExpended = false;
+        else if (enemyTypeKey == 1)
+        {
+            spriteR.sprite = spriteSet["R_FUNKY_FRANKENSTEIN"];
+        }
+        else if (enemyTypeKey == 2)
+        {
+            spriteR.sprite = spriteSet["R_MELODY_MUMMY"];
+        }
+        else if (enemyTypeKey == 3)
+        {
+            spriteR.sprite = spriteSet["R_SALSA_SPIDER"];
+        }
+        else if (enemyTypeKey == 4)
+        {
+            spriteR.sprite = spriteSet["R_ZUMBA_ZOMBIE"];
+        }
+        //if it has not already been flipped
+        if (!spriteR.flipX) 
+        {
+            spriteR.flipX = true;
+        }
         //appear if necessary
         if (AppearsAtReverse)
         {
             GetComponent<BoxCollider>().enabled = true;
-            GetComponent<SpriteRenderer>().enabled = true;
+            spriteR.enabled = true;
         }
         //dissapear if necessary
         if (DisapearsAtReverse)
         {
             GetComponent<BoxCollider>().enabled = false;
-            GetComponent<SpriteRenderer>().enabled = false;
+            spriteR.enabled = false;
         }
+        isExpended = false;
     }
 }
