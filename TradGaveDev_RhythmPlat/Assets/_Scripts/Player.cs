@@ -34,6 +34,8 @@ namespace Platformer
         private void Awake()
         {
             //initialize
+            pc = GetComponent<PlayerControl>();
+            anim = GetComponent<Animator>();
             isGrounded = pc.isGrounded;
             _characterVelocity = pc.GetCharacterVelocity();
             moveVector = pc.GetMoveVector();

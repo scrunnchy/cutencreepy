@@ -87,7 +87,7 @@ public class Enemy : MonoBehaviour {
     {
         if (!isExpended && collider.gameObject.tag == "Player")
         {
-            Player playerInfo = collider.gameObject.GetComponent<Player>();
+            PlayerControl playerInfo = collider.gameObject.GetComponent<PlayerControl>();
             // check if the layer is in any valid avoid state.
             if (!(playerInfo._inDodge || playerInfo._inDash || playerInfo._inJump || playerInfo._inSlide)) 
             {
