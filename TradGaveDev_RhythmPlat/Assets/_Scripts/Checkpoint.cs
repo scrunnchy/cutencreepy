@@ -22,7 +22,6 @@ public class Checkpoint : MonoBehaviour
     
     void Start()
     {
-
         Reached = false;
 
         //register for reversal event if not reversal point.
@@ -60,11 +59,20 @@ public class Checkpoint : MonoBehaviour
 
     private void TurnAroundAndReset() //trigger this method when the last checkpoint is reached
     {
-        if (!GetComponent<SpriteRenderer>().flipX) // if it has not already been flipped
+        //will behave direcitonally if not a reversal point.
+        if (!reversalPoint)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            // always flip to the direction not currently facing
+            if (!GetComponent<SpriteRenderer>().flipX) 
+            {
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            //reset
+            Reached = false;
         }
-        //reset
-        Reached = false;
     }
 }
