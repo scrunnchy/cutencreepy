@@ -75,13 +75,17 @@ public class PlayerControl : MonoBehaviour
     //private CharacterState state = CharacterState.idle;
     #endregion
 
-    // Use this for initialization
-    void Start()
+    void Awake()
     {
         _characterController = this.GetComponent<CharacterController>();
         anim = this.GetComponent<Animator>();
         _characterVelocity.x = maxSpeed;
         anim.SetFloat("Speed", _characterVelocity.x);
+    }
+
+    // Use this for initialization
+    void Start()
+    {
     }
 
     // Update is called once per frame
