@@ -25,6 +25,7 @@ namespace Platformer
         public float delayBetweenBlinks;
         public float killZone;
 
+        //private variables
         private bool isGrounded;
         private Vector3 _characterVelocity;
         private Vector3 moveVector;
@@ -36,13 +37,15 @@ namespace Platformer
             //initialize
             pc = GetComponent<PlayerControl>();
             anim = GetComponent<Animator>();
-            isGrounded = pc.isGrounded;
-            _characterVelocity = pc.GetCharacterVelocity();
-            moveVector = pc.GetMoveVector();
-            _characterController = pc.GetCharacterController();
         }
         void Start()
         {
+            //initialize
+            _characterController = pc.GetCharacterController();
+            isGrounded = pc.isGrounded;
+            _characterVelocity = pc.GetCharacterVelocity();
+            moveVector = pc.GetMoveVector();
+
             //listeners
             Checkpoint.CheckpointReverse.AddListener(flipPlayer);
             Enemy.enemyPlayerCollision.AddListener(DecrementHealth);
