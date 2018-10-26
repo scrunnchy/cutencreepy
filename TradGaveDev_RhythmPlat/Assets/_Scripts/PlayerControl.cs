@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SonicBloom.Koreo;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerControl : MonoBehaviour
@@ -29,21 +30,23 @@ public class PlayerControl : MonoBehaviour
     [Range(0f, 1f)]
     public float frictionCoefficient = 0.85f;
     public float massCoeficcient = 0.85f;
+    private float currentBpm = 127f;
+    public float slowDownSpeed;
 
     [Header("Jump Properties")]
     public float jumpForce = 5f;
     public float fallMultiplier = 20f;
-    public float lowJumpMultiplier = 2f;
+    
     [Range(0f, 1f)]
     public float airControl = 0.85f;
-    public float gravityModifier = 2.5f;
+    public float regularGravityMultiplier = 2.5f;
     public float terminalVelocity = 25f;
     public float yVelocityLowerLimit = 5f;
 
     [Header("Action Delays and Cooldowns")]
-    public float slideDelay = .5f;
-    public float dodgeDelay = 1f;
-    public float dashDelay = 1f;
+    private float slideDelay = .5f;
+    private float dodgeDelay = .5f;
+    private float dashDelay = .5f;
     public float dashCooldown = .2f;
     public float dodgeCooldown = .2f;
 
@@ -74,7 +77,6 @@ public class PlayerControl : MonoBehaviour
 
     //private CharacterState state = CharacterState.idle;
     #endregion
-
     void Awake()
     {
         _characterController = this.GetComponent<CharacterController>();
@@ -86,14 +88,25 @@ public class PlayerControl : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Koreographer.Instance.RegisterForEvents("SingleBeatTrack", CheckIfBpmChanged);
     }
 
+    
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("q"))
+        {
+            Time.timeScale = slowDownSpeed;
+        }
+        if (Input.GetKeyDown("e"))
+        {
+            Time.timeScale = 1f;
+        }
         // Check if the player is currently grounded, sets inJump to true or false (opposite of isGrounded)
         if (isGrounded = Grounded())
         {
+            //_characterVelocity += Vector3.up * Physics2D.gravity.y * (regularGravityMultiplier - 1) * Time.deltaTime;
             anim.SetBool("Jumping", false);
         }
         // Only executed if the game is not frozen and the player is not in a jump
@@ -114,6 +127,7 @@ public class PlayerControl : MonoBehaviour
             {
                 StartCoroutine("Slide");
             }
+        }
 
             if (_canJump && isGrounded && !_inSlide && !_inDash && !_inDodge)
             {
@@ -129,25 +143,28 @@ public class PlayerControl : MonoBehaviour
             // If the character is in the air: apply gravity, reduce force by air control
             if (!isGrounded)
             {
+            //Physics.gravity = new Vector3(0, -9.8 * gMDown, 0);
                 //Debug.Log("is not grounded");
                 anim.SetFloat("yHeight", _characterController.transform.position.y);
-                //&& _characterController.transform.position.y > 2
-                if (_characterVelocity.y < yVelocityLowerLimit)
-                {
-                    _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-                }
-                // If we haven't reached terminal velocity, apply gravity
-                if (_characterVelocity.y > -terminalVelocity)
-                {
-                    _characterVelocity.y += gravityModifier * Physics.gravity.y * Time.deltaTime;
-                }
+            if (_characterVelocity.y <= 0)
+            _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            //&& _characterController.transform.position.y > 2
+            /*if (_characterVelocity.y < yVelocityLowerLimit)
+            {
+                _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            }*/
+
+            // If we haven't reached terminal velocity, apply gravity
+            if (_characterVelocity.y > -terminalVelocity)
+            {
+                _characterVelocity.y += regularGravityMultiplier * Physics.gravity.y * Time.deltaTime;
             }
+        }
 
             _force *= massCoeficcient;
             _characterVelocity += _force;
-            _characterController.Move(moveVector * Time.deltaTime);
+            //_characterController.Move(moveVector * Time.deltaTime);
             _characterController.Move((_characterVelocity) * Time.deltaTime);
-        }
     }
     IEnumerator Dash()
     {
@@ -212,6 +229,18 @@ public class PlayerControl : MonoBehaviour
 
     private void Jump()
     {
+        // First part of Jump
+        // Vi, time (2/3)slideDelay+.5(-9.8 * gravityMultiplier)((2/3)slideDelay)^2
+        // x = 20*0.31496063+.5(-9.8*gMUp)(0.31496063)^2
+        // Second part of Jump
+        // x = Vi, time (1/3) slideDelay + .5(-9.8 * gravityMultiplier)((1/3)slideDelay)^2
+        // x = 0*0.157480315 + .5(-9.8 * gMDown)(0.157480315)^2
+        // 20*0.31496063+.5(-9.8*gMUp)(0.31496063)^2 = 0*0.157480315 + .5(-9.8 * gMDown)(0.157480315)^2
+        // gMUp = .25gMDown + 12.9592
+        // 
+        //
+        //
+        //
         //Input.GetAxis(jumpAxis) > 0f
         // !_inJump
         if (Input.GetAxis(jumpAxis) > 0f)
@@ -244,6 +273,18 @@ public class PlayerControl : MonoBehaviour
             }
         }
         return false;
+    }
+
+    private void CheckIfBpmChanged(KoreographyEvent beat)
+    {
+        if (beat.HasFloatPayload() && !(beat.Payload.Equals(currentBpm)))
+        {
+            currentBpm = beat.GetFloatValue();
+            float newDelay = 60 / currentBpm;
+            slideDelay = newDelay;
+            dashDelay = newDelay;
+            dodgeDelay = newDelay;
+        }
     }
 
     /// <summary>
