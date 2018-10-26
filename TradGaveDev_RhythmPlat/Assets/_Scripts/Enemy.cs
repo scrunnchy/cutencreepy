@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour {
     //Produces the behaviour that an enemy will only become visible and a threat during reversals
     public bool AppearsAtReverse;
     // create event for damage "enemyPlayerCollision"
-    public static UnityEvent enemyPlayerCollision = new UnityEvent();
+    public static UnityEvent enemyPlayerCollision;
     //determine what enemy this is by
     //associating to key 0-4: 0 - BeatBat, 1 - FunkyFrankenstein, 2 - MelodyMummy,
     //3 - SalsaSpider, 4 - ZumbaZombie
@@ -31,6 +31,12 @@ public class Enemy : MonoBehaviour {
     // retrieve collider component
     // register as an event listener for beats and level reversal
     void Start () {
+
+        if (enemyPlayerCollision == null)
+        {
+            enemyPlayerCollision = new UnityEvent();
+        }
+
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
         //set sprites in dictionary with names
@@ -88,7 +94,7 @@ public class Enemy : MonoBehaviour {
 
     /// <summary>
     /// Check for player within danger zone box collider
-    /// If player detected AND they are not dodging, trigger damage event.
+    /// If player detected AND they are not dodging with the correct dodge, trigger damage event.
     /// an enemy will only bbe able to deal damage once, and then it is expended until reversal.
     /// </summary>
     /// <param name="collider"></param>
@@ -97,11 +103,28 @@ public class Enemy : MonoBehaviour {
         if (!isExpended && collider.gameObject.tag == "Player")
         {
             PlayerControl playerInfo = collider.gameObject.GetComponent<PlayerControl>();
-            // check if the layer is in any valid avoid state.
-            if (!(playerInfo._inDodge || playerInfo._inDash || playerInfo._inJump || playerInfo._inSlide)) 
+            bool gotHit = false;
+
+            if (enemyTypeKey == 0 && !playerInfo._inSlide) // bat
             {
-                Debug.Log("damage dealt");
-                //trigger Damage event
+                gotHit = true;
+            }
+            else if ((enemyTypeKey == 1 || enemyTypeKey == 2) && !playerInfo._inDodge) // mummy or frankenstein
+            {
+                gotHit = true;
+            }
+            else if (enemyTypeKey == 3 && !playerInfo._inJump) // spider
+            {
+                gotHit = true;
+            }
+            else if (enemyTypeKey == 4 && !playerInfo._inDodge) // zombie
+            {
+                gotHit = true;
+            }
+            // check if the layer is in the specific avoid state that matches the enemy type.
+            if (gotHit)
+            {
+                // trigger Damage event
                 enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
