@@ -6,11 +6,13 @@ using UnityEngine.Events;
 using Platformer;
 
 public class Enemy : MonoBehaviour {
-    // store enemy collider and isExpended
+    // track if enemy is expended from hitting player
     private bool isExpended;
-    //Produces the behaviour that an enemy will no longer be a threat or visible after a reversal event
+    // track if enemy is in the reversed state
+    private bool isReversed;
+    //Produces the behaviour that an enemy will no longer be a threat or visible during reversals
     public bool DisapearsAtReverse;
-    //Produces the behaviour that an enemy will only become visible and a threat after a reversal event
+    //Produces the behaviour that an enemy will only become visible and a threat during reversals
     public bool AppearsAtReverse;
     // create event for damage "enemyPlayerCollision"
     public static UnityEvent enemyPlayerCollision = new UnityEvent();
@@ -22,12 +24,15 @@ public class Enemy : MonoBehaviour {
     private static Dictionary<string, Sprite> spriteSet;
     //store reference to sprite renderer component
     private SpriteRenderer spriteR;
+    //store reference to box collider component
+    private BoxCollider boxC;
 
     // On start, an enemy will:
     // retrieve collider component
     // register as an event listener for beats and level reversal
     void Start () {
         spriteR = GetComponent<SpriteRenderer>();
+        boxC = GetComponent<BoxCollider>();
         //set sprites in dictionary with names
         if (spriteSet == null)
         {
@@ -63,13 +68,17 @@ public class Enemy : MonoBehaviour {
         //Register for koreography beats.
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(TurnAroundAndChangeTexture);
-        //disappear if enemy is to appear later
+        Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
+
+        //disappear if enemy is to appear during reversals
         if (AppearsAtReverse)
         {
-            GetComponent<BoxCollider>().enabled = false;
+            boxC.enabled = false;
             spriteR.enabled = false;
         }
+
+        //indicate that the enemy starts out normally
+        isReversed = false;
     }
 	
 	// Once per frame, 
@@ -105,20 +114,60 @@ public class Enemy : MonoBehaviour {
     /// <param name="beat"></param>
     private void IdleAnimation(KoreographyEvent beat)
     {
-        ////Dance (blink on and off)
-        //SpriteRenderer enemySpriteRen = (SpriteRenderer)GetComponent("SpriteRenderer");
-        //enemySpriteRen.enabled = enemySpriteRen.enabled ? false : true;
+        //No animation implimented yet.
     }
 
     /// <summary>
     /// Triggers as soon as the reversal point is reached.
-    /// Flips the enemy sprite such that it is facing the player.
-    /// Once flipped, the sprite will not re-flip. 
+    /// Flips the enemy sprite such that it faces the player. 
     /// resets the enemy to be no longer expended. 
     /// 
     /// Will also manage appearing/dissappearing the enemy based on settings.
     /// </summary>
-    private void TurnAroundAndChangeTexture() 
+    private void ChangeAppearanceOnReverse() 
+    {
+        // take action depending on enemy's current state 
+        if (isReversed)
+        {
+            //toggle orientation
+            isReversed = false;
+            //flip the sprite direction accordingly
+            spriteR.flipX = true;
+            //swap sprite to needed version
+            SwapSpriteToReverse();
+        }
+        else
+        {
+            //toggle orientation
+            isReversed = true;
+            //flip the sprite direction accordingly
+            spriteR.flipX = false;
+            //swap sprite to needed version
+            SwapSpriteToNormal();
+        }
+
+        //appear/disapear based on state depending on settings
+        if (AppearsAtReverse || DisapearsAtReverse)
+        {
+            if (spriteR.enabled)
+            {
+                boxC.enabled = false;
+                spriteR.enabled = false;
+            }
+            else
+            {
+                boxC.enabled = true;
+                spriteR.enabled = true;
+            }
+        }
+
+        isExpended = false;
+    }
+
+    /// <summary>
+    /// Helper method to change this enemy's sprite to the reversed version
+    /// </summary>
+    private void SwapSpriteToReverse()
     {
         //set sprite to reverse version based on type.
         if (enemyTypeKey == 0)
@@ -141,23 +190,33 @@ public class Enemy : MonoBehaviour {
         {
             spriteR.sprite = spriteSet["R_ZUMBA_ZOMBIE"];
         }
-        //if it has not already been flipped
-        if (!spriteR.flipX) 
+    }
+
+    /// <summary>
+    /// Helper method to change this enemy's sprite to the normal version
+    /// </summary>
+    private void SwapSpriteToNormal()
+    {
+        //set sprite to normal version based on type.
+        if (enemyTypeKey == 0)
         {
-            spriteR.flipX = true;
+            spriteR.sprite = spriteSet["BEAT_BAT"];
         }
-        //appear if necessary
-        if (AppearsAtReverse)
+        else if (enemyTypeKey == 1)
         {
-            GetComponent<BoxCollider>().enabled = true;
-            spriteR.enabled = true;
+            spriteR.sprite = spriteSet["FUNKY_FRANKENSTEIN"];
         }
-        //dissapear if necessary
-        if (DisapearsAtReverse)
+        else if (enemyTypeKey == 2)
         {
-            GetComponent<BoxCollider>().enabled = false;
-            spriteR.enabled = false;
+            spriteR.sprite = spriteSet["MELODY_MUMMY"];
         }
-        isExpended = false;
+        else if (enemyTypeKey == 3)
+        {
+            spriteR.sprite = spriteSet["SALSA_SPIDER"];
+        }
+        else if (enemyTypeKey == 4)
+        {
+            spriteR.sprite = spriteSet["ZUMBA_ZOMBIE"];
+        }
     }
 }

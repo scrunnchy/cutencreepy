@@ -9,9 +9,9 @@ using UnityEngine;
 /// </summary>
 public class PlatformReverser : MonoBehaviour {
 
-    //Produces the behaviour that an enemy will no longer be a threat or visible after a reversal event
+    //Produces the behaviour that a platform will no longer be a threat or visible during reversals
     public bool DisapearsAtReverse;
-    //Produces the behaviour that an enemy will only become visible and a threat after a reversal event
+    //Produces the behaviour that a platform will only become visible and a threat during reversals
     public bool AppearsAtReverse;
 
     private GameObject[] pieces;
@@ -19,7 +19,7 @@ public class PlatformReverser : MonoBehaviour {
     // Use this for initialization
     void Start () {
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(ChangeAppearance);
+        Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
         pieces = new GameObject[transform.childCount];
         for (int i = 0; i < transform.childCount; i++)
@@ -39,22 +39,22 @@ public class PlatformReverser : MonoBehaviour {
     /// <summary>
     /// activates/deactivates the children of this game object on reversal.
     /// </summary>
-    private void ChangeAppearance()
+    private void ChangeAppearanceOnReverse()
     {
-        //appear if necessary
-        if (AppearsAtReverse)
+        //appear if invisable and dissapear if not
+        if (AppearsAtReverse || DisapearsAtReverse)
         {
             foreach (GameObject go in pieces)
             {
-                go.SetActive(true);
-            }
-        }
-        //dissapear if necessary
-        if (DisapearsAtReverse)
-        {
-            foreach (GameObject go in pieces)
-            {
-                go.SetActive(false);
+                //swap to active or innactive based on current state
+                if (go.activeSelf)
+                {
+                    go.SetActive(false);
+                }
+                else
+                {
+                    go.SetActive(true);
+                }
             }
         }
     }
