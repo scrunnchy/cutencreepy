@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 143175239084085800}
   - component: {fileID: 114165931229679824}
   - component: {fileID: 95570161396669470}
+  - component: {fileID: 114666462133806812}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -57,7 +58,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1997161727290266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.55, y: 1.11, z: 2.04}
+  m_LocalPosition: {x: -103.2, y: 1.09, z: -40.88}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children:
   - {fileID: 4766230187872512}
@@ -71,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1499497581706632}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 28, y: 11, z: -30}
+  m_LocalPosition: {x: 18, y: 11, z: -30}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 4553214519248778}
@@ -248,23 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95925281b476b104d977456ff77fd54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loader: {fileID: 0}
+  playerHealth: 0
   delayBetweenBlinks: 0
-  horizontalAxis: Horizontal
-  verticalAxis: Vertical
-  jumpAxis: Jump
-  maxSpeed: 6.4
-  acceleration: 2
-  frictionCoefficient: 0.85
-  massCoeficcient: 0.85
-  jumpForce: 5
-  fallMultiplier: 40
-  lowJumpMultiplier: 2
-  airControl: 0.85
-  gravityModifier: 5.25
-  terminalVelocity: 25
-  yVelocityLowerLimit: 5
-  _inDodge: 0
+  killZone: 0
 --- !u!114 &114191374896977336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -292,6 +279,37 @@ MonoBehaviour:
   autoPlayOnAwake: 1
   koreography: {fileID: 11400000, guid: 9ef27bc3029278e41a69f2177fbeafd6, type: 2}
   targetKoreographer: {fileID: 0}
+--- !u!114 &114666462133806812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1997161727290266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be42a8bab3a9d842bc29ccc68522dcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalAxis: Horizontal
+  verticalAxis: Vertical
+  jumpAxis: Jump
+  maxSpeed: 6.4
+  acceleration: 2
+  frictionCoefficient: 0.85
+  massCoeficcient: 0.85
+  slowDownSpeed: 0.2
+  jumpForce: 5
+  fallMultiplier: 30
+  airControl: 0.85
+  regularGravityMultiplier: 6.5
+  terminalVelocity: 25
+  yVelocityLowerLimit: 0
+  dashCooldown: 0.2
+  dodgeCooldown: 0.2
+  _inJump: 0
+  _inSlide: 0
+  _inDodge: 0
+  _inDash: 0
 --- !u!143 &143175239084085800
 CharacterController:
   m_ObjectHideFlags: 1
