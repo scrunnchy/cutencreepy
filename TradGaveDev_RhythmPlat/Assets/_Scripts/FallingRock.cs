@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class FallingRock : MonoBehaviour {
 
@@ -14,6 +15,9 @@ public class FallingRock : MonoBehaviour {
     //store reference to box collider component
     private BoxCollider boxC;
 
+    //create event for damage "enemyPlayerCollision"
+    public static UnityEvent enemyPlayerCollision;
+
     Rigidbody rb;
 
 	// Use this for initialization
@@ -21,6 +25,11 @@ public class FallingRock : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
+
+        if (enemyPlayerCollision == null)
+        {
+            enemyPlayerCollision = new UnityEvent();
+        }
 
         //Register for reversal.
         Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
