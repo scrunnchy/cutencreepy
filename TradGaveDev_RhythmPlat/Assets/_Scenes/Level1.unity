@@ -6093,7 +6093,6 @@ Prefab:
   m_SourcePrefab: {fileID: 100100000, guid: 997b1fdee6473dd478d3874b21121dc8, type: 2}
   m_IsPrefabAsset: 0
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 --- !u!1 &1696164903
 GameObject:
@@ -6121,17 +6120,6 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 114666462133806812, guid: da1b9725c429c3f48bd8aab24012ef60,
     type: 2}
-=======
---- !u!1 &1696164903 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1997161727290266, guid: da1b9725c429c3f48bd8aab24012ef60,
-    type: 2}
-  m_PrefabInternal: {fileID: 597763417}
---- !u!114 &1696164904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
->>>>>>> parent of 6f03af0... Slide demo in BrysonScene.
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1696164903}
   m_Enabled: 1
@@ -6146,7 +6134,6 @@ MonoBehaviour:
   acceleration: 2
   frictionCoefficient: 0.85
   massCoeficcient: 0.85
-<<<<<<< HEAD
   slowDownSpeed: 0.2
   jumpForce: 5
   fallMultiplier: 30
@@ -6154,25 +6141,12 @@ MonoBehaviour:
   regularGravityMultiplier: 6.5
   terminalVelocity: 25
   yVelocityLowerLimit: 0
-=======
-  jumpForce: 5
-  fallMultiplier: 40
-  lowJumpMultiplier: 2
-  airControl: 0.85
-  gravityModifier: 6.7
-  terminalVelocity: 25
-  yVelocityLowerLimit: 7.4
-  slideDelay: 0.5
-  dodgeDelay: 1
-  dashDelay: 1
->>>>>>> parent of 6f03af0... Slide demo in BrysonScene.
   dashCooldown: 0.2
   dodgeCooldown: 0.2
   _inJump: 0
   _inSlide: 0
   _inDodge: 0
   _inDash: 0
-<<<<<<< HEAD
 --- !u!95 &1696164906
 Animator:
   serializedVersion: 3
@@ -6287,8 +6261,6 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 5dcf299cf9fbc6b25815ab2168464ec46e5188be
-=======
->>>>>>> parent of 6f03af0... Slide demo in BrysonScene.
 --- !u!1 &1704497121
 GameObject:
   m_ObjectHideFlags: 0
