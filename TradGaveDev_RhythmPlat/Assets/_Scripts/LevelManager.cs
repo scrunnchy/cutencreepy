@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour
 
     public bool paused { get; private set; }
     public int cameraDistanceFromPlayer;
+    public bool isReversed = false;
 
     Camera pauseCamera;
 
@@ -77,6 +78,7 @@ public class LevelManager : MonoBehaviour
 
     public void flipCamera()
     {
+        isReversed = !isReversed;
         Camera gameCamera;
         AudioSource audio;
         GameObject gameObject = GameObject.Find("Main Camera");
@@ -84,8 +86,8 @@ public class LevelManager : MonoBehaviour
         {
             gameCamera = gameObject.GetComponent<Camera>();
             Vector3 angle = new Vector3(0, 180, 0);
-            Vector3 pos = new Vector3(-8, 0, cameraDistanceFromPlayer);
-            flipCamera(gameCamera, pos, angle);
+            flipCamera(gameCamera, angle);
+            
             audio = gameCamera.GetComponent<AudioSource>();
             audio.pitch = -1;
             
@@ -99,9 +101,10 @@ public class LevelManager : MonoBehaviour
     /// <param name="camera">camera</param>
     /// <param name="distance">added distance</param>
     /// <param name="angle">angle of rotation</param>
-    private void flipCamera(Camera camera, Vector3 distance, Vector3 angle)
+    private void flipCamera(Camera camera, Vector3 angle)
     {
-        camera.transform.Translate(distance);
+        PlatformerCameraFollow follower = camera.GetComponent<PlatformerCameraFollow>();
+        follower.zOffset = cameraDistanceFromPlayer;
         camera.transform.Rotate(angle);
     }
 }
