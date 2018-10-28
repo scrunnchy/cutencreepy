@@ -20,7 +20,7 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     public float startDelay = 0.5f;
     public float yOffset = 2f;
-    public float zOffset;
+    public float cameraDistanceFromPlayer = 50f;
 
 
     private bool _canFollow;
@@ -84,6 +84,6 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     private void changeZ()
     {
-        _zOffset.z += zOffset;
+        _zOffset.z += cameraDistanceFromPlayer;
     }
 }

@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
 {
 
     public bool paused { get; private set; }
-    public int cameraDistanceFromPlayer;
+    public float cameraDistanceFromPlayer = 50f;
     public bool isReversed = false;
 
     Camera pauseCamera;
@@ -104,7 +104,6 @@ public class LevelManager : MonoBehaviour
     private void flipCamera(Camera camera, Vector3 angle)
     {
         PlatformerCameraFollow follower = camera.GetComponent<PlatformerCameraFollow>();
-        follower.zOffset = cameraDistanceFromPlayer;
         camera.transform.Rotate(angle);
     }
 }
