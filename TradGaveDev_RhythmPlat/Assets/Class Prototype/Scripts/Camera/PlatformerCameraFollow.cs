@@ -22,6 +22,9 @@ public class PlatformerCameraFollow : MonoBehaviour
     public float yOffset = 2f;
     public float cameraDistanceFromPlayer = 50f;
 
+    [Space(12)]
+
+    public LevelManager LevelManager;
 
     private bool _canFollow;
 
@@ -30,7 +33,6 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     private Vector3 _lookOffset;
 
-    LevelManager LM;
 
     void Start()
     {
@@ -84,6 +86,9 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     private void changeZ()
     {
-        _zOffset.z += cameraDistanceFromPlayer;
+        if (LevelManager.isReversed)
+            _zOffset.z += cameraDistanceFromPlayer;
+        else
+            _zOffset.z -= cameraDistanceFromPlayer;
     }
 }

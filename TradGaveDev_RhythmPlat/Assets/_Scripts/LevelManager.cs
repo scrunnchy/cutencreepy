@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
 {
 
     public bool paused { get; private set; }
-    public float cameraDistanceFromPlayer = 50f;
+
     public bool isReversed = false;
 
     Camera pauseCamera;
