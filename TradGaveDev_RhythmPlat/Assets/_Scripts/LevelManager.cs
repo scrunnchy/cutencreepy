@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
 
     Camera pauseCamera;
     Camera mainCam;
-    AudioSource audio;
+    private AudioSource audio;
 
     private void Awake()
     {
@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
             pauseCamera = pauseObject.GetComponent<Camera>();
         pauseCamera.enabled = false;
 
-        AudioSource audio = mainCam.GetComponent<AudioSource>();
+        audio = mainCam.GetComponent<AudioSource>();
 
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
     }
@@ -76,7 +76,7 @@ public class LevelManager : MonoBehaviour
     public void flipCamera()
     {
         isReversed = !isReversed;
-        flipCamera(new Vector3(0, 180, 0));
+        _flipCamera();
     }
 
 
@@ -84,9 +84,10 @@ public class LevelManager : MonoBehaviour
     /// Moves the given camera a given angle and reverses audio
     /// </summary>
     /// <param name="angle">angle of rotation</param>
-    private void flipCamera(Vector3 angle)
+    private void _flipCamera()
     {
         audio.pitch = -1;
+        Vector3 angle = new Vector3(0, 180, 0);
         mainCam.transform.Rotate(angle);
     }
 }

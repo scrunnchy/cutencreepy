@@ -9,6 +9,8 @@ public class PlatformerCameraFollow : MonoBehaviour
     public Transform followTransform;
     public bool useFixedUpdate;
     public float followSpeed = 8f;
+    public bool isFollowing = true;
+
 
     [Space(12)]
 
@@ -52,20 +54,22 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     void Update()
     {
-        _target = followTransform.position;
-        _target.y += yOffset;
-
-
-        if (lookAhead)
+        if (isFollowing)
         {
-            _lookOffset = Vector3.Lerp(_lookOffset, (followTransform.forward * lookAheadAmount), Time.deltaTime * lookAheadSpeed);
-            _target += _lookOffset;
-        }
-        _target += _zOffset;
+            _target = followTransform.position;
+            _target.y += yOffset;
 
-        if (!useFixedUpdate && _canFollow)
-        {
-            this.transform.position = Vector3.Lerp(this.transform.position, _target, Time.deltaTime * followSpeed);
+            if (lookAhead)
+            {
+                _lookOffset = Vector3.Lerp(_lookOffset, (followTransform.forward * lookAheadAmount), Time.deltaTime * lookAheadSpeed);
+                _target += _lookOffset;
+            }
+
+            _target += _zOffset;
+            if (!useFixedUpdate && _canFollow)
+            {
+                this.transform.position = Vector3.Lerp(this.transform.position, _target, Time.deltaTime * followSpeed);
+            }
         }
     }
 
@@ -87,8 +91,16 @@ public class PlatformerCameraFollow : MonoBehaviour
     private void changeZ()
     {
         if (LevelManager.isReversed)
+        {
             _zOffset.z -= cameraDistanceFromPlayer;
+            Vector3 pos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z - cameraDistanceFromPlayer);
+            this.transform.position = pos;
+        }
         else
+        {
             _zOffset.z += cameraDistanceFromPlayer;
+            Vector3 pos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + cameraDistanceFromPlayer);
+            this.transform.position = pos;
+        }
     }
 }
