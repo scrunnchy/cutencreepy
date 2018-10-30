@@ -47,7 +47,6 @@ namespace Platformer
             moveVector = pc.GetMoveVector();
 
             //listeners
-            Checkpoint.CheckpointReverse.AddListener(flipPlayer);
             Enemy.enemyPlayerCollision.AddListener(DecrementHealth);
         }
 
@@ -58,17 +57,6 @@ namespace Platformer
             {
                 checkForKillZone();
             }
-        }
-
-        /// <summary>
-        /// Flips the player on reversal point
-        /// </summary>
-        private void flipPlayer()
-        {
-            anim.SetBool("Reversed", true);
-            _characterVelocity.x = -pc.maxSpeed;
-            GetComponent<SpriteRenderer>().flipX = true;
-            moveVector.x = -moveVector.x;
         }
 
         /// <summary>

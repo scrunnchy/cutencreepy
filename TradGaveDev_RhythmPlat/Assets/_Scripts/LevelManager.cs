@@ -13,6 +13,8 @@ public class LevelManager : MonoBehaviour
     public bool isReversed = false;
 
     Camera pauseCamera;
+    Camera mainCam;
+    AudioSource audio;
 
     private void Awake()
     {
@@ -30,6 +32,10 @@ public class LevelManager : MonoBehaviour
             pauseCamera = pauseObject.GetComponent<Camera>();
         pauseCamera.enabled = false;
 
+        GameObject mainObject = GameObject.Find("Main Camera");
+        mainCam = mainObject.GetComponent<Camera>();
+        AudioSource audio = mainCam.GetComponent<AudioSource>();
+
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
     }
 
@@ -45,17 +51,6 @@ public class LevelManager : MonoBehaviour
     /// <returns></returns>
     public void togglePause()
     {
-        Camera gameCamera;
-        AudioSource audio;
-        GameObject gameObject = GameObject.Find("Main Camera");
-        if (gameObject != null)
-        {
-            gameCamera = gameObject.GetComponent<Camera>();
-            audio = gameCamera.GetComponent<AudioSource>();
-        }
-        else
-            audio = new AudioSource();
-
         // if paused, play
         if (Time.timeScale == 0f)
         {
@@ -76,34 +71,29 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void stallCamera()
+    {
+
+    }
+    /// <summary>
+    /// Flips the main camera 180 degrees
+    /// </summary>
     public void flipCamera()
     {
         isReversed = !isReversed;
-        Camera gameCamera;
-        AudioSource audio;
-        GameObject gameObject = GameObject.Find("Main Camera");
-        if (gameObject != null)
-        {
-            gameCamera = gameObject.GetComponent<Camera>();
-            Vector3 angle = new Vector3(0, 180, 0);
-            flipCamera(gameCamera, angle);
-            
-            audio = gameCamera.GetComponent<AudioSource>();
-            audio.pitch = -1;
-            
-            //checkpoint.renderer.isVisible
-        }
+
+        Vector3 angle = new Vector3(0, 180, 0);
+        flipCamera(angle);
     }
+
 
     /// <summary>
     /// Moves the given camera a given distance and angle
     /// </summary>
-    /// <param name="camera">camera</param>
-    /// <param name="distance">added distance</param>
     /// <param name="angle">angle of rotation</param>
-    private void flipCamera(Camera camera, Vector3 angle)
+    private void flipCamera(Vector3 angle)
     {
-        PlatformerCameraFollow follower = camera.GetComponent<PlatformerCameraFollow>();
-        camera.transform.Rotate(angle);
+        audio.pitch = -1;
+        mainCam.transform.Rotate(angle);
     }
 }
