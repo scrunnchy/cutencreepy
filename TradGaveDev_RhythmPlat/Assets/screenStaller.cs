@@ -10,7 +10,6 @@ public class screenStaller : MonoBehaviour {
     void Start () {
         GameObject mainObject = GameObject.Find("Main Camera");
         mainCam = mainObject.GetComponent<Camera>();
-        AudioSource audio = mainCam.GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame

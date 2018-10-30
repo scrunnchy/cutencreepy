@@ -27,13 +27,12 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         //Get camera and disable 
+        mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
         if (pauseObject != null)
             pauseCamera = pauseObject.GetComponent<Camera>();
         pauseCamera.enabled = false;
 
-        GameObject mainObject = GameObject.Find("Main Camera");
-        mainCam = mainObject.GetComponent<Camera>();
         AudioSource audio = mainCam.GetComponent<AudioSource>();
 
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
@@ -71,24 +70,18 @@ public class LevelManager : MonoBehaviour
         }
     }
 
-    public void stallCamera()
-    {
-
-    }
     /// <summary>
     /// Flips the main camera 180 degrees
     /// </summary>
     public void flipCamera()
     {
         isReversed = !isReversed;
-
-        Vector3 angle = new Vector3(0, 180, 0);
-        flipCamera(angle);
+        flipCamera(new Vector3(0, 180, 0));
     }
 
 
     /// <summary>
-    /// Moves the given camera a given distance and angle
+    /// Moves the given camera a given angle and reverses audio
     /// </summary>
     /// <param name="angle">angle of rotation</param>
     private void flipCamera(Vector3 angle)
