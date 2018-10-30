@@ -89,6 +89,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", CheckIfBpmChanged);
+        Checkpoint.CheckpointReverse.AddListener(flipPlayer);
     }
 
     
@@ -313,5 +314,16 @@ public class PlayerControl : MonoBehaviour
     private IEnumerator ActionWaiter()
     {
         yield return new WaitForSeconds(slideDelay);
+    }
+
+    /// <summary>
+    /// Flips the player on reversal point
+    /// </summary>
+    private void flipPlayer()
+    {
+        anim.SetBool("Reversed", true);
+        _characterVelocity.x = -maxSpeed;
+        GetComponent<SpriteRenderer>().flipX = true;
+        moveVector.x = -moveVector.x;
     }
 }

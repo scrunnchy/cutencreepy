@@ -87,8 +87,8 @@ public class PlatformerCameraFollow : MonoBehaviour
     private void changeZ()
     {
         if (LevelManager.isReversed)
-            _zOffset.z += cameraDistanceFromPlayer;
-        else
             _zOffset.z -= cameraDistanceFromPlayer;
+        else
+            _zOffset.z += cameraDistanceFromPlayer;
     }
 }
