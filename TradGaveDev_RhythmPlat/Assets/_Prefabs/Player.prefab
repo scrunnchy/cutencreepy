@@ -93,6 +93,8 @@ MonoBehaviour:
   _inSlide: 0
   _inDodge: 0
   _inDash: 0
+  _inSlidePhase2: 0
+  _inSlidePhase1: 0
 --- !u!114 &114498860786470296
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FallingRock : MonoBehaviour {
+public class FallingRockBefore : MonoBehaviour {
 
     //Produces the behaviour that a falling rock will no longer be a threat or visible during reversals
     public bool DisapearsAtReverse;
@@ -12,12 +12,8 @@ public class FallingRock : MonoBehaviour {
     public bool AppearsAtReverse;
     //store reference to sprite renderer component
     private SpriteRenderer spriteR;
-    //store reference to box collider component
-    private BoxCollider boxC;
 
-    //create event for damage "enemyPlayerCollision"
-    public static UnityEvent enemyPlayerCollision;
-
+    
     Rigidbody rb;
 
 	// Use this for initialization
