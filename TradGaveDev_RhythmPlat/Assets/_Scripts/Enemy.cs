@@ -26,12 +26,8 @@ public class Enemy : MonoBehaviour {
     private SpriteRenderer spriteR;
     //store reference to box collider component
     private BoxCollider boxC;
-
-    // On start, an enemy will:
-    // retrieve collider component
-    // register as an event listener for beats and level reversal
-    void Start () {
-
+    private void Awake()
+    {
         if (enemyPlayerCollision == null)
         {
             enemyPlayerCollision = new UnityEvent();
@@ -39,6 +35,13 @@ public class Enemy : MonoBehaviour {
 
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
+    }
+    // On start, an enemy will:
+    // retrieve collider component
+    // register as an event listener for beats and level reversal
+    void Start () {
+
+        
         //set sprites in dictionary with names
         if (spriteSet == null)
         {
@@ -125,6 +128,7 @@ public class Enemy : MonoBehaviour {
             if (gotHit)
             {
                 // trigger Damage event
+                Debug.Log("player hit");
                 enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
