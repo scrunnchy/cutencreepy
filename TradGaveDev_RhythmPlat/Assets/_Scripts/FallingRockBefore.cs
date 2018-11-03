@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class FallingRockBefore : MonoBehaviour {
+/*public class FallingRockBefore : MonoBehaviour {
 
     //Produces the behaviour that a falling rock will no longer be a threat or visible during reversals
     public bool DisapearsAtReverse;
@@ -71,4 +71,4 @@ public class FallingRockBefore : MonoBehaviour {
     void Update () {
 		
 	}
-}
+}*/
