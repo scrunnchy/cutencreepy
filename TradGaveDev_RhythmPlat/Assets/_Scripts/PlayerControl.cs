@@ -73,6 +73,9 @@ public class PlayerControl : MonoBehaviour
     public bool _inDodge = false;
     public bool _inDash = false;
 
+    public bool _inSlidePhase2 = false;
+    public bool _inSlidePhase1 = false;
+
     private Vector3 _storedVelocity = Vector3.zero;
 
     //private CharacterState state = CharacterState.idle;
@@ -113,18 +116,13 @@ public class PlayerControl : MonoBehaviour
         // Only executed if the game is not frozen and the player is not in a jump
         if (_canMove && !_inJump)
         {
-            // Preconditions before using a dash. Player is not currently dodging or sliding. Player has to be able to dash and must also be pressing dash key
-            if (!_inSlide && !_inDodge && Input.GetAxis("Dash") > 0f && _canDash)
-            {
-                StartCoroutine("Dash");
-            }
             // Preconditions before using a dodge. Player is not currently dashing or sliding. Player has to be able to dodge and must also be pressing dodge key
             if (!_inSlide && !_inDash && Input.GetAxis("Dodge") > 0f && _canDodge)
             {
                 StartCoroutine("Dodge");
             }
             // Preconditions before using a slide. Player is not currently dashing, dodging or sliding. Player is also pressing slide key
-            if (!_inDodge && !_inDash && Input.GetAxis("Slide") > 0f && !_inSlide)
+            if ((!_inDodge && !_inDash && Input.GetAxis("Slide") > 0f) || _inSlidePhase2)
             {
                 StartCoroutine("Slide");
             }
@@ -167,44 +165,27 @@ public class PlayerControl : MonoBehaviour
             //_characterController.Move(moveVector * Time.deltaTime);
             _characterController.Move((_characterVelocity) * Time.deltaTime);
     }
-    IEnumerator Dash()
-    {
-        Debug.Log("In Dash");
-        anim.SetBool("Dashing", true);
-        _canJump = false;
-        _inDash = true;
-        _canDash = false;
-        _inDodge = true;
-
-        yield return new WaitForSeconds(dashDelay);
-
-        Debug.Log("Out of Dash");
-        anim.SetBool("Dashing", false);
-        _canJump = true;
-        _inDodge = false;
-        _inDash = false;
-        // temp _canDash variable. Will change when cooldown is implemented.
-        _canDash = true;
-        // cooldown code. yet to be tested
-        /*yield return new WaitForSeconds(dashCooldown);
-        _canDash = true;*/
-    }
 
     IEnumerator Slide()
     {
-
-        //Debug.Log("In Slide");
-        anim.SetBool("Sliding", true);
-        _canJump = false;
-        _inSlide = true;
-        _inDodge = true;
-
-        yield return new WaitForSeconds(slideDelay);
-
-        anim.SetBool("Sliding", false);
-        _canJump = true;
-        _inDodge = false;
-        _inSlide = false;
+        if (!_inSlidePhase2 && !_inSlidePhase1)
+        {
+            anim.SetBool("Sliding", true);
+            _inSlidePhase1 = true;
+            _canJump = false;
+            _inSlide = true;
+            yield return new WaitForSeconds(slideDelay);
+            _inSlidePhase1 = false;
+            _inSlidePhase2 = true;
+        }
+        if ((_inSlidePhase2 && !(Input.GetAxis("Slide") > 0f)) || !isGrounded)
+        {
+            anim.SetBool("Sliding", false);
+            _inSlidePhase2 = false;
+            _canJump = true;
+            _inDodge = false;
+            _inSlide = false;
+        }
     }
 
     IEnumerator Dodge()

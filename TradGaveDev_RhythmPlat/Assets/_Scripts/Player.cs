@@ -18,11 +18,12 @@ namespace Platformer
         }
         Animator anim;
         PlayerControl pc;
+        ParticleSystem parSys;
 
         #region Fields and properties
         [Header("Player Information")]
         public int playerHealth;
-        public float delayBetweenBlinks;
+        public float durationOfParticles;
         public float killZone;
 
         //private variables
@@ -37,6 +38,7 @@ namespace Platformer
             //initialize
             pc = GetComponent<PlayerControl>();
             anim = GetComponent<Animator>();
+            parSys = GetComponentInChildren<ParticleSystem>();
         }
         void Start()
         {
@@ -48,7 +50,9 @@ namespace Platformer
 
             //listeners
             Enemy.enemyPlayerCollision.AddListener(DecrementHealth);
+            Goal.playerGoalReached.AddListener(LoadWinScreen);
         }
+
 
         private void Update()
         {
@@ -64,28 +68,43 @@ namespace Platformer
         /// </summary>
         private void DecrementHealth()
         {
+            
+
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
 
-                int numberOfBlinks = 3;
-                while (numberOfBlinks < 0)
-                {
-                    GetComponent<SpriteRenderer>().enabled = true;
-                    IEnumerator wait = waiter();
-                    GetComponent<SpriteRenderer>().enabled = false;
-                    numberOfBlinks -= 1;
-                }
-
-                StartCoroutine(waiter());
-
+                //play particle effect for damage
+                Debug.Log("particleEffect");
+                StartCoroutine(DamageVisual());
             }
-
             else
             {
                 //Debug.Log("Dead");
                 SceneManager.LoadScene(2);
             }
+        }
+        /// <summary>
+        /// Handles alll visual effects and animations for player after they reach the goal.
+        /// Stops the music for the final moments (to be changed, perhaps)
+        /// Then, it loads the end scene.
+        /// </summary>
+        private void LoadWinScreen()
+        {
+            
+            Debug.Log("goalReached");
+            //stop level music, potentially. 
+            AudioSource song = (Camera.main).GetComponent<AudioSource>();
+            if(song != null)
+            {
+                song.Pause();
+            }
+
+            //TODO: play animation or que with visual effect
+
+
+            //load the True ending scene "VictoryScreen"
+            SceneManager.LoadScene("VictoryScreen");
         }
 
         private void checkForKillZone()
@@ -98,14 +117,14 @@ namespace Platformer
         }
 
         /// <summary>
-        /// Flashes player sprite
+        /// Plays the (childed and) attatched particle system for specified duration.
         /// </summary>
         /// <returns></returns>
-        private IEnumerator waiter()
+        private IEnumerator DamageVisual()
         {
-            GetComponent<SpriteRenderer>().enabled = false;
-            yield return new WaitForSeconds(delayBetweenBlinks);
-            GetComponent<SpriteRenderer>().enabled = true;
+            parSys.Play();
+            yield return new WaitForSeconds(durationOfParticles);
+            parSys.Stop();
         }
     }
 }
