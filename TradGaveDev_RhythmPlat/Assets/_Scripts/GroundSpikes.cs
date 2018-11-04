@@ -104,6 +104,6 @@ public class GroundSpikes : MonoBehaviour {
         SpriteRenderer sprite = GetComponentInChildren<SpriteRenderer>();
         float step = speed * Time.deltaTime;
         Vector3 up = new Vector3(sprite.transform.position.x, sprite.transform.position.y + amountUp, sprite.transform.position.z);
-        sprite.transform.position = Vector3.Lerp(transform.position, up, step);   
+        sprite.transform.position = Vector3.Lerp(transform.position, up, step); 
     }
 }
