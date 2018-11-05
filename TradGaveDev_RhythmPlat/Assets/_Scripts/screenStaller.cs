@@ -7,6 +7,7 @@ public class screenStaller : MonoBehaviour
 
     Camera mainCam;
     PlatformerCameraFollow follower;
+    public Checkpoint check;
 
     // Use this for initialization
     void Start()
@@ -23,7 +24,7 @@ public class screenStaller : MonoBehaviour
 
     void OnTriggerEnter(Collider player)
     {
-        if (player.tag == "Player"/* && !Expended*/)
+        if (player.tag == "Player" && !check.Reached)
             stallCam();
     }
 
@@ -34,7 +35,7 @@ public class screenStaller : MonoBehaviour
 
     void OnTriggerExit(Collider player)
     {
-        if(player.tag == "Player"/* && !Expended*/)
+        if(player.tag == "Player" && !check.Reached)
             resumeCam();
     }
 
