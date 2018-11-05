@@ -171,15 +171,27 @@ MonoBehaviour:
     mEndSample: 1615756
   - mStartSample: 1636428
     mEndSample: 1636428
-  _SerializedPayloadTypes: []
+  _SerializedPayloadTypes:
+  - SonicBloom.Koreo.FloatPayload
   _AssetPayloads: []
   _AssetPayloadIdxs: 
   _ColorPayloads: []
   _ColorPayloadIdxs: 
   _CurvePayloads: []
   _CurvePayloadIdxs: 
-  _FloatPayloads: []
-  _FloatPayloadIdxs: 
+  _FloatPayloads:
+  - mFloatVal: 1
+  - mFloatVal: 2
+  - mFloatVal: 3
+  - mFloatVal: 4
+  - mFloatVal: 5
+  - mFloatVal: 6
+  - mFloatVal: 7
+  - mFloatVal: 8
+  - mFloatVal: 9
+  - mFloatVal: 10
+  - mFloatVal: 11
+  _FloatPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
   _GradientPayloads: []
   _GradientPayloadIdxs: 
   _IntPayloads: []

@@ -76,6 +76,8 @@ public class PlayerControl : MonoBehaviour
     public bool _inSlidePhase2 = false;
     public bool _inSlidePhase1 = false;
 
+    private bool isReversed = false;
+
     private Vector3 _storedVelocity = Vector3.zero;
 
     //private CharacterState state = CharacterState.idle;
@@ -302,9 +304,18 @@ public class PlayerControl : MonoBehaviour
     /// </summary>
     private void flipPlayer()
     {
-        anim.SetBool("Reversed", true);
-        _characterVelocity.x = -maxSpeed;
-        GetComponent<SpriteRenderer>().flipX = true;
+        if (!isReversed)
+        {
+            anim.SetBool("Reversed", true);
+            isReversed = true;
+        }
+        else
+        {
+            anim.SetBool("Reversed", false);
+            isReversed = false;
+        }
+        _characterVelocity.x = -_characterVelocity.x;
+        GetComponent<SpriteRenderer>().flipX = !GetComponent<SpriteRenderer>().flipX;
         moveVector.x = -moveVector.x;
     }
 }

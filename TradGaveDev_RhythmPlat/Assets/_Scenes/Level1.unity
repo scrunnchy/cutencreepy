@@ -1714,6 +1714,12 @@ Prefab:
       propertyPath: startDelay
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114797312975909456, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
+        type: 2}
+      propertyPath: koreography
+      value: 
+      objectReference: {fileID: 11400000, guid: 0dc6c8a249d84eb43b6e6053b8ab1bd6,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6e2e970caa3ea34b97fdf0f982d3cb9, type: 2}
   m_IsPrefabAsset: 0
@@ -4533,6 +4539,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isReversed: 0
+  forwardTrack: {fileID: 0}
+  reverseTrack: {fileID: 0}
 --- !u!4 &1300913756
 Transform:
   m_ObjectHideFlags: 0

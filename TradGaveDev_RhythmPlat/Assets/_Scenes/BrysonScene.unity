@@ -12164,7 +12164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlayOnAwake: 1
-  koreography: {fileID: 11400000, guid: 9ef27bc3029278e41a69f2177fbeafd6, type: 2}
+  koreography: {fileID: 11400000, guid: 0dc6c8a249d84eb43b6e6053b8ab1bd6, type: 2}
   targetKoreographer: {fileID: 0}
 --- !u!81 &863982606
 AudioListener:
