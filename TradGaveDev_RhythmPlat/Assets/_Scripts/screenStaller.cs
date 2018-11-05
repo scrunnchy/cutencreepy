@@ -23,7 +23,7 @@ public class screenStaller : MonoBehaviour
 
     void OnTriggerEnter(Collider player)
     {
-        if (player.tag == "Player")
+        if (player.tag == "Player"/* && !Expended*/)
             stallCam();
     }
 
@@ -34,8 +34,8 @@ public class screenStaller : MonoBehaviour
 
     void OnTriggerExit(Collider player)
     {
-        if(player.tag == "Player")
-        resumeCam();
+        if(player.tag == "Player"/* && !Expended*/)
+            resumeCam();
     }
 
     private void stallCam()

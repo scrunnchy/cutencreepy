@@ -21,6 +21,7 @@ public class PlatformerCameraFollow : MonoBehaviour
     [Space(12)]
 
     public float startDelay = 0.5f;
+    public float xOffset = 5f;
     public float yOffset = 2f;
     public float cameraDistanceFromPlayer = 50f;
 
@@ -58,6 +59,10 @@ public class PlatformerCameraFollow : MonoBehaviour
         {
             _target = followTransform.position;
             _target.y += yOffset;
+            if (LevelManager.isReversed)
+                _target.x -= xOffset;
+            else
+                _target.x += xOffset;
 
             if (lookAhead)
             {
@@ -102,5 +107,6 @@ public class PlatformerCameraFollow : MonoBehaviour
             Vector3 pos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + cameraDistanceFromPlayer);
             this.transform.position = pos;
         }
+        isFollowing = true;
     }
 }
