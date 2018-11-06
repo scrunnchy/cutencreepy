@@ -261,14 +261,14 @@ public class PlayerControl : MonoBehaviour
 
     private void CheckIfBpmChanged(KoreographyEvent beat)
     {
-        if (beat.HasFloatPayload() && !(beat.Payload.Equals(currentBpm)))
+        /*if (beat.HasFloatPayload() && !(beat.Payload.Equals(currentBpm)))
         {
             currentBpm = beat.GetFloatValue();
             float newDelay = 60 / currentBpm;
             slideDelay = newDelay;
             dashDelay = newDelay;
             dodgeDelay = newDelay;
-        }
+        }*/
     }
 
     /// <summary>

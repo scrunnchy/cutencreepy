@@ -44,7 +44,6 @@ public class LevelManager : MonoBehaviour
         audio = mainCam.GetComponent<AudioSource>();
 
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
-        Checkpoint.CheckpointReverse.AddListener(changeKoreography);
     }
 
     // Update is called once per frame
@@ -95,31 +94,7 @@ public class LevelManager : MonoBehaviour
     /// <param name="angle">angle of rotation</param>
     private void _flipCamera()
     {
-        audio.pitch = -audio.pitch;
         Vector3 angle = new Vector3(0, 180, 0);
         mainCam.transform.Rotate(angle);
-    }
-
-    private void changeKoreography()
-    {
-        //Debug.Log(Koreographer.Instance.GetNumLoadedKoreography());
-        if (isReversed)
-        {
-            //Koreographer.Instance.
-            //Koreographer.Instance.UnloadKoreography(reverseTrack);
-            //Koreographer.Instance.LoadKoreography(forwardTrack);
-            //audioCom.clip = forwardTrack.SourceClip;
-            //Koreographer.Instance.GetMusicSampleTime();
-            //SeekToSample(startSampleTime);
-
-            //audioCom.Play();
-
-        }
-        else
-        {
-            //Koreographer.Instance.UnloadKoreography(forwardTrack);
-            Koreographer.Instance.LoadKoreography(reverseTrack);
-        }
-
     }
 }
