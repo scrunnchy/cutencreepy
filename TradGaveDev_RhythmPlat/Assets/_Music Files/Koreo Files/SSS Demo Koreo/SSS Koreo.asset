@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2076007791, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: SSS Koreo
+  m_EditorClassIdentifier: 
+  mSourceClip: {fileID: 8300000, guid: dd593934b0ecdae429d9ea9cdfb2514a, type: 3}
+  mAudioFilePath: 
+  mSampleRate: 44100
+  mIgnoreLatencyOffset: 0
+  mTempoSections:
+  - sectionName: ThrowAway
+    startSample: 0
+    samplesPerBeat: 24054.545454545456
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  - sectionName: Beginning
+    startSample: 3000
+    samplesPerBeat: 20834.645669291338
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  - sectionName: Middle
+    startSample: 334100
+    samplesPerBeat: 20671.875
+    beatsPerMeasure: 4
+    bStartNewMeasure: 1
+  mTracks:
+  - {fileID: 11400000, guid: b5546df35bf46864aa9a57ba7287e8b2, type: 2}
+  - {fileID: 11400000, guid: 7393f43833fc7d244b6ab4fb84ad3748, type: 2}
+  - {fileID: 11400000, guid: a6a4f93a513ecd648967823e6f4701fd, type: 2}
+  - {fileID: 11400000, guid: 603440c1b6b67b54bacabdea54d31ba5, type: 2}

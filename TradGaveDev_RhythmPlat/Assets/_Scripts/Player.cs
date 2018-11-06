@@ -18,7 +18,6 @@ namespace Platformer
         }
         Animator anim;
         PlayerControl pc;
-        ParticleSystem parSys;
 
         #region Fields and properties
         [Header("Player Information")]
@@ -38,7 +37,6 @@ namespace Platformer
             //initialize
             pc = GetComponent<PlayerControl>();
             anim = GetComponent<Animator>();
-            parSys = GetComponentInChildren<ParticleSystem>();
         }
         void Start()
         {
@@ -74,9 +72,7 @@ namespace Platformer
             {
                 playerHealth -= 1;
 
-                //play particle effect for damage
-                Debug.Log("particleEffect");
-                StartCoroutine(DamageVisual());
+                //play damage animation (white sprite)
             }
             else
             {
@@ -84,6 +80,7 @@ namespace Platformer
                 SceneManager.LoadScene(2);
             }
         }
+
         /// <summary>
         /// Handles alll visual effects and animations for player after they reach the goal.
         /// Stops the music for the final moments (to be changed, perhaps)
@@ -115,16 +112,6 @@ namespace Platformer
                 SceneManager.LoadScene(2);
             }
         }
-
-        /// <summary>
-        /// Plays the (childed and) attatched particle system for specified duration.
-        /// </summary>
-        /// <returns></returns>
-        private IEnumerator DamageVisual()
-        {
-            parSys.Play();
-            yield return new WaitForSeconds(durationOfParticles);
-            parSys.Stop();
-        }
+        
     }
 }

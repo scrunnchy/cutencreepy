@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using SonicBloom.Koreo;
 
 public class LevelManager : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class LevelManager : MonoBehaviour
     public bool paused { get; private set; }
 
     public bool isReversed = false;
+
+
+    public Koreography forwardTrack;
+    public Koreography reverseTrack;
+
+    AudioSource audioCom = null;
 
     Camera pauseCamera;
     Camera mainCam;
@@ -26,6 +33,7 @@ public class LevelManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+
         //Get camera and disable 
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
@@ -36,6 +44,7 @@ public class LevelManager : MonoBehaviour
         audio = mainCam.GetComponent<AudioSource>();
 
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
+        Checkpoint.CheckpointReverse.AddListener(changeKoreography);
     }
 
     // Update is called once per frame
@@ -86,8 +95,31 @@ public class LevelManager : MonoBehaviour
     /// <param name="angle">angle of rotation</param>
     private void _flipCamera()
     {
-        audio.pitch = -1;
+        audio.pitch = -audio.pitch;
         Vector3 angle = new Vector3(0, 180, 0);
         mainCam.transform.Rotate(angle);
+    }
+
+    private void changeKoreography()
+    {
+        //Debug.Log(Koreographer.Instance.GetNumLoadedKoreography());
+        if (isReversed)
+        {
+            //Koreographer.Instance.
+            //Koreographer.Instance.UnloadKoreography(reverseTrack);
+            //Koreographer.Instance.LoadKoreography(forwardTrack);
+            //audioCom.clip = forwardTrack.SourceClip;
+            //Koreographer.Instance.GetMusicSampleTime();
+            //SeekToSample(startSampleTime);
+
+            //audioCom.Play();
+
+        }
+        else
+        {
+            //Koreographer.Instance.UnloadKoreography(forwardTrack);
+            Koreographer.Instance.LoadKoreography(reverseTrack);
+        }
+
     }
 }

@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4700535280837494}
   - component: {fileID: 20502574056010752}
   - component: {fileID: 81546447616386478}
-  - component: {fileID: 114509923244926176}
   - component: {fileID: 82095309950919518}
   - component: {fileID: 114797312975909456}
   - component: {fileID: 114742413766889636}
@@ -101,7 +100,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dd593934b0ecdae429d9ea9cdfb2514a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 655fe70fe7e5c004db33c6ae26f8c873, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -187,19 +186,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &114509923244926176
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1979143762637546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 316907577, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadedKoreography: []
-  eventDelayInSeconds: 0
 --- !u!114 &114742413766889636
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -214,12 +200,15 @@ MonoBehaviour:
   followTransform: {fileID: 0}
   useFixedUpdate: 0
   followSpeed: 8
+  isFollowing: 1
   lookAhead: 0
   lookAheadAmount: 2
   lookAheadSpeed: 2
-  startDelay: 0.5
+  startDelay: 0
+  xOffset: 5
   yOffset: 2
   cameraDistanceFromPlayer: 50
+  LevelManager: {fileID: 0}
 --- !u!114 &114797312975909456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -232,5 +221,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   autoPlayOnAwake: 1
-  koreography: {fileID: 11400000, guid: 9ef27bc3029278e41a69f2177fbeafd6, type: 2}
+  koreography: {fileID: 11400000, guid: b086a2068a7b34340b4f88cfd3cb7372, type: 2}
   targetKoreographer: {fileID: 0}
