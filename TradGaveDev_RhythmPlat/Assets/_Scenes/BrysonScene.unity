@@ -1183,6 +1183,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1160490310}
   - {fileID: 1668982831}
+  points: []
+  yOffset: 2
 --- !u!1 &79336859
 GameObject:
   m_ObjectHideFlags: 0
@@ -6828,6 +6830,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 851006956}
   - {fileID: 1059374889}
+  points: []
+  yOffset: 2
 --- !u!1 &463515453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1185088666727346, guid: aab667a352271ef488abb90ce064a3f3,
@@ -6844,7 +6848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf868ad08d55d84594348061bb7dd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTrackRegisterNumber: 1
+  beatTrackRegisterNumber: 0
   blinkDelay: 0
 --- !u!1 &472230751
 GameObject:
@@ -9412,6 +9416,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1213923763}
   - {fileID: 1677813934}
+  points: []
+  yOffset: 2
 --- !u!1001 &678422590
 Prefab:
   m_ObjectHideFlags: 0
@@ -14320,7 +14326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf868ad08d55d84594348061bb7dd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTrackRegisterNumber: 1
+  beatTrackRegisterNumber: 0
   blinkDelay: 0
 --- !u!1001 &1046242214
 Prefab:
@@ -20339,7 +20345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbf868ad08d55d84594348061bb7dd0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  beatTrackRegisterNumber: 2
+  beatTrackRegisterNumber: 0
   blinkDelay: 0
 --- !u!1 &1559505603 stripped
 GameObject:
@@ -20366,6 +20372,8 @@ MonoBehaviour:
   waypoints:
   - {fileID: 1515438910}
   - {fileID: 183211696}
+  points: []
+  yOffset: 2
 --- !u!1001 &1562470469
 Prefab:
   m_ObjectHideFlags: 0
