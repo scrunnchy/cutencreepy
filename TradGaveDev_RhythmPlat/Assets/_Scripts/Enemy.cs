@@ -77,7 +77,7 @@ public class Enemy : MonoBehaviour {
         //Register for koreography beats.
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
+        LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
         //disappear if enemy is to appear during reversals
         if (AppearsAtReverse)

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 /// <summary>
 /// This component, when attached to an object with children wil set all 
 /// children to active or inactive based on the public booleans in the inspector. 
@@ -18,8 +19,9 @@ public class PlatformReverser : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
+        LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
         pieces = new GameObject[transform.childCount];
         for (int i = 0; i < transform.childCount; i++)

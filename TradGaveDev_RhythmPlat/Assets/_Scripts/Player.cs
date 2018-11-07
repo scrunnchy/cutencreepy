@@ -47,8 +47,8 @@ namespace Platformer
             moveVector = pc.GetMoveVector();
 
             //listeners
-            Enemy.enemyPlayerCollision.AddListener(DecrementHealth);
-            Goal.playerGoalReached.AddListener(LoadWinScreen);
+            LevelManager.enemyPlayerCollision.AddListener(DecrementHealth);
+            LevelManager.playerGoalReached.AddListener(LoadWinScreen);
         }
 
 

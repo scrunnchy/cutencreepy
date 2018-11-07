@@ -13,6 +13,11 @@ public class LevelManager : MonoBehaviour
 
     public bool isReversed = false;
 
+    //define all event types from other classes
+    public static UnityEvent playerGoalReached;
+    public static UnityEvent enemyPlayerCollision;
+    public static UnityEvent CheckpointCollision;
+    public static UnityEvent CheckpointReverse;
 
     public Koreography forwardTrack;
     public Koreography reverseTrack;
@@ -22,9 +27,25 @@ public class LevelManager : MonoBehaviour
     Camera pauseCamera;
     Camera mainCam;
     private AudioSource audio;
-
+    //initialize all UnityEvents here
     private void Awake()
     {
+        if (playerGoalReached == null)
+        {
+            playerGoalReached = new UnityEvent();
+        }
+        if (enemyPlayerCollision == null)
+        {
+            enemyPlayerCollision = new UnityEvent();
+        }
+        if (CheckpointCollision == null)
+        {
+            CheckpointCollision = new UnityEvent();
+        }
+        if (CheckpointReverse == null)
+        {
+            CheckpointReverse = new UnityEvent();
+        }
         // ensure time is moving upon awake
         paused = false;
         Time.timeScale = 1f;
@@ -44,7 +65,6 @@ public class LevelManager : MonoBehaviour
         audio = mainCam.GetComponent<AudioSource>();
 
         Checkpoint.CheckpointReverse.AddListener(flipCamera);
-        Checkpoint.CheckpointReverse.AddListener(changeKoreography);
     }
 
     // Update is called once per frame
@@ -95,31 +115,7 @@ public class LevelManager : MonoBehaviour
     /// <param name="angle">angle of rotation</param>
     private void _flipCamera()
     {
-        audio.pitch = -audio.pitch;
         Vector3 angle = new Vector3(0, 180, 0);
         mainCam.transform.Rotate(angle);
-    }
-
-    private void changeKoreography()
-    {
-        //Debug.Log(Koreographer.Instance.GetNumLoadedKoreography());
-        if (isReversed)
-        {
-            //Koreographer.Instance.
-            //Koreographer.Instance.UnloadKoreography(reverseTrack);
-            //Koreographer.Instance.LoadKoreography(forwardTrack);
-            //audioCom.clip = forwardTrack.SourceClip;
-            //Koreographer.Instance.GetMusicSampleTime();
-            //SeekToSample(startSampleTime);
-
-            //audioCom.Play();
-
-        }
-        else
-        {
-            //Koreographer.Instance.UnloadKoreography(forwardTrack);
-            Koreographer.Instance.LoadKoreography(reverseTrack);
-        }
-
     }
 }

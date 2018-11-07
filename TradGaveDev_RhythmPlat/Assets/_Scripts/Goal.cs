@@ -7,6 +7,7 @@ public class Goal : MonoBehaviour {
 
     //define event to be used when this is reached
     public static UnityEvent playerGoalReached;
+
     private void Awake()
     {
         //make sure event is initialized
