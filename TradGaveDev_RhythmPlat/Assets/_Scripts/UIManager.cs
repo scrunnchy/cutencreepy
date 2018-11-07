@@ -2,15 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    
 
     public LevelManager LM;
 
     Button exitButton;
-
+    
     // Use this for initialization
     void Start()
     {

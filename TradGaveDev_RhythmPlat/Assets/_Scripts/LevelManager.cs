@@ -13,6 +13,11 @@ public class LevelManager : MonoBehaviour
 
     public bool isReversed = false;
 
+    //define all event types from other classes
+    public static UnityEvent playerGoalReached;
+    public static UnityEvent enemyPlayerCollision;
+    public static UnityEvent CheckpointCollision;
+    public static UnityEvent CheckpointReverse;
 
     public Koreography forwardTrack;
     public Koreography reverseTrack;
@@ -22,9 +27,25 @@ public class LevelManager : MonoBehaviour
     Camera pauseCamera;
     Camera mainCam;
     private AudioSource audio;
-
+    //initialize all UnityEvents here
     private void Awake()
     {
+        if (playerGoalReached == null)
+        {
+            playerGoalReached = new UnityEvent();
+        }
+        if (enemyPlayerCollision == null)
+        {
+            enemyPlayerCollision = new UnityEvent();
+        }
+        if (CheckpointCollision == null)
+        {
+            CheckpointCollision = new UnityEvent();
+        }
+        if (CheckpointReverse == null)
+        {
+            CheckpointReverse = new UnityEvent();
+        }
         // ensure time is moving upon awake
         paused = false;
         Time.timeScale = 1f;
