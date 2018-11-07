@@ -48,6 +48,25 @@ public class PlatformVerticalMovement : MonoBehaviour {
         
         // Calculate the journey length.
         journeyLength = Vector3.Distance(startMarker, endMarker);
+
+        if (moveDownwards)
+        {
+            startMarker = platformOriginalHeight;
+            endMarker = points[0];
+            // Now that we are at the bottom, set values so we can go back up
+            moveUpwards = true;
+            moveDownwards = false;
+        }
+        else
+        {
+            // start at original platform position
+            startMarker = platformOriginalHeight;
+            // end at top position
+            endMarker = points[1];
+            // Now that we are at the top, set values so we can go back down
+            moveUpwards = false;
+            moveDownwards = true;
+        }
     }
 	
 	// Update is called once per frame

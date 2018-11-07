@@ -160,7 +160,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1396421502353194}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -102.43, y: 2.23, z: -29.98}
+  m_LocalPosition: {x: -102.4, y: 2.23, z: -29.98}
   m_LocalScale: {x: 3, y: 1, z: 3}
   m_Children:
   - {fileID: 4260420073762184}
@@ -370,12 +370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa5bf0f9f1e8f84a9ccc39cfc58d0f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startMarker: {x: 0, y: 0, z: 0}
-  endMarker: {x: 0, y: 0, z: 0}
-  moveUpwards: 0
-  moveDownwards: 1
+  moveUpwards: 1
+  moveDownwards: 0
   speed: 10
-  points: []
   yOffset: 2
 --- !u!212 &212161464667746256
 SpriteRenderer:
