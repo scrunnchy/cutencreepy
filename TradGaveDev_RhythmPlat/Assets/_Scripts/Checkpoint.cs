@@ -11,8 +11,9 @@ using UnityEngine.Events;
 public class Checkpoint : MonoBehaviour
 {
     //create collision event for reaching the checkpoint and reversal event.
-    public static UnityEvent CheckpointCollision = new UnityEvent();
-    public static UnityEvent CheckpointReverse = new UnityEvent();
+    public static UnityEvent CheckpointCollision;
+    public static UnityEvent CheckpointReverse;
+
     //define as rversal point
     public bool reversalPoint;
 
@@ -22,6 +23,14 @@ public class Checkpoint : MonoBehaviour
     
     void Start()
     {
+        if (CheckpointCollision == null)
+        {
+            CheckpointCollision = new UnityEvent();
+        }
+        if (CheckpointReverse == null)
+        {
+            CheckpointReverse = new UnityEvent();
+        }
         Reached = false;
 
         //register for reversal event if not reversal point.

@@ -13,6 +13,11 @@ public class LevelManager : MonoBehaviour
 
     public bool isReversed = false;
 
+    //define all event types from other classes
+    public static UnityEvent playerGoalReached;
+    public static UnityEvent enemyPlayerCollision;
+    public static UnityEvent CheckpointCollision;
+    public static UnityEvent CheckpointReverse;
 
     public Koreography forwardTrack;
     public Koreography reverseTrack;
@@ -22,9 +27,27 @@ public class LevelManager : MonoBehaviour
     Camera pauseCamera;
     Camera mainCam;
     private AudioSource audio;
-
+    UIManager UIM;
+   
+    //initialize all UnityEvents here
     private void Awake()
     {
+        if (playerGoalReached == null)
+        {
+            playerGoalReached = new UnityEvent();
+        }
+        if (enemyPlayerCollision == null)
+        {
+            enemyPlayerCollision = new UnityEvent();
+        }
+        if (CheckpointCollision == null)
+        {
+            CheckpointCollision = new UnityEvent();
+        }
+        if (CheckpointReverse == null)
+        {
+            CheckpointReverse = new UnityEvent();
+        }
         // ensure time is moving upon awake
         paused = false;
         Time.timeScale = 1f;
@@ -33,7 +56,9 @@ public class LevelManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        //Get UI manager
+        UIM = GameObject.Find("UIManager").GetComponent<UIManager>();
+        UIM.pauseAudio.Stop();
         //Get camera and disable 
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
@@ -63,6 +88,7 @@ public class LevelManager : MonoBehaviour
         {
             // play audio
             audio.Play();
+            UIM.pauseAudio.Pause();
             Time.timeScale = 1f;
             pauseCamera.enabled = false;
             paused = false;
@@ -72,6 +98,7 @@ public class LevelManager : MonoBehaviour
         {
             // pause audio
             audio.Pause();
+            UIM.pauseAudio.Play();
             Time.timeScale = 0f;
             pauseCamera.enabled = true;
             paused = true;

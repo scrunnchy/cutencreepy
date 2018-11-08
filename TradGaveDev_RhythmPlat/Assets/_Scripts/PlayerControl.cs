@@ -94,7 +94,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         Koreographer.Instance.RegisterForEvents("SingleBeatTrack", CheckIfBpmChanged);
-        Checkpoint.CheckpointReverse.AddListener(flipPlayer);
+        LevelManager.CheckpointReverse.AddListener(flipPlayer);
     }
 
     
