@@ -5,20 +5,8 @@ using UnityEngine.Events;
 
 public class Goal : MonoBehaviour {
 
-    //define event to be used when this is reached
-    public static UnityEvent playerGoalReached;
-
-    private void Awake()
-    {
-        //make sure event is initialized
-        if (playerGoalReached == null)
-        {
-            playerGoalReached = new UnityEvent();
-        }
-    }
     // Use this for initialization
-    void Start () {
-
+    void Start () { 
 	}
     /// <summary>
     /// Detects when the player has finished the level and notify the level manager. 
@@ -28,7 +16,7 @@ public class Goal : MonoBehaviour {
     {
         if(other.gameObject.tag == "Player")
         {
-            playerGoalReached.Invoke();
+            LevelManager.playerGoalReached.Invoke();
         }
     }
 

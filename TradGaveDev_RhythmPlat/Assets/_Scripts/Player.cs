@@ -18,7 +18,7 @@ namespace Platformer
         }
         Animator anim;
         PlayerControl pc;
-
+        AudioSource playerHit;
         #region Fields and properties
         [Header("Player Information")]
         public int playerHealth;
@@ -45,6 +45,8 @@ namespace Platformer
             isGrounded = pc.isGrounded;
             _characterVelocity = pc.GetCharacterVelocity();
             moveVector = pc.GetMoveVector();
+            playerHit = GetComponent<AudioSource>();
+            playerHit.Stop();
 
             //listeners
             LevelManager.enemyPlayerCollision.AddListener(DecrementHealth);
@@ -66,8 +68,7 @@ namespace Platformer
         /// </summary>
         private void DecrementHealth()
         {
-            
-
+            //playerHit.Play();
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
@@ -90,12 +91,6 @@ namespace Platformer
         {
             
             Debug.Log("goalReached");
-            //stop level music, potentially. 
-            AudioSource song = (Camera.main).GetComponent<AudioSource>();
-            if(song != null)
-            {
-                song.Pause();
-            }
 
             //TODO: play animation or que with visual effect
 
