@@ -47,7 +47,7 @@ public class GroundSpikes : MonoBehaviour {
         boxC = GetComponent<BoxCollider>();
 
         //Register for reversal.
-        Checkpoint.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
+        LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
         //disappear if enemy is to appear during reversals
         if (AppearsAtReverse)

@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    
+    public AudioSource pauseAudio;
 
     public LevelManager LM;
 
@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        pauseAudio = GetComponent<AudioSource>();
         exitButton = GetButton("ExitButton");
         exitButton.onClick.AddListener(onExit);
 

@@ -50,7 +50,7 @@ public class PlatformerCameraFollow : MonoBehaviour
             _canFollow = true;
         }
 
-        Checkpoint.CheckpointReverse.AddListener(changeZ);
+        LevelManager.CheckpointReverse.AddListener(changeZ);
     }
 
     void Update()
