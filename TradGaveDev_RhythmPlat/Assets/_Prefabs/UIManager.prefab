@@ -65,7 +65,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -147,4 +147,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c3f6142e193cc841b93c815705c57ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pauseAudio: {fileID: 0}
   LM: {fileID: 0}
