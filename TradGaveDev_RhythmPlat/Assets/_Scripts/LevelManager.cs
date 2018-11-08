@@ -27,6 +27,8 @@ public class LevelManager : MonoBehaviour
     Camera pauseCamera;
     Camera mainCam;
     private AudioSource audio;
+    UIManager UIM;
+   
     //initialize all UnityEvents here
     private void Awake()
     {
@@ -54,7 +56,9 @@ public class LevelManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        //Get UI manager
+        UIM = GameObject.Find("UIManager").GetComponent<UIManager>();
+        UIM.pauseAudio.Stop();
         //Get camera and disable 
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
@@ -84,6 +88,7 @@ public class LevelManager : MonoBehaviour
         {
             // play audio
             audio.Play();
+            UIM.pauseAudio.Pause();
             Time.timeScale = 1f;
             pauseCamera.enabled = false;
             paused = false;
@@ -93,6 +98,7 @@ public class LevelManager : MonoBehaviour
         {
             // pause audio
             audio.Pause();
+            UIM.pauseAudio.Play();
             Time.timeScale = 0f;
             pauseCamera.enabled = true;
             paused = true;
