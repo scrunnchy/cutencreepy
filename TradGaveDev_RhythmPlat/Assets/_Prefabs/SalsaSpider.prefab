@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 212898749583462890}
   - component: {fileID: 114775132167581432}
   - component: {fileID: 54553837443223172}
+  - component: {fileID: 95704670894093678}
   m_Layer: 0
   m_Name: SalsaSpider
   m_TagString: Untagged
@@ -70,6 +71,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.28, y: 6, z: 2}
   m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!95 &95704670894093678
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534403776136226}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd2b05debbf477148aac37db9ab5ca70, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114775132167581432
 MonoBehaviour:
   m_ObjectHideFlags: 1
