@@ -1,0 +1,6945 @@
+fileFormatVersion: 2
+guid: 4877636d5591aea459134f813d620c2f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Funky_Frankenstein_Sheet_0
+    21300002: Funky_Frankenstein_Sheet_1
+    21300004: Funky_Frankenstein_Sheet_2
+    21300006: Funky_Frankenstein_Sheet_3
+    21300008: Funky_Frankenstein_Sheet_4
+    21300010: Funky_Frankenstein_Sheet_5
+    21300012: Funky_Frankenstein_Sheet_6
+    21300014: Funky_Frankenstein_Sheet_7
+    21300016: Funky_Frankenstein_Sheet_8
+    21300018: Funky_Frankenstein_Sheet_9
+    21300020: Funky_Frankenstein_Sheet_10
+    21300022: Funky_Frankenstein_Sheet_11
+    21300024: Funky_Frankenstein_Sheet_12
+    21300026: Funky_Frankenstein_Sheet_13
+    21300028: Funky_Frankenstein_Sheet_14
+    21300030: Funky_Frankenstein_Sheet_15
+    21300032: Funky_Frankenstein_Sheet_16
+    21300034: Funky_Frankenstein_Sheet_17
+    21300036: Funky_Frankenstein_Sheet_18
+    21300038: Funky_Frankenstein_Sheet_19
+    21300040: Funky_Frankenstein_Sheet_20
+    21300042: Funky_Frankenstein_Sheet_21
+    21300044: Funky_Frankenstein_Sheet_22
+    21300046: Funky_Frankenstein_Sheet_23
+    21300048: Funky_Frankenstein_Sheet_24
+    21300050: Funky_Frankenstein_Sheet_25
+    21300052: Funky_Frankenstein_Sheet_26
+    21300054: Funky_Frankenstein_Sheet_27
+    21300056: Funky_Frankenstein_Sheet_28
+    21300058: Funky_Frankenstein_Sheet_29
+    21300060: Funky_Frankenstein_Sheet_30
+    21300062: Funky_Frankenstein_Sheet_31
+    21300064: Funky_Frankenstein_Sheet_32
+    21300066: Funky_Frankenstein_Sheet_33
+    21300068: Funky_Frankenstein_Sheet_34
+    21300070: Funky_Frankenstein_Sheet_35
+    21300072: Funky_Frankenstein_Sheet_36
+    21300074: Funky_Frankenstein_Sheet_37
+    21300076: Funky_Frankenstein_Sheet_38
+    21300078: Funky_Frankenstein_Sheet_39
+    21300080: Funky_Frankenstein_Sheet_40
+    21300082: Funky_Frankenstein_Sheet_41
+    21300084: Funky_Frankenstein_Sheet_42
+    21300086: Funky_Frankenstein_Sheet_43
+    21300088: Funky_Frankenstein_Sheet_44
+    21300090: Funky_Frankenstein_Sheet_45
+    21300092: Funky_Frankenstein_Sheet_46
+    21300094: Funky_Frankenstein_Sheet_47
+    21300096: Funky_Frankenstein_Sheet_48
+    21300098: Funky_Frankenstein_Sheet_49
+    21300100: Funky_Frankenstein_Sheet_50
+    21300102: Funky_Frankenstein_Sheet_51
+    21300104: Funky_Frankenstein_Sheet_52
+    21300106: Funky_Frankenstein_Sheet_53
+    21300108: Funky_Frankenstein_Sheet_54
+    21300110: Funky_Frankenstein_Sheet_55
+    21300112: Funky_Frankenstein_Sheet_56
+    21300114: Funky_Frankenstein_Sheet_57
+    21300116: Funky_Frankenstein_Sheet_58
+    21300118: Funky_Frankenstein_Sheet_59
+    21300120: Funky_Frankenstein_Sheet_60
+    21300122: Funky_Frankenstein_Sheet_61
+    21300124: Funky_Frankenstein_Sheet_62
+    21300126: Funky_Frankenstein_Sheet_63
+    21300128: Funky_Frankenstein_Sheet_64
+    21300130: Funky_Frankenstein_Sheet_65
+    21300132: Funky_Frankenstein_Sheet_66
+    21300134: Funky_Frankenstein_Sheet_67
+    21300136: Funky_Frankenstein_Sheet_68
+    21300138: Funky_Frankenstein_Sheet_69
+    21300140: Funky_Frankenstein_Sheet_70
+    21300142: Funky_Frankenstein_Sheet_71
+    21300144: Funky_Frankenstein_Sheet_72
+    21300146: Funky_Frankenstein_Sheet_73
+    21300148: Funky_Frankenstein_Sheet_74
+    21300150: Funky_Frankenstein_Sheet_75
+    21300152: Funky_Frankenstein_Sheet_76
+    21300154: Funky_Frankenstein_Sheet_77
+    21300156: Funky_Frankenstein_Sheet_78
+    21300158: Funky_Frankenstein_Sheet_79
+    21300160: Funky_Frankenstein_Sheet_80
+    21300162: Funky_Frankenstein_Sheet_81
+    21300164: Funky_Frankenstein_Sheet_82
+    21300166: Funky_Frankenstein_Sheet_83
+    21300168: Funky_Frankenstein_Sheet_84
+    21300170: Funky_Frankenstein_Sheet_85
+    21300172: Funky_Frankenstein_Sheet_86
+    21300174: Funky_Frankenstein_Sheet_87
+    21300176: Funky_Frankenstein_Sheet_88
+    21300178: Funky_Frankenstein_Sheet_89
+    21300180: Funky_Frankenstein_Sheet_90
+    21300182: Funky_Frankenstein_Sheet_91
+    21300184: Funky_Frankenstein_Sheet_92
+    21300186: Funky_Frankenstein_Sheet_93
+    21300188: Funky_Frankenstein_Sheet_94
+    21300190: Funky_Frankenstein_Sheet_95
+    21300192: Funky_Frankenstein_Sheet_96
+    21300194: Funky_Frankenstein_Sheet_97
+    21300196: Funky_Frankenstein_Sheet_98
+    21300198: Funky_Frankenstein_Sheet_99
+    21300200: Funky_Frankenstein_Sheet_100
+    21300202: Funky_Frankenstein_Sheet_101
+    21300204: Funky_Frankenstein_Sheet_102
+    21300206: Funky_Frankenstein_Sheet_103
+    21300208: Funky_Frankenstein_Sheet_104
+    21300210: Funky_Frankenstein_Sheet_105
+    21300212: Funky_Frankenstein_Sheet_106
+    21300214: Funky_Frankenstein_Sheet_107
+    21300216: Funky_Frankenstein_Sheet_108
+    21300218: Funky_Frankenstein_Sheet_109
+    21300220: Funky_Frankenstein_Sheet_110
+    21300222: Funky_Frankenstein_Sheet_111
+    21300224: Funky_Frankenstein_Sheet_112
+    21300226: Funky_Frankenstein_Sheet_113
+    21300228: Funky_Frankenstein_Sheet_114
+    21300230: Funky_Frankenstein_Sheet_115
+    21300232: Funky_Frankenstein_Sheet_116
+    21300234: Funky_Frankenstein_Sheet_117
+    21300236: Funky_Frankenstein_Sheet_118
+    21300238: Funky_Frankenstein_Sheet_119
+    21300240: Funky_Frankenstein_Sheet_120
+    21300242: Funky_Frankenstein_Sheet_121
+    21300244: Funky_Frankenstein_Sheet_122
+    21300246: Funky_Frankenstein_Sheet_123
+    21300248: Funky_Frankenstein_Sheet_124
+    21300250: Funky_Frankenstein_Sheet_125
+    21300252: Funky_Frankenstein_Sheet_126
+    21300254: Funky_Frankenstein_Sheet_127
+    21300256: Funky_Frankenstein_Sheet_128
+    21300258: Funky_Frankenstein_Sheet_129
+    21300260: Funky_Frankenstein_Sheet_130
+    21300262: Funky_Frankenstein_Sheet_131
+    21300264: Funky_Frankenstein_Sheet_132
+    21300266: Funky_Frankenstein_Sheet_133
+    21300268: Funky_Frankenstein_Sheet_134
+    21300270: Funky_Frankenstein_Sheet_135
+    21300272: Funky_Frankenstein_Sheet_136
+    21300274: Funky_Frankenstein_Sheet_137
+    21300276: Funky_Frankenstein_Sheet_138
+    21300278: Funky_Frankenstein_Sheet_139
+    21300280: Funky_Frankenstein_Sheet_140
+    21300282: Funky_Frankenstein_Sheet_141
+    21300284: Funky_Frankenstein_Sheet_142
+    21300286: Funky_Frankenstein_Sheet_143
+    21300288: Funky_Frankenstein_Sheet_144
+    21300290: Funky_Frankenstein_Sheet_145
+    21300292: Funky_Frankenstein_Sheet_146
+    21300294: Funky_Frankenstein_Sheet_147
+    21300296: Funky_Frankenstein_Sheet_148
+    21300298: Funky_Frankenstein_Sheet_149
+    21300300: Funky_Frankenstein_Sheet_150
+    21300302: Funky_Frankenstein_Sheet_151
+    21300304: Funky_Frankenstein_Sheet_152
+    21300306: Funky_Frankenstein_Sheet_153
+    21300308: Funky_Frankenstein_Sheet_154
+    21300310: Funky_Frankenstein_Sheet_155
+    21300312: Funky_Frankenstein_Sheet_156
+    21300314: Funky_Frankenstein_Sheet_157
+    21300316: Funky_Frankenstein_Sheet_158
+    21300318: Funky_Frankenstein_Sheet_159
+    21300320: Funky_Frankenstein_Sheet_160
+    21300322: Funky_Frankenstein_Sheet_161
+    21300324: Funky_Frankenstein_Sheet_162
+    21300326: Funky_Frankenstein_Sheet_163
+    21300328: Funky_Frankenstein_Sheet_164
+    21300330: Funky_Frankenstein_Sheet_165
+    21300332: Funky_Frankenstein_Sheet_166
+    21300334: Funky_Frankenstein_Sheet_167
+    21300336: Funky_Frankenstein_Sheet_168
+    21300338: Funky_Frankenstein_Sheet_169
+    21300340: Funky_Frankenstein_Sheet_170
+    21300342: Funky_Frankenstein_Sheet_171
+    21300344: Funky_Frankenstein_Sheet_172
+    21300346: Funky_Frankenstein_Sheet_173
+    21300348: Funky_Frankenstein_Sheet_174
+    21300350: Funky_Frankenstein_Sheet_175
+    21300352: Funky_Frankenstein_Sheet_176
+    21300354: Funky_Frankenstein_Sheet_177
+    21300356: Funky_Frankenstein_Sheet_178
+    21300358: Funky_Frankenstein_Sheet_179
+    21300360: Funky_Frankenstein_Sheet_180
+    21300362: Funky_Frankenstein_Sheet_181
+    21300364: Funky_Frankenstein_Sheet_182
+    21300366: Funky_Frankenstein_Sheet_183
+    21300368: Funky_Frankenstein_Sheet_184
+    21300370: Funky_Frankenstein_Sheet_185
+    21300372: Funky_Frankenstein_Sheet_186
+    21300374: Funky_Frankenstein_Sheet_187
+    21300376: Funky_Frankenstein_Sheet_188
+    21300378: Funky_Frankenstein_Sheet_189
+    21300380: Funky_Frankenstein_Sheet_190
+    21300382: Funky_Frankenstein_Sheet_191
+    21300384: Funky_Frankenstein_Sheet_192
+    21300386: Funky_Frankenstein_Sheet_193
+    21300388: Funky_Frankenstein_Sheet_194
+    21300390: Funky_Frankenstein_Sheet_195
+    21300392: Funky_Frankenstein_Sheet_196
+    21300394: Funky_Frankenstein_Sheet_197
+    21300396: Funky_Frankenstein_Sheet_198
+    21300398: Funky_Frankenstein_Sheet_199
+    21300400: Funky_Frankenstein_Sheet_200
+    21300402: Funky_Frankenstein_Sheet_201
+    21300404: Funky_Frankenstein_Sheet_202
+    21300406: Funky_Frankenstein_Sheet_203
+    21300408: Funky_Frankenstein_Sheet_204
+    21300410: Funky_Frankenstein_Sheet_205
+    21300412: Funky_Frankenstein_Sheet_206
+    21300414: Funky_Frankenstein_Sheet_207
+    21300416: Funky_Frankenstein_Sheet_208
+    21300418: Funky_Frankenstein_Sheet_209
+    21300420: Funky_Frankenstein_Sheet_210
+    21300422: Funky_Frankenstein_Sheet_211
+    21300424: Funky_Frankenstein_Sheet_212
+    21300426: Funky_Frankenstein_Sheet_213
+    21300428: Funky_Frankenstein_Sheet_214
+    21300430: Funky_Frankenstein_Sheet_215
+    21300432: Funky_Frankenstein_Sheet_216
+    21300434: Funky_Frankenstein_Sheet_217
+    21300436: Funky_Frankenstein_Sheet_218
+    21300438: Funky_Frankenstein_Sheet_219
+    21300440: Funky_Frankenstein_Sheet_220
+    21300442: Funky_Frankenstein_Sheet_221
+    21300444: Funky_Frankenstein_Sheet_222
+    21300446: Funky_Frankenstein_Sheet_223
+    21300448: Funky_Frankenstein_Sheet_224
+    21300450: Funky_Frankenstein_Sheet_225
+    21300452: Funky_Frankenstein_Sheet_226
+    21300454: Funky_Frankenstein_Sheet_227
+    21300456: Funky_Frankenstein_Sheet_228
+    21300458: Funky_Frankenstein_Sheet_229
+    21300460: Funky_Frankenstein_Sheet_230
+    21300462: Funky_Frankenstein_Sheet_231
+    21300464: Funky_Frankenstein_Sheet_232
+    21300466: Funky_Frankenstein_Sheet_233
+    21300468: Funky_Frankenstein_Sheet_234
+    21300470: Funky_Frankenstein_Sheet_235
+    21300472: Funky_Frankenstein_Sheet_236
+    21300474: Funky_Frankenstein_Sheet_237
+    21300476: Funky_Frankenstein_Sheet_238
+    21300478: Funky_Frankenstein_Sheet_239
+    21300480: Funky_Frankenstein_Sheet_240
+    21300482: Funky_Frankenstein_Sheet_241
+    21300484: Funky_Frankenstein_Sheet_242
+    21300486: Funky_Frankenstein_Sheet_243
+    21300488: Funky_Frankenstein_Sheet_244
+    21300490: Funky_Frankenstein_Sheet_245
+    21300492: Funky_Frankenstein_Sheet_246
+    21300494: Funky_Frankenstein_Sheet_247
+    21300496: Funky_Frankenstein_Sheet_248
+    21300498: Funky_Frankenstein_Sheet_249
+    21300500: Funky_Frankenstein_Sheet_250
+    21300502: Funky_Frankenstein_Sheet_251
+    21300504: Funky_Frankenstein_Sheet_252
+    21300506: Funky_Frankenstein_Sheet_253
+    21300508: Funky_Frankenstein_Sheet_254
+    21300510: Funky_Frankenstein_Sheet_255
+    21300512: Funky_Frankenstein_Sheet_256
+    21300514: Funky_Frankenstein_Sheet_257
+    21300516: Funky_Frankenstein_Sheet_258
+    21300518: Funky_Frankenstein_Sheet_259
+    21300520: Funky_Frankenstein_Sheet_260
+    21300522: Funky_Frankenstein_Sheet_261
+    21300524: Funky_Frankenstein_Sheet_262
+    21300526: Funky_Frankenstein_Sheet_263
+    21300528: Funky_Frankenstein_Sheet_264
+    21300530: Funky_Frankenstein_Sheet_265
+    21300532: Funky_Frankenstein_Sheet_266
+    21300534: Funky_Frankenstein_Sheet_267
+    21300536: Funky_Frankenstein_Sheet_268
+    21300538: Funky_Frankenstein_Sheet_269
+    21300540: Funky_Frankenstein_Sheet_270
+    21300542: Funky_Frankenstein_Sheet_271
+    21300544: Funky_Frankenstein_Sheet_272
+    21300546: Funky_Frankenstein_Sheet_273
+    21300548: Funky_Frankenstein_Sheet_274
+    21300550: Funky_Frankenstein_Sheet_275
+    21300552: Funky_Frankenstein_Sheet_276
+    21300554: Funky_Frankenstein_Sheet_277
+    21300556: Funky_Frankenstein_Sheet_278
+    21300558: Funky_Frankenstein_Sheet_279
+    21300560: Funky_Frankenstein_Sheet_280
+    21300562: Funky_Frankenstein_Sheet_281
+    21300564: Funky_Frankenstein_Sheet_282
+    21300566: Funky_Frankenstein_Sheet_283
+    21300568: Funky_Frankenstein_Sheet_284
+    21300570: Funky_Frankenstein_Sheet_285
+    21300572: Funky_Frankenstein_Sheet_286
+    21300574: Funky_Frankenstein_Sheet_287
+    21300576: Funky_Frankenstein_Sheet_288
+    21300578: Funky_Frankenstein_Sheet_289
+    21300580: Funky_Frankenstein_Sheet_290
+    21300582: Funky_Frankenstein_Sheet_291
+    21300584: Funky_Frankenstein_Sheet_292
+    21300586: Funky_Frankenstein_Sheet_293
+    21300588: Funky_Frankenstein_Sheet_294
+    21300590: Funky_Frankenstein_Sheet_295
+    21300592: Funky_Frankenstein_Sheet_296
+    21300594: Funky_Frankenstein_Sheet_297
+    21300596: Funky_Frankenstein_Sheet_298
+    21300598: Funky_Frankenstein_Sheet_299
+    21300600: Funky_Frankenstein_Sheet_300
+    21300602: Funky_Frankenstein_Sheet_301
+    21300604: Funky_Frankenstein_Sheet_302
+    21300606: Funky_Frankenstein_Sheet_303
+    21300608: Funky_Frankenstein_Sheet_304
+    21300610: Funky_Frankenstein_Sheet_305
+    21300612: Funky_Frankenstein_Sheet_306
+    21300614: Funky_Frankenstein_Sheet_307
+    21300616: Funky_Frankenstein_Sheet_308
+    21300618: Funky_Frankenstein_Sheet_309
+    21300620: Funky_Frankenstein_Sheet_310
+    21300622: Funky_Frankenstein_Sheet_311
+    21300624: Funky_Frankenstein_Sheet_312
+    21300626: Funky_Frankenstein_Sheet_313
+    21300628: Funky_Frankenstein_Sheet_314
+    21300630: Funky_Frankenstein_Sheet_315
+    21300632: Funky_Frankenstein_Sheet_316
+    21300634: Funky_Frankenstein_Sheet_317
+    21300636: Funky_Frankenstein_Sheet_318
+    21300638: Funky_Frankenstein_Sheet_319
+    21300640: Funky_Frankenstein_Sheet_320
+    21300642: Funky_Frankenstein_Sheet_321
+    21300644: Funky_Frankenstein_Sheet_322
+    21300646: Funky_Frankenstein_Sheet_323
+    21300648: Funky_Frankenstein_Sheet_324
+    21300650: Funky_Frankenstein_Sheet_325
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4098
+        width: 1032
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748fa0c75e487a545b81a9c7a68ad46b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 5124
+        width: 1122
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b5e352708460148be6526d97fc484e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 4092
+        width: 1992
+        height: 2052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f4f661b202f564caa30880a47b3e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 4098
+        width: 708
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159ce77c34f12664986e446a2556fdda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 6096
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ff89bf1f09b564bae16a9a3a86a2d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5208
+        y: 5118
+        width: 864
+        height: 1026
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6179d388b28f214c80cdbead709c548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 6072
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1a5679e9f8f97448d8a97b7849dec8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 5112
+        width: 912
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b730e20b98f5bbd4599e16377d3ae81f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 7224
+        y: 4098
+        width: 912
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71bde992fe9d33b4fb254c1f1c28ecfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 5112
+        width: 942
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286f3d6300483cc44890adbb3f2fbfda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9240
+        y: 6120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04514234500950d45a10827b5a8bae5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9288
+        y: 4098
+        width: 1008
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f019e135e4b07f42aefa53aca746468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 4098
+        width: 1104
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4641f3d48450ed4ab6288ca7db343fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 11232
+        y: 1026
+        width: 1056
+        height: 5106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462d3b16f71d2b64281f1028052939cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 12144
+        y: 5928
+        width: 24
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c427baa2d7aad4790ed4943e4b3e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 5808
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa6fd0e2098c084cb8b457e3781cc03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 6060
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8878b37f773504d4395f9b38d25d1877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6054
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803fe19a92c413d488941b60e4f03565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 7872
+        y: 6054
+        width: 360
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2126bb5f35dc989408cb2786d540332b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 7872
+        y: 6042
+        width: 288
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5793542a300f4582adf56c612bd33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 9192
+        y: 6024
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86539fc9a596a8d4bba9e69edb4ffdfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 6024
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4a87a028a1d9042956fae26d2e8808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 6936
+        y: 5982
+        width: 264
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84a5ef7ff4fde048a691ac5343f9bc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 5136
+        y: 5976
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2d5cb2d2f656b4591d2dbc71c65ebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 5928
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f1562c9c9b76e4c91370cbfd2f638b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 9204
+        y: 5934
+        width: 324
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fc04058e0903541b68e599f073af62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 5880
+        width: 306
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9d22ff512427447937ac6cdfe0dea2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 5880
+        width: 120
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169a387966990424c8dd5b6cab3950df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 5898
+        width: 288
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f53586021173742ba82d21cdbc883f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5832
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba3e6ea52a8e2941a75fd30c525f27b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 5784
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417b85f60ea029448d25a8d00789314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 5880
+        width: 288
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439438054e169c04fab6570819c00c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 5856
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c550bce3481d5784c8c85b7e6a7dfd41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 9264
+        y: 5832
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e29e6a40db937549beb2b53fe93b14d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 5820
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245215d1c435a4d4680b131833be62f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 5760
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1451bdf9c1ec04a97b33a69864bdbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 5760
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b374fcfc47fee3d46815925147138e97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 5982
+        y: 5736
+        width: 114
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e277abba29d1947860f6bed80efe99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4938
+        y: 5688
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037659ce6dfe1c24e8ac13ca06de4fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 5592
+        width: 144
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2453243c4f512848942c5d53d36ebf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4968
+        y: 5640
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd6fd9abeb0be94a8ab587cd693de41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4974
+        y: 5592
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de24aab58294495429c0e31da485250a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4950
+        y: 5496
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc8b435313c3a48bc2168bdd8f5100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 8832
+        y: 5502
+        width: 216
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd35a9f0d6115224d988d1df36fbb361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 9060
+        y: 5508
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662f83b997a07b4eac20fde1e26b6e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 4968
+        y: 5448
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6b99c68b284fd4aaa7258e0e7ad735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 5406
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5041a9ca62824478744148de3b0c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 5016
+        y: 5400
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab67034ab5c498a42b3d969558bc3693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 3972
+        y: 5256
+        width: 132
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104d99ccefb003f4dbe89ad9ab15501b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 5052
+        y: 5376
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686efbc683228ea4ebf9b25d95085bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 6072
+        y: 5328
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc28d5a18d6d4d04ca438618b92084a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 5388
+        width: 240
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4b05c3b72d9b43a4b432ef34fc814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 9144
+        y: 5286
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d208be01c731e3c4ea4e38643d8108d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 5376
+        width: 240
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae55faf97ee58864e983bcb6f0f916fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 5280
+        width: 72
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ab3b26966edc4b904bdd1a89d4b4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 5322
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17092511ccdcade448b6f3b53a9ed1ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 5286
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2436fb109dfaf419f15f717d1faa14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 5232
+        width: 96
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1961257b59cd7f447bc7143bf97ac168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5232
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbdcad99edec3a489ce41c0d51554dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 5232
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6641aab64b330c4191963a22b9a8f89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 5232
+        width: 72
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd44f72153eca4449840c9ffc558ad6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 5214
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75c00b5657803d41b994d0c9bf94d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 5112
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c860512880f240c4ebebb6b77b05fd71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 5166
+        width: 360
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166edab688cfe4b409366f31224223f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 5112
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b502a011a7463148ae77dbc887d3572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 4944
+        y: 3072
+        width: 1200
+        height: 2064
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a32eeaea5d714ba2d15ac889a3ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 7014
+        y: 4986
+        width: 450
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e2f8475d3575443b0d76b0fea17bfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 8040
+        y: 4098
+        width: 960
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2dcf3d1fa10c374a9d527882a8332ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 8904
+        y: 5130
+        width: 168
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dae489a2a554cf4b8c5a65a9cede11d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 4098
+        width: 1104
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e79137e37935b4d9ae1b6c1195cea2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5016
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d159a987574f4e4483db05236d7d95c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 4098
+        width: 720
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df844be5be7f1414c9f7c9db663fe10f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 5088
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0394980f3c0418b40a621b7712536dde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 5064
+        width: 192
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7560a03610e61684f9738e50842b4686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 6978
+        y: 5064
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c7684e0ce3abd48b3fe36198fadd70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 5016
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2214ebe16c9fb4a94d87c3b60bfee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 5040
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033abc7a2917bb44eb5b8985ec906ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 5040
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ccabc0ea1030f498a2149f88e45097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 9240
+        y: 4992
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764c30264bd5eaf41ad741761844ea77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 4992
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402765378183c0446a75fef35ee46b60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 4896
+        y: 4992
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9dd2de4c27dfd4789d056a88e82e3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 6960
+        y: 4968
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d7889623d8e2e4bb25effb192c45ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4944
+        width: 48
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8362dc9bbb921f4e935d897b8fdbcb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 4944
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a327a1c2f1c7c54194c382dd3479213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 4944
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fbd4964693f7144b6bca07eaf9102c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 4980
+        width: 216
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff758cb8dd657b42a69831a84998d0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 9264
+        y: 4968
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9341a50150e55e245b2620d41b110fe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4944
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f888fb0d0bb6fa94b8af44634ab2b9e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 4854
+        width: 216
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34eebc3ebd1a45b4287a475295114f1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 4890
+        y: 4878
+        width: 6
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78aa44a36f012349a13e50e5e9591d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 6192
+        y: 4752
+        width: 42
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961a988bceacece43ad776beff38621a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 9000
+        y: 4872
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29403c59c058e334c906ec0e83024a9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 4902
+        y: 4854
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb500b676c981843b05677f16b06952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 6966
+        y: 4854
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1c3c0f609666f4a8314614e2502427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 9024
+        y: 4800
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179d272e30f35ed4dafa0ca859f41322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 4926
+        y: 4830
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34efcc157f94d9d4785ff3d8be6288c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 6990
+        y: 4830
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d27021f965a5554e9985246e1f6a623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4794
+        width: 216
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d460e1de2d0b69d4c90d5adb90ff0dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 6006
+        y: 4782
+        width: 162
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf98537e565eed439d99a67cc5475d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 4536
+        width: 264
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009fd29f4b2a0ec45aa5e07afd0d6f29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 9024
+        y: 4446
+        width: 240
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cad57336927e4d4e9a81e74f9cd1587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4752
+        width: 168
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d41cd168e94e946a5c86cc45714599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 4776
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54413a5227f10d04d80c84f762ea882d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 4572
+        width: 198
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423115e64e31d784ea9adfd061c3be22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4752
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58c12e73c8795047a67667c20b74c52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 4728
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd167ad93684f4a85c23042e803284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 4578
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8e2007b47b7d489a576f19e86f1a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 4560
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2684500e9b59ef34eaf8b9196b5222e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 3918
+        y: 4440
+        width: 498
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345897fe5011d6340b7164882a92e57c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 4920
+        y: 4392
+        width: 96
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de74cc72d295454992acf71c60230bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 6996
+        y: 4494
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67bd2dfc8c19c540961c64140a80086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 4260
+        width: 192
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611266ab92fcfba4dbd0ef1b05c48754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 4452
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718ed31cefcaac54191a7ad10d9e59ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 4422
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0085fae2fd24947b42540a1ca78512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 9096
+        y: 4380
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6339fc96a02b1504ba7ea1e06f622830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 7062
+        y: 4392
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff245432ea1fb5a4183679ad24897b89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 4272
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c978b030c95d61409cb785375ac692e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 4188
+        width: 144
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a17ba5f453014082542f351dac917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 4200
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc58be3de6b214cb2ff2b6b32cbd92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 9162
+        y: 4272
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e9fa9505377c94fae3a43d3c0460d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 4056
+        y: 4224
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924da4b3cfefef645aff5f8e62db7359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 9222
+        y: 4248
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33b88d8ca46f7447bb190b09b0d6c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 4188
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea73054d00d430f439e6e6ce569add49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 4110
+        y: 4188
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131b06d57db85334b8590c6887dee6be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 9252
+        y: 4212
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b150b46988f4540b70726b51e3e2f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 7944
+        y: 4200
+        width: 264
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d904039c803e54da10c4212c4ac229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 9984
+        y: 4128
+        width: 336
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01db590e618b9354799733331aaa5be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 1056
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79791282e43d4345a3811004d544ee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 1290
+        height: 4080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81826ce69002ce0428455e600c92d31e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 3072
+        width: 486
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d4ac7b9ca1a247ad6a99240fa1ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 3936
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745d4033b0a2d8f4e9d9ea869e5f30c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 0
+        width: 1008
+        height: 4086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58bcfc479a70ac40b78b27afcba687f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 4056
+        width: 6
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5420df40d6650c245b9587acf469ee76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 0
+        width: 1590
+        height: 4092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1895d50578411514a88c4066fbc87e5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2040
+        width: 1020
+        height: 2052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7c626cf056eac47aece481e0ebab55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1968
+        width: 1032
+        height: 2136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf9b4d66171da944a30db35481e86be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 8376
+        y: 3072
+        width: 840
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a76a2ef3a9ccd4d82241df0963cbcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 9228
+        y: 3072
+        width: 852
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd1e29e06926841a1644e3e5da303e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 10272
+        y: 0
+        width: 1008
+        height: 4104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7f6e3e558bf0a4da48a81b2681d391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 4032
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96003f3c3ae1a604abba086ae7f09e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3882
+        width: 96
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b037ab8f2dc0ebc49a9d6cb0d7aa433f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 3996
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb125e5eba7b5584f96c5d72dfe1c9db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3894
+        width: 240
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4b7d123bb3ced4eb866266aee53bf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 3816
+        width: 240
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9c79096c3f3a04e9722011ead7d26d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 3840
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30d8f69764b47847bf45429145794cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 3816
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5340faf53dfbb4197b68ea27974dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 9888
+        y: 3792
+        width: 384
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a8ebfeccdcb154782cced6a779d2d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 3780
+        width: 216
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3198900ca072041b987457aa9aacae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3720
+        width: 216
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18e5ac385fb6434b8be0784b910c41f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 7032
+        y: 3744
+        width: 138
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb348b232d0969e45b3db9f72eef67ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 3720
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06748c4bb9693ac4485679ce6fed66fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 8184
+        y: 3672
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44cbece77e220c4b9fac63811eddca8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 10092
+        y: 3648
+        width: 180
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8ac53fb2efae04da68c2391dc9378b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 3696
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2411f07f61f0a5f478d15c29c413c7ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3648
+        width: 210
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b31ffaeaadf1254cb69b224d199a282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 3672
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dd6f338a11bb64d8ca4a0539f4e758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 8232
+        y: 3624
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39b6a7a3fd2dbe40979176e484b0fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 3600
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652f41f3f2bd21c4eba8a89707e76de9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3576
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49bff631ba8dbe4ea382f3d4f4dcaa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 3576
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08229df5bb6bd0c4aa7411e60a898101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 8256
+        y: 3576
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aaa47152a8fc347ad0db2dde1d00fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3552
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b162946d9ee3a43999e167dad0c559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 3552
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995f620911e7314084cae630d7ad84e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 3528
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31615a8aeefe0145b67f176bf00a4e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 3528
+        width: 168
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d578f11b23e82c4aaf5123a2e7fa68a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 3504
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc6f8e178fcc274f96ccf743101879c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 3504
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c82d8a67468a34f9297b64d08fb5e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3486
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1709ccd6b2882e441a931925b9e4d45e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 3432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cadd9c53973f54493465aaf2759d2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 3432
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bf5cfcb9a06074786ea3f976629de4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 3360
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa78643c74a9eed42af1c81bd41287a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 8256
+        y: 3312
+        width: 42
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10589f5b529623478d5a826c475503a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 3402
+        width: 264
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033df060ae4837841826891837f6653a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 3372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8a1c7f08dae7246899c5674c86f657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 3354
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a783d278777d4eb49b4d5563003e56bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 2952
+        y: 3264
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f0ddd53360854ca33a1ce896f9922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3264
+        width: 48
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25854026aab259a42995b75d19194084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 3222
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d9221298ccb1144954fa11e5e4f612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 7032
+        y: 3198
+        width: 168
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1d07ecb798a644b9533c890f2facae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 9168
+        y: 2928
+        width: 84
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52054a19d103bd44dbb6d1b7a4f4df49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 3168
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6c4a04521b7494ca4419e60b8fb25e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b69a0065b262c4faa9a52c718ab396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 10092
+        y: 3168
+        width: 150
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006f2b1785099e74bb532631c34a8de2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 3168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5a85b171defb4b9fff673bca0e501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 3120
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b588e8073ba49fb4ca670b752284a8fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 7170
+        y: 3144
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e146b4168d172d4a9e353a60beda944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 3120
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1547e45edf43046aac45acf4dd88af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 10230
+        y: 3120
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa3fd0ce086b444981a45747356a5ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 3054
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e447ae9452c5c43ab3527f25c737c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2040
+        width: 834
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5814cd770ccd0874590f91c053856a80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 5184
+        y: 2052
+        width: 912
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ced73101925f14d84b9eab017ae89f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 6084
+        y: 2928
+        width: 36
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b98e546b6a7354c9aa4991161b49f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1026
+        width: 792
+        height: 2034
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec6bc91017d4074d9469ab07014ae24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 8448
+        y: 2928
+        width: 12
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17da8a58df1285344b61e3a3b1566918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 9192
+        y: 1026
+        width: 1032
+        height: 2046
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d193637dec97d164eab22f6c62b05e98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 10200
+        y: 3000
+        width: 24
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27461b216a03b47499e481beb37f8395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2976
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9384d77f4ef22c54ea8e48cb0693f72f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 2904
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efe199579e8e1c4e9a6a78b271c2da5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 9168
+        y: 2832
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b678ecddf5bb3e4585b8d5b34d6ec3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2856
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbe406f44fdd8f44b95f513e879c046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 2850
+        width: 252
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58bb854dcc094146972d371d76c2317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 8376
+        y: 2856
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a41b763d95934bb126812c4b7f620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2850
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e9315157187d74685bd01f10f4d184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 10230
+        y: 2850
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4730dc3df7db04d8ca9ea014ca94eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 2808
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0a5ba3421472342a0db9f316b942db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 10224
+        y: 2832
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a7682987d3ddf4dbd321cdd2988f3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2736
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae33488a6470fc40bff52a4ee23adb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 2796
+        width: 240
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e51f2a3b5028e4e8aaea27194ec4cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 5808
+        y: 2664
+        width: 330
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa5818fa886e5d49a4d1994ea4b2545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 9918
+        y: 2616
+        width: 324
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2a23b1e2ee0e9429cdba374bca5bcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2640
+        width: 264
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ac5c77c3d197c44bb17f1a6ba12d49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 2640
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607ae5447933b614d8e21a7745c62cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 2640
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67fe7fbe943063448634c01f0bc3f6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 2622
+        width: 354
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3ad31374519d14690aae09d8d74bc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2568
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd8d164c942ac041a9b8cbbad60a198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 2496
+        width: 270
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8796ab3f2999ed4498906968dd791b85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 8256
+        y: 2592
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9e0b6b71915e54ba1e0db85efc9455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 2472
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce23f432a041644192a89b1931db610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 2424
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b52a959945b924f98c0f388a8bc2c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 8328
+        y: 2388
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d59245e440a20440b9ba7900cabedde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_220
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 2352
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcef2bf8b80dd74a9243db5067db4b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_221
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 2334
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f71fa52caaab7c448fe1039b8f0c9e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_222
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 2190
+        width: 120
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c12d1e4e469a4f801250545ffde47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_223
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 2322
+        width: 240
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e86e3216847f3643938e69d1b8e9e5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_224
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2184
+        width: 192
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b798679ec91564d94731a40b021e52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_225
+      rect:
+        serializedVersion: 2
+        x: 8232
+        y: 2268
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea78025728df14b4eb58119bc8eb0fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_226
+      rect:
+        serializedVersion: 2
+        x: 10224
+        y: 2184
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a45e229c97a594eb709a21c6078d88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_227
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 2160
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c622b2be4dc16a840b3b32a3a8628c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_228
+      rect:
+        serializedVersion: 2
+        x: 9144
+        y: 2142
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae18da20c180aa9438add301970d2f02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_229
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 2166
+        width: 264
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73678606cf008664b86fe6217aa6dad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_230
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 2136
+        width: 126
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f2fedfb475f2544a71508d5cc5a7c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_231
+      rect:
+        serializedVersion: 2
+        x: 7110
+        y: 2112
+        width: 306
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff00477b0e9bc84cb39cb09239b2c71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_232
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2100
+        width: 312
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a2fbbfb8492dc4ab0c8ebf946be43e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_233
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2016
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a71cd92baa0bc4db7295042bdfc02a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_234
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1992
+        width: 96
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972192d540aadf468c4a22afd72dc86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_235
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 2040
+        width: 234
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820d4e9f1c9c9744491201515a8eb2b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_236
+      rect:
+        serializedVersion: 2
+        x: 5754
+        y: 2040
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3924f9c599b5a843b29a68172fae64e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_237
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 984
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3941238b3c890e74584bca754f0a2ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_238
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 0
+        width: 792
+        height: 2040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b98d339a4a73d41a7b9fa4c3b507e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_239
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1896
+        width: 24
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8ac56d21a5ab945908dbd32c2283c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_240
+      rect:
+        serializedVersion: 2
+        x: 5112
+        y: 1026
+        width: 744
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb583112325b7040bb7e4cf5a133cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_241
+      rect:
+        serializedVersion: 2
+        x: 6102
+        y: 1944
+        width: 234
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2b33246dee147408102a602078dd7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_242
+      rect:
+        serializedVersion: 2
+        x: 6120
+        y: 0
+        width: 768
+        height: 2040
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4251ea1be53b3ce4facc8466f99e0aae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_243
+      rect:
+        serializedVersion: 2
+        x: 7134
+        y: 1920
+        width: 294
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248bdb4c261ea86419bd33490b5a436d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_244
+      rect:
+        serializedVersion: 2
+        x: 7404
+        y: 1026
+        width: 516
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ad747b71c50f84e87967923542efb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_245
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 1920
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b860bd76c41f44088c27d757a61a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_246
+      rect:
+        serializedVersion: 2
+        x: 6084
+        y: 1896
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969e2053e4773114899930a48f873a54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_247
+      rect:
+        serializedVersion: 2
+        x: 7110
+        y: 1872
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faf09b460140fb449c7cd9929fdbc69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_248
+      rect:
+        serializedVersion: 2
+        x: 7392
+        y: 1854
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924ecc4c4fab5404a85d6d2f159330d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_249
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1824
+        width: 210
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940cf36f97ed9b7449830bad6cd139df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_250
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1824
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeafe38ad0082544faa9f5ed45e0adbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_251
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 1800
+        width: 216
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38768be991a7338449af65d5e97ad156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_252
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 1794
+        width: 264
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f660c884c08f164388fd22f15f56624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_253
+      rect:
+        serializedVersion: 2
+        x: 8232
+        y: 1812
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d14f4f6c3de8141802d30f588f8b72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_254
+      rect:
+        serializedVersion: 2
+        x: 8952
+        y: 1794
+        width: 312
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afe57a9d4e329e4daaea007415c26af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_255
+      rect:
+        serializedVersion: 2
+        x: 7140
+        y: 1776
+        width: 204
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8951a7bd9506564e83819a9b98315de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_256
+      rect:
+        serializedVersion: 2
+        x: 6888
+        y: 1728
+        width: 240
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689ebe19f20b434998b0502b435f403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_257
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1632
+        width: 324
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492788dd2a247444cb097259f53715c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_258
+      rect:
+        serializedVersion: 2
+        x: 7056
+        y: 1656
+        width: 90
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4ffba5b10a27149adb23d3aade68db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_259
+      rect:
+        serializedVersion: 2
+        x: 8136
+        y: 1632
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69cbdf6fd9a34408d710029d810d59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_260
+      rect:
+        serializedVersion: 2
+        x: 7032
+        y: 1632
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790942d015e762f4e90cf65b2977e6a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_261
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 1536
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef1fd1ae27409c4d931c9ccabb5b557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_262
+      rect:
+        serializedVersion: 2
+        x: 7896
+        y: 1632
+        width: 192
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b29c82733cafc5a4693ee947f1cf1294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_263
+      rect:
+        serializedVersion: 2
+        x: 10176
+        y: 1440
+        width: 162
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b685b06c606904c90d587bd48beff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_264
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1608
+        width: 360
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7dfd6ad21daca47a00987340439b32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_265
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1584
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5a213209164fd4b9fe2c5df54f648f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_266
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1512
+        width: 24
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5301f92e1e973144b92f324dfed7786b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_267
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 1536
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9714a520fd0a14348a802cc8625add08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_268
+      rect:
+        serializedVersion: 2
+        x: 7008
+        y: 1548
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970c22e9c63f34744a19b04477dfa881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_269
+      rect:
+        serializedVersion: 2
+        x: 7248
+        y: 1542
+        width: 336
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ea1ac27e20ec449b64f4ba0208531b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_270
+      rect:
+        serializedVersion: 2
+        x: 7896
+        y: 1548
+        width: 192
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7b9e36c2852ab4eb0bb93c7a092b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_271
+      rect:
+        serializedVersion: 2
+        x: 6966
+        y: 1440
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bff86f3ecee1d64f97369d0dfacebdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_272
+      rect:
+        serializedVersion: 2
+        x: 8058
+        y: 1536
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117d2919a7ad75b47b4d11a22b4cb9b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_273
+      rect:
+        serializedVersion: 2
+        x: 7272
+        y: 1524
+        width: 312
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c49c3729398fea4993c27c2dda071b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_274
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1488
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9118564596b64384fb57cf85b7467172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_275
+      rect:
+        serializedVersion: 2
+        x: 5952
+        y: 1488
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5bdc30d2bc8f24080d518f912561b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_276
+      rect:
+        serializedVersion: 2
+        x: 7224
+        y: 1296
+        width: 96
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911d5cb860f23ba42b2a2d9d96d2a1c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_277
+      rect:
+        serializedVersion: 2
+        x: 7992
+        y: 1464
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b8006322fcd1a4f84b99907461b537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_278
+      rect:
+        serializedVersion: 2
+        x: 8280
+        y: 1440
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76cb71f469a61544bd91d4cff844678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_279
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1440
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e144f83071ee744bdd4d20be8e3479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_280
+      rect:
+        serializedVersion: 2
+        x: 5784
+        y: 1392
+        width: 168
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1559ec167c9d43744abc97656e4eb010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_281
+      rect:
+        serializedVersion: 2
+        x: 7974
+        y: 1416
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700c93b647433dc4389c214d64ecc9ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_282
+      rect:
+        serializedVersion: 2
+        x: 6948
+        y: 1416
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ec57fb8faa1684a90c0ff76e1efc89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_283
+      rect:
+        serializedVersion: 2
+        x: 8328
+        y: 1392
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39e1761b84c6f8438408ccdcbe9178e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_284
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 1344
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6278091b1a3464cabccd54e42864b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_285
+      rect:
+        serializedVersion: 2
+        x: 6924
+        y: 1344
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de86748c9a5b78b4f8e4347e6ade8fd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_286
+      rect:
+        serializedVersion: 2
+        x: 7944
+        y: 1344
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3936bc8117589e049bbdeb80ebc99f6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_287
+      rect:
+        serializedVersion: 2
+        x: 8088
+        y: 1296
+        width: 234
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca9cd8f16bee794196ecc984ee3124e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_288
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 1302
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341ea8bfe161514588407f5061b80f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_289
+      rect:
+        serializedVersion: 2
+        x: 5928
+        y: 1272
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ed6cd2533bf804eac840a7d44c19c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_290
+      rect:
+        serializedVersion: 2
+        x: 6960
+        y: 1272
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1324f77507949b94bad2ee438055d764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_291
+      rect:
+        serializedVersion: 2
+        x: 7992
+        y: 1296
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247b9f752a188ff43aa32f102f7769f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_292
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1272
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e952dde7fdd626a44b834eeae844b730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_293
+      rect:
+        serializedVersion: 2
+        x: 8016
+        y: 1248
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c46b368a734be489c17286705e9f25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_294
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1230
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90a586dbdcc61043a5a3e247b4932fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_295
+      rect:
+        serializedVersion: 2
+        x: 5976
+        y: 1200
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4048ebe9e79dc9a4baa950d999607f2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_296
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 1200
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2f041363d967f4cb72d6c928f56c0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_297
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1224
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af449d1fd3af8c4eb7ea75322485cbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_298
+      rect:
+        serializedVersion: 2
+        x: 8208
+        y: 1188
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60c2c4ce7d60b145a63b48807fa23eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_299
+      rect:
+        serializedVersion: 2
+        x: 8046
+        y: 1182
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a663061a8aedd524794159581851e0ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_300
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 1200
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03720e33ce50e2f4385ddb2dcbd80b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_301
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1152
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a006911cdeb8bb4bb465d3f5fc1b1cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_302
+      rect:
+        serializedVersion: 2
+        x: 6816
+        y: 1104
+        width: 240
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187743a61316bdc41ac4676d4e774497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_303
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 1134
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82eab8fed2d6c9479325c7b4649b44a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_304
+      rect:
+        serializedVersion: 2
+        x: 8064
+        y: 1110
+        width: 144
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444530ac25501334185d42c752b22eff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_305
+      rect:
+        serializedVersion: 2
+        x: 10248
+        y: 1158
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e09689020fc3634cbfd18a721895d4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_306
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 1128
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c10a74dca8eca145a2d330f347bcce3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_307
+      rect:
+        serializedVersion: 2
+        x: 9072
+        y: 1110
+        width: 144
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25908777d058f6943ade105e56356683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_308
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1104
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f29b27fee4ebf4dba1cad4b7fb5f7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_309
+      rect:
+        serializedVersion: 2
+        x: 6096
+        y: 1104
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158b3768489375c498649b808f89094b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_310
+      rect:
+        serializedVersion: 2
+        x: 7128
+        y: 1116
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a64f85ed032eb4c8dc8e17398a70ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_311
+      rect:
+        serializedVersion: 2
+        x: 8160
+        y: 1032
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca1080f4652b9646af4124253b828d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_312
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1056
+        height: 1032
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d4c3eb3c010fc42bd202e7360539b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_313
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 894
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c924ab2fc429b44fb2f87b3fece9d5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_314
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 816
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c817bc3e37f2c854caf178bad7fcc7be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_315
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 768
+        width: 288
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475af3a4949ceec47a7414cfbf7c2222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_316
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 720
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d20350da58ebce4299730291dcb3e6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_317
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 714
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a33dc8da387484fb751a2b85052574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_318
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 702
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1910e02369f09df4cb7a9ec74865ecd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_319
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 528
+        width: 336
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e53b5741a54ee643bb1533a7d3a2ff2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_320
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 174
+        width: 144
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f2070660e5dad44b8b59078afd3c41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_321
+      rect:
+        serializedVersion: 2
+        x: 5472
+        y: 360
+        width: 186
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75897c175df6c9d49a80f82adf5df7b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_322
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 168
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3c8d7d5898f244c9bc022c14a7ddc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_323
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 102
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b09c8a0bffc37b49901d80c48226058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_324
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 96
+        width: 168
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f0a9b0933756439c9594cc7fb2160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Funky_Frankenstein_Sheet_325
+      rect:
+        serializedVersion: 2
+        x: 5688
+        y: 72
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d8301f6fb40b54589f8cf8eab5ece9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e805146db0be0b54bbf2c7884a775c50
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

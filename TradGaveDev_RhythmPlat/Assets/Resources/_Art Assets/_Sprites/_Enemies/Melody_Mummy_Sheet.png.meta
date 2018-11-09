@@ -1,0 +1,1359 @@
+fileFormatVersion: 2
+guid: 73ba75caa80d5f34286f8bb636013fda
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Melody_Mummy_Sheet_0
+    21300002: Melody_Mummy_Sheet_1
+    21300004: Melody_Mummy_Sheet_2
+    21300006: Melody_Mummy_Sheet_3
+    21300008: Melody_Mummy_Sheet_4
+    21300010: Melody_Mummy_Sheet_5
+    21300012: Melody_Mummy_Sheet_6
+    21300014: Melody_Mummy_Sheet_7
+    21300016: Melody_Mummy_Sheet_8
+    21300018: Melody_Mummy_Sheet_9
+    21300020: Melody_Mummy_Sheet_10
+    21300022: Melody_Mummy_Sheet_11
+    21300024: Melody_Mummy_Sheet_12
+    21300026: Melody_Mummy_Sheet_13
+    21300028: Melody_Mummy_Sheet_14
+    21300030: Melody_Mummy_Sheet_15
+    21300032: Melody_Mummy_Sheet_16
+    21300034: Melody_Mummy_Sheet_17
+    21300036: Melody_Mummy_Sheet_18
+    21300038: Melody_Mummy_Sheet_19
+    21300040: Melody_Mummy_Sheet_20
+    21300042: Melody_Mummy_Sheet_21
+    21300044: Melody_Mummy_Sheet_22
+    21300046: Melody_Mummy_Sheet_23
+    21300048: Melody_Mummy_Sheet_24
+    21300050: Melody_Mummy_Sheet_25
+    21300052: Melody_Mummy_Sheet_26
+    21300054: Melody_Mummy_Sheet_27
+    21300056: Melody_Mummy_Sheet_28
+    21300058: Melody_Mummy_Sheet_29
+    21300060: Melody_Mummy_Sheet_30
+    21300062: Melody_Mummy_Sheet_31
+    21300064: Melody_Mummy_Sheet_32
+    21300066: Melody_Mummy_Sheet_33
+    21300068: Melody_Mummy_Sheet_34
+    21300070: Melody_Mummy_Sheet_35
+    21300072: Melody_Mummy_Sheet_36
+    21300074: Melody_Mummy_Sheet_37
+    21300076: Melody_Mummy_Sheet_38
+    21300078: Melody_Mummy_Sheet_39
+    21300080: Melody_Mummy_Sheet_40
+    21300082: Melody_Mummy_Sheet_41
+    21300084: Melody_Mummy_Sheet_42
+    21300086: Melody_Mummy_Sheet_43
+    21300088: Melody_Mummy_Sheet_44
+    21300090: Melody_Mummy_Sheet_45
+    21300092: Melody_Mummy_Sheet_46
+    21300094: Melody_Mummy_Sheet_47
+    21300096: Melody_Mummy_Sheet_48
+    21300098: Melody_Mummy_Sheet_49
+    21300100: Melody_Mummy_Sheet_50
+    21300102: Melody_Mummy_Sheet_51
+    21300104: Melody_Mummy_Sheet_52
+    21300106: Melody_Mummy_Sheet_53
+    21300108: Melody_Mummy_Sheet_54
+    21300110: Melody_Mummy_Sheet_55
+    21300112: Melody_Mummy_Sheet_56
+    21300114: Melody_Mummy_Sheet_57
+    21300116: Melody_Mummy_Sheet_58
+    21300118: Melody_Mummy_Sheet_59
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 4097
+        width: 576
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c770ea1acd6b7042954deb0ba94f952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 4097
+        width: 606
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d277426bf1c04b83c3ebcd5f85013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 4097
+        width: 635
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d18ca63ce8686544878d3df873accaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 4097
+        width: 654
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfa610119643e248b22759e86f01748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 4097
+        width: 684
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9579c2e1b84e23249b35c6d0f3732561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5277
+        y: 4097
+        width: 696
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381c5bec87ce8c14f9718c1f9af38fa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 6327
+        y: 4097
+        width: 660
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce0acd30d2740349a559b279e1ab844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 7371
+        y: 4097
+        width: 618
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd0bf5eedd05d441954f4da9db8170b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 8421
+        y: 4097
+        width: 576
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14954ef6632a7d44919bfdb879bec5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 9465
+        y: 4094
+        width: 534
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e743779cf7a747542b4fdd707cdbee57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 10515
+        y: 4091
+        width: 486
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d544a08f9bd0547a40aca66426af2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11512
+        y: 4094
+        width: 532
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad833bfc4be62264db1b8a8218b136d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 3070
+        width: 570
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605e7ea3f3fbeef448ea08931ccdc19f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 3070
+        width: 612
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378e3adfecfb03049a3440f21675e89b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 3070
+        width: 654
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00585eef624def54192ab2772f4542db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 3070
+        width: 696
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fddc7869d03cb408379848ef272041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 4276
+        y: 3070
+        width: 658
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d116f57e669d6a34f96673dced481aac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 5325
+        y: 3070
+        width: 612
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea51b5a5af9a6f4e9246ae2c72db897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 6372
+        y: 3070
+        width: 570
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba6fe87736ee564f8d10758c875f433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 7419
+        y: 3070
+        width: 528
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9256a9183e042b94089ba05090085bd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8469
+        y: 3070
+        width: 480
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7ce9c5813197d4d9217c496e8da999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 9466
+        y: 3070
+        width: 533
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a524c987b2d8a3b4f9622a43541796ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 10467
+        y: 3070
+        width: 576
+        height: 1020
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c7dcb564c9c9469dc13a7c589b592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 11469
+        y: 3070
+        width: 618
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0750cbbfc5c10d54d8065499fa6f6a1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2050
+        width: 660
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15731c56b47b8cc46a7ed97a59dffcae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 2050
+        width: 690
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85317019f87c1ad4b8820227dc66a223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 2050
+        width: 678
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd25d74b45502a940ac4f4f9416798bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 2050
+        width: 654
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f532865dce583a042a149fbb7182e65e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 2050
+        width: 630
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7f90d52c5ce44992413ed76414ace
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 5331
+        y: 2050
+        width: 600
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f6d4128048bf441bda3a305b8c816d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 6369
+        y: 2050
+        width: 576
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52b66894adcbf4fa2f0eff61065aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 7377
+        y: 2050
+        width: 606
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e28b65700a60eb4eb89546db575d842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 8385
+        y: 2050
+        width: 636
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b30fd0c21c38cd47b755166a1eb4b16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 9393
+        y: 2050
+        width: 666
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25bb71e143abd34192f264504465743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 10401
+        y: 2050
+        width: 695
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfba6f7c376ec245ab164d907eaa760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 11421
+        y: 2050
+        width: 708
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c9f8a1c1e498a4f973f424e9a31fab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1023
+        width: 665
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6a3f5e5b72b7a4795f4b1ec2aeb4dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1023
+        width: 618
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59111f1e4a935c4e8737fb74d4c47b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1023
+        width: 570
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51433d2b29460f43a5493bbb3b5b809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1023
+        width: 516
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e1f7647674dc84c9fc21bab9f2a1d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 1023
+        width: 462
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43cb7bf6fc46984395e4803718b3669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 5385
+        y: 1023
+        width: 510
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5538066a4966d8a4ab256f7bf334a66d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 6381
+        y: 1023
+        width: 564
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc7728db46c6444a9c872cb566166b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 7377
+        y: 1023
+        width: 612
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e147c05d742f2c43898b56b229d6a96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 8376
+        y: 1023
+        width: 657
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe797d0b5f226046b2c045a2cb748a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 9375
+        y: 1023
+        width: 708
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cc1ff26361e5d47ab7f0aec7782a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 10425
+        y: 1023
+        width: 660
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384fd7107a739d648a07d84a29551247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 11475
+        y: 1023
+        width: 612
+        height: 1015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6db9cd796a65f478a46fea0593dfca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 564
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d162acaf98342dd429a2ad658f871c69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 516
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2279f2e8f94ccbc478164647d136373b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 0
+        width: 468
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7314c96ac654c954eb7c392062018b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 0
+        width: 516
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba644b9d54bcf4a8d8cefa79a7935e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 0
+        width: 564
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfd80ae236a59b4491dcb88d4866174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 5325
+        y: 0
+        width: 612
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7689b51b81d77498f84dd7d10f76ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 6321
+        y: 0
+        width: 666
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c71faaee5087dd4089c8cc1a8293ff2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 7323
+        y: 0
+        width: 708
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340e55c070c308e43bebacc42156f01b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 8349
+        y: 0
+        width: 696
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a211e07f9156264f877f644d14a5915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 9387
+        y: 1
+        width: 672
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798ec4c5817b4a4e9f3b0dc217e9c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 10431
+        y: 3
+        width: 636
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a082645621c54e469531101f26a04a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Melody_Mummy_Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 11469
+        y: 3
+        width: 612
+        height: 1008
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3873728aaed92fb43bd2e8509d8fe971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: daafb60205723bd4e864b4d62eda8144
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
