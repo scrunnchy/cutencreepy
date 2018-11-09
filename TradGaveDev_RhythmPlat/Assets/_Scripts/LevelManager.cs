@@ -32,7 +32,6 @@ public class LevelManager : MonoBehaviour
     //initialize all UnityEvents here
     private void Awake()
     {
-        #region Events
         if (playerGoalReached == null)
         {
             playerGoalReached = new UnityEvent();
@@ -49,7 +48,6 @@ public class LevelManager : MonoBehaviour
         {
             CheckpointReverse = new UnityEvent();
         }
-        #endregion
         // ensure time is moving upon awake
         paused = false;
         Time.timeScale = 1f;

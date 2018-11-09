@@ -9,7 +9,7 @@ public class UIManager : MonoBehaviour
 {
     public AudioSource pauseAudio;
 
-    LevelManager LM;
+    public LevelManager LM;
 
     Button exitButton;
     
@@ -19,8 +19,6 @@ public class UIManager : MonoBehaviour
         pauseAudio = GetComponent<AudioSource>();
         exitButton = GetButton("ExitButton");
         exitButton.onClick.AddListener(onExit);
-
-        LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
 
     }
 
