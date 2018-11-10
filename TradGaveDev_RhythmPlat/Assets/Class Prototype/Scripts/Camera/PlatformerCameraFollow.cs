@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class PlatformerCameraFollow : MonoBehaviour
 {
+    float m_ViewPositionX, m_ViewPositionY, m_ViewWidth, m_ViewHeight;
+    AudioSource audioSource;
+    public float timeOffset;
 
     public Transform followTransform;
     public bool useFixedUpdate;
@@ -49,6 +52,10 @@ public class PlatformerCameraFollow : MonoBehaviour
         {
             _canFollow = true;
         }
+
+        audioSource = GetComponent<AudioSource>();
+        audioSource.time = timeOffset;
+        audioSource.Play();
 
         LevelManager.CheckpointReverse.AddListener(changeZ);
     }
