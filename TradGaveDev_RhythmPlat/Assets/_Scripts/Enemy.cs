@@ -14,8 +14,6 @@ public class Enemy : MonoBehaviour {
     public bool DisapearsAtReverse;
     //Produces the behaviour that an enemy will only become visible and a threat during reversals
     public bool AppearsAtReverse;
-    // create event for damage "enemyPlayerCollision"
-    public static UnityEvent enemyPlayerCollision;
     //determine what enemy this is by
     //associating to key 0-4: 0 - BeatBat, 1 - FunkyFrankenstein, 2 - MelodyMummy,
     //3 - SalsaSpider, 4 - ZumbaZombie
@@ -28,10 +26,6 @@ public class Enemy : MonoBehaviour {
     private BoxCollider boxC;
     private void Awake()
     {
-        if (enemyPlayerCollision == null)
-        {
-            enemyPlayerCollision = new UnityEvent();
-        }
 
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
@@ -41,7 +35,6 @@ public class Enemy : MonoBehaviour {
     // register as an event listener for beats and level reversal
     void Start () {
 
-        
         //set sprites in dictionary with names
         if (spriteSet == null)
         {
@@ -129,7 +122,7 @@ public class Enemy : MonoBehaviour {
             {
                 // trigger Damage event
                 Debug.Log("player hit");
-                enemyPlayerCollision.Invoke();
+                LevelManager.enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
         }

@@ -10,9 +10,9 @@ using UnityEngine.Events;
 /// </summary>
 public class Checkpoint : MonoBehaviour
 {
-    //create collision event for reaching the checkpoint and reversal event.
-    public static UnityEvent CheckpointCollision;
-    public static UnityEvent CheckpointReverse;
+    Camera mainCam;
+    PlatformerCameraFollow follower;
+    public float cameraStallDistance;
 
     //define as rversal point
     public bool reversalPoint;
@@ -20,30 +20,42 @@ public class Checkpoint : MonoBehaviour
     //track if checkpoint is reached
     public bool Reached { get; private set; }
 
-    
+    private LevelManager LM;
+    private GameObject playerObject;
+
     void Start()
     {
-        if (CheckpointCollision == null)
-        {
-            CheckpointCollision = new UnityEvent();
-        }
-        if (CheckpointReverse == null)
-        {
-            CheckpointReverse = new UnityEvent();
-        }
+        LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         Reached = false;
+        mainCam = Camera.main;
+        follower = mainCam.GetComponent<PlatformerCameraFollow>();
+        playerObject = GameObject.FindGameObjectWithTag("Player");
 
         //register for reversal event if not reversal point.
         if (!reversalPoint)
         {
-            CheckpointReverse.AddListener(TurnAroundAndReset);
+            LevelManager.CheckpointReverse.AddListener(TurnAroundAndReset);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        Vector3 playerPos = playerObject.transform.position;
+        if (!LM.isReversed)
+        {
+            if ((this.transform.position.x - playerPos.x) < cameraStallDistance)
+            {
+                stallCam();
+            }
+        }
+        else 
+        {
+            if ((playerPos.x - this.transform.position.x) < cameraStallDistance)
+            {
+                stallCam();
+            }
+        }
     }
 
     /// <summary>
@@ -57,13 +69,24 @@ public class Checkpoint : MonoBehaviour
             Debug.Log("checkpoint reached");
             Reached = true;
             //trigger "CheckpointCollision" event
-            CheckpointCollision.Invoke();
+            LevelManager.CheckpointCollision.Invoke();
             //trigger reversal conditionally
             if (reversalPoint)
             {
-                CheckpointReverse.Invoke();
+                LevelManager.CheckpointReverse.Invoke();
             }
+            resumeCam();
         }
+    }
+
+    private void stallCam()
+    {
+        follower.isFollowing = false;
+    }
+
+    private void resumeCam()
+    {
+        follower.isFollowing = true;
     }
 
     private void TurnAroundAndReset() //trigger this method when the last checkpoint is reached

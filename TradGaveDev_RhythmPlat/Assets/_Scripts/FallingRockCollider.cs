@@ -6,19 +6,11 @@ using UnityEngine.Events;
 public class FallingRockCollider : MonoBehaviour {
     //store reference to box collider component
     private BoxCollider boxC;
-    //create event for damage "enemyPlayerCollision"
-    public static UnityEvent enemyPlayerCollision;
-
+    
     // Use this for initialization
     void Start () {
 
         boxC = GetComponent<BoxCollider>();
-        
-
-        if (enemyPlayerCollision == null)
-        {
-            enemyPlayerCollision = new UnityEvent();
-        }
 
     }
 
@@ -38,7 +30,7 @@ public class FallingRockCollider : MonoBehaviour {
             {
                 //Debug.Log("damage dealt");
                 //trigger Damage event
-                enemyPlayerCollision.Invoke();
+                LevelManager.enemyPlayerCollision.Invoke();
             }
         }
 

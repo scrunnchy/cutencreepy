@@ -10,10 +10,7 @@ public class GroundSpikes : MonoBehaviour {
     private bool isExpended;
     //store reference to Level Manager
     public LevelManager LM;
-    //Produces the behaviour that a falling rock will no longer be a threat or visible during reversals
-    public bool DisapearsAtReverse;
-    //Produces the behaviour that a falling rock will only become visible and a threat during reversals
-    public bool AppearsAtReverse;
+    
     //The speed at which the spikes will move up.
     public float speed = 1f;
     //The amount of units the spikes will move up
@@ -25,12 +22,8 @@ public class GroundSpikes : MonoBehaviour {
     //create event for damage "enemyPlayerCollision"
     public static UnityEvent enemyPlayerCollision;
 
-    //store the reversal state shown in the level manager
-    private bool isReversed;
     //store reference to sprite renderer component
     private SpriteRenderer spriteR;
-    //store reference to box collider component
-    private BoxCollider boxC;
 
     //private bool isMoving = false;
 
@@ -42,25 +35,16 @@ public class GroundSpikes : MonoBehaviour {
             enemyPlayerCollision = new UnityEvent();
         }
         LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
-        isReversed = LM.isReversed;
         spriteR = gameObject.transform.parent.gameObject.GetComponentInChildren<SpriteRenderer>();
-        boxC = GetComponent<BoxCollider>();
 
         //Register for reversal.
-        LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
-
-        //disappear if enemy is to appear during reversals
-        if (AppearsAtReverse)
-        {
-            boxC.enabled = false;
-            spriteR.enabled = false;
-        }
+        LevelManager.CheckpointReverse.AddListener(RespondToReverse);
     }
 	
 	// Update is called once per frame
 	void Update () {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
-        if (!isReversed)
+        if (!LM.isReversed)
         {
             if (!isExpended && ((this.transform.position.x - playerPos.x) < spikeTriggerDistance))
             {
@@ -84,24 +68,9 @@ public class GroundSpikes : MonoBehaviour {
 
     /// <summary>
     /// triggers on reversal events
-    /// enables/disables this obstacle's box collider and sprite renderer based on settings.
     /// </summary>
-    private void ChangeAppearanceOnReverse()
+    private void RespondToReverse()
     {
-        //appear if invisable and dissapear if set to toggle upon reversal.
-        if (AppearsAtReverse || DisapearsAtReverse)
-        {
-            if (spriteR.enabled)
-            {
-                boxC.enabled = false;
-                spriteR.enabled = false;
-            }
-            else
-            {
-                boxC.enabled = true;
-                spriteR.enabled = true;
-            }
-        }
         isExpended = false;
     }
 
