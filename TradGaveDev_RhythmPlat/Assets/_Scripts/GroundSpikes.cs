@@ -88,7 +88,6 @@ public class GroundSpikes : MonoBehaviour {
             // check if the layer is in any valid avoid state.
             if (!playerInfo._inJump)
             {
-                Debug.Log("damage dealt");
                 //trigger Damage event
                 enemyPlayerCollision.Invoke();
                 isExpended = true;

@@ -59,8 +59,6 @@ public class LevelManager : MonoBehaviour
         pauseCamera.enabled = false;
 
         audio = mainCam.GetComponent<AudioSource>();
-
-        CheckpointReverse.AddListener(flipCamera);
     }
 
     // Update is called once per frame
@@ -95,25 +93,5 @@ public class LevelManager : MonoBehaviour
             pauseCamera.enabled = true;
             paused = true;
         }
-    }
-
-    /// <summary>
-    /// Flips the main camera 180 degrees
-    /// </summary>
-    public void flipCamera()
-    {
-        isReversed = !isReversed;
-        _flipCamera();
-    }
-
-
-    /// <summary>
-    /// Moves the given camera a given angle and reverses audio
-    /// </summary>
-    /// <param name="angle">angle of rotation</param>
-    private void _flipCamera()
-    {
-        Vector3 angle = new Vector3(0, 180, 0);
-        mainCam.transform.Rotate(angle);
     }
 }

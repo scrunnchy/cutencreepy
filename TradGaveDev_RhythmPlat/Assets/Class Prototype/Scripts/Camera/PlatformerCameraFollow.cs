@@ -26,7 +26,6 @@ public class PlatformerCameraFollow : MonoBehaviour
     public float startDelay = 0.5f;
     public float xOffset = 5f;
     public float yOffset = 2f;
-    public float cameraDistanceFromPlayer = 50f;
 
     [Space(12)]
 
@@ -56,8 +55,6 @@ public class PlatformerCameraFollow : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         audioSource.time = timeOffset;
         audioSource.Play();
-
-        LevelManager.CheckpointReverse.AddListener(changeZ);
     }
 
     void Update()
@@ -84,7 +81,7 @@ public class PlatformerCameraFollow : MonoBehaviour
             }
         }
     }
-
+    
     void FixedUpdate()
     {
         if (useFixedUpdate && _canFollow)
@@ -93,27 +90,11 @@ public class PlatformerCameraFollow : MonoBehaviour
         }
     }
 
+
     IEnumerator StartFollowDelay()
     {
         yield return new WaitForSeconds(startDelay);
 
         _canFollow = true;
-    }
-
-    private void changeZ()
-    {
-        if (LevelManager.isReversed)
-        {
-            _zOffset.z -= cameraDistanceFromPlayer;
-            Vector3 pos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z - cameraDistanceFromPlayer);
-            this.transform.position = pos;
-        }
-        else
-        {
-            _zOffset.z += cameraDistanceFromPlayer;
-            Vector3 pos = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z + cameraDistanceFromPlayer);
-            this.transform.position = pos;
-        }
-        isFollowing = true;
     }
 }

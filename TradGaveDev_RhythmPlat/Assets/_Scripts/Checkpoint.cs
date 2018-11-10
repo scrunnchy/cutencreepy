@@ -22,6 +22,7 @@ public class Checkpoint : MonoBehaviour
 
     private LevelManager LM;
     private GameObject playerObject;
+    private bool cameraIsStalled;
 
     void Start()
     {
@@ -42,19 +43,24 @@ public class Checkpoint : MonoBehaviour
     void Update()
     {
         Vector3 playerPos = playerObject.transform.position;
+
         if (!LM.isReversed)
         {
-            if ((this.transform.position.x - playerPos.x) < cameraStallDistance)
+            if (playerPos.x >= transform.position.x - cameraStallDistance && playerPos.x < transform.position.x)
             {
                 stallCam();
             }
+            else
+                resumeCam();
         }
-        else 
+        else
         {
-            if ((playerPos.x - this.transform.position.x) < cameraStallDistance)
+            if (playerPos.x <= transform.position.x + cameraStallDistance && playerPos.x > transform.position.x)
             {
                 stallCam();
             }
+            else
+                resumeCam();
         }
     }
 
@@ -72,20 +78,20 @@ public class Checkpoint : MonoBehaviour
             LevelManager.CheckpointCollision.Invoke();
             //trigger reversal conditionally
             if (reversalPoint)
-            {
                 LevelManager.CheckpointReverse.Invoke();
-            }
-            resumeCam();
         }
     }
 
     private void stallCam()
     {
+        Debug.Log("stallCam");
         follower.isFollowing = false;
+        cameraIsStalled = true;
     }
 
     private void resumeCam()
     {
+        Debug.Log("resumeCam");
         follower.isFollowing = true;
     }
 
@@ -95,7 +101,7 @@ public class Checkpoint : MonoBehaviour
         if (!reversalPoint)
         {
             // always flip to the direction not currently facing
-            if (!GetComponent<SpriteRenderer>().flipX) 
+            if (!GetComponent<SpriteRenderer>().flipX)
             {
                 GetComponent<SpriteRenderer>().flipX = true;
             }
