@@ -7,19 +7,26 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public AudioSource pauseAudio;
+    public AudioSource pauseAudio { get; private set; }
 
+    [SerializeField]
     public LevelManager LM;
 
     Button exitButton;
-    
+
+    private void Awake()
+    {
+        pauseAudio = GetComponent<AudioSource>();
+    }
+
     // Use this for initialization
     void Start()
     {
-        pauseAudio = GetComponent<AudioSource>();
         exitButton = GetButton("ExitButton");
-        exitButton.onClick.AddListener(onExit);
-
+        if (exitButton != null)
+        {
+            exitButton.onClick.AddListener(onExit);
+        }
     }
 
     // Update is called once per frame
@@ -52,7 +59,7 @@ public class UIManager : MonoBehaviour
     
     private void checkForKeyStroke()
     {
-        if (Input.GetButtonDown("pauseButton"))
+        if (Input.GetButtonDown("pauseButton") && LM != null)
             LM.togglePause();
     }
 }

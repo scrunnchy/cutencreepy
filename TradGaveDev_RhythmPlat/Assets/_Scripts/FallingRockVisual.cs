@@ -19,6 +19,7 @@ public class FallingRockVisual : MonoBehaviour {
     private Rigidbody rb;
     // delay in which the rock's position gets reset to its original position
     float rockResetDelay = 2f;
+    private GameObject playerObject;
 
     // Use this for initialization
     void Start ()
@@ -26,15 +27,16 @@ public class FallingRockVisual : MonoBehaviour {
         // Get the position we will reset the rock to later
         originalRockPos = gameObject.transform.position;
         rb = gameObject.GetComponent<Rigidbody>();
+        playerObject = GameObject.FindGameObjectWithTag("Player");
         // If reversal is active we want to flip the rock's trigger point
-        Checkpoint.CheckpointReverse.AddListener(flipRockOrientation);
+        LevelManager.CheckpointReverse.AddListener(flipRockOrientation);
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
         // Constantly update playe rposition so rock can accurately tell if it should fall
-        playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+        playerPos = playerObject.transform.position;
         // We go into the if statement if we are not in reversal and we can still make the rock fall
         if (!isReversed && !isExpended) {
             if ((this.transform.position.x - playerPos.x) < rockTriggerDistance)

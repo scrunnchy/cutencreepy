@@ -89,7 +89,7 @@ namespace Platformer
         private void LoadWinScreen()
         {
             
-            Debug.Log("goalReached");
+            
             //stop level music, potentially. 
             AudioSource song = (Camera.main).GetComponent<AudioSource>();
             if(song != null)
@@ -108,7 +108,7 @@ namespace Platformer
         {
             if (_characterController.transform.position.y <= killZone)
             {
-                Debug.Log("Kill Zone");
+                
                 SceneManager.LoadScene(2);
             }
         }

@@ -304,6 +304,7 @@ public class PlayerControl : MonoBehaviour
     /// </summary>
     private void flipPlayer()
     {
+        Debug.Log("reversePlayer");
         if (!isReversed)
         {
             anim.SetBool("Reversed", true);
