@@ -122,7 +122,7 @@ public class Enemy : MonoBehaviour {
             {
                 // trigger Damage event
                 Debug.Log("player hit");
-                LevelManager.enemyPlayerCollision.Invoke();
+                //LevelManager.enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
         }

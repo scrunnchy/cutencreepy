@@ -2,12 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlatformerCameraFollow : MonoBehaviour
 {
     float m_ViewPositionX, m_ViewPositionY, m_ViewWidth, m_ViewHeight;
     AudioSource audioSource;
     public float timeOffset;
+    private bool reversed = false;
+    public AudioMixerGroup mixer;
 
     public Transform followTransform;
     public bool useFixedUpdate;
@@ -51,10 +54,13 @@ public class PlatformerCameraFollow : MonoBehaviour
         {
             _canFollow = true;
         }
-
+        
         audioSource = GetComponent<AudioSource>();
         audioSource.time = timeOffset;
         audioSource.Play();
+
+        LevelManager.CheckpointReverse.AddListener(ReverseMusic);
+        //audioSource.outputAudioMixerGroup = mixer;
     }
 
     void Update()
@@ -105,5 +111,13 @@ public class PlatformerCameraFollow : MonoBehaviour
         xOffset = -xOffset;
         //else
         //    _target.x += xOffset;
+    }
+    private void ReverseMusic()
+    {
+        reversed = !reversed;
+        if (reversed)
+        audioSource.outputAudioMixerGroup = mixer;
+        else
+            audioSource.outputAudioMixerGroup = null;
     }
 }

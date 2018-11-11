@@ -19,11 +19,6 @@ public class LevelManager : MonoBehaviour
     public static UnityEvent CheckpointCollision;
     public static UnityEvent CheckpointReverse;
 
-    public Koreography forwardTrack;
-    public Koreography reverseTrack;
-
-    AudioSource audioCom = null;
-
     Camera pauseCamera;
     Camera mainCam;
     private AudioSource audio;
