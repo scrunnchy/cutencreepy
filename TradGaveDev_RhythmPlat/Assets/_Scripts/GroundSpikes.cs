@@ -53,6 +53,7 @@ public class GroundSpikes : MonoBehaviour {
                 //isMoving = true;
                 moveSprite();
             }
+
         }
         else
         {
@@ -65,6 +66,7 @@ public class GroundSpikes : MonoBehaviour {
             }
         }
     }
+
 
     /// <summary>
     /// triggers on reversal events
@@ -90,21 +92,28 @@ public class GroundSpikes : MonoBehaviour {
             {
                 //trigger Damage event
                 enemyPlayerCollision.Invoke();
-                isExpended = true;
             }
         }
         
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        moveSpriteDown();
     }
 
     private void moveSprite()
     {
         float step = speed * Time.deltaTime;
         Vector3 up = new Vector3(spriteR.transform.position.x, spriteR.transform.position.y + amountUp, spriteR.transform.position.z);
-        //spriteR.transform.position = Vector3.Lerp(transform.position, up, step);
-        //if (transform.position.y >= up.y)
-        //    isMoving = false;
-
         StartCoroutine(MoveObject(transform.position, up, step));
+    }
+
+    private void moveSpriteDown()
+    {
+        float step = speed * Time.deltaTime;
+        Vector3 down = new Vector3(spriteR.transform.position.x, spriteR.transform.position.y - amountUp, spriteR.transform.position.z);
+        StartCoroutine(MoveObject(transform.position, down, step));
     }
 
     IEnumerator MoveObject(Vector3 source, Vector3 target, float overTime)
