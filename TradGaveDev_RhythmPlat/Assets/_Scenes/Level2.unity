@@ -18036,6 +18036,11 @@ Prefab:
       propertyPath: LevelManager
       value: 
       objectReference: {fileID: 1300913755}
+    - target: {fileID: 20502574056010752, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
+        type: 2}
+      propertyPath: m_CullingMask.m_Bits
+      value: 279
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6e2e970caa3ea34b97fdf0f982d3cb9, type: 2}
   m_IsPrefabAsset: 0
@@ -53349,8 +53354,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isReversed: 0
-  forwardTrack: {fileID: 11400000, guid: b086a2068a7b34340b4f88cfd3cb7372, type: 2}
-  reverseTrack: {fileID: 11400000, guid: 92634ab5010de8446ab461753a291f32, type: 2}
 --- !u!4 &1300913756
 Transform:
   m_ObjectHideFlags: 0
