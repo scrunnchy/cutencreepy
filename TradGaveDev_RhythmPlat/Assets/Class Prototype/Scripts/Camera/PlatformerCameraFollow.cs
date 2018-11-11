@@ -63,10 +63,7 @@ public class PlatformerCameraFollow : MonoBehaviour
         {
             _target = followTransform.position;
             _target.y += yOffset;
-            if (LevelManager.isReversed)
-                _target.x -= xOffset;
-            else
-                _target.x += xOffset;
+            _target.x += xOffset;
 
             if (lookAhead)
             {
@@ -80,8 +77,12 @@ public class PlatformerCameraFollow : MonoBehaviour
                 this.transform.position = Vector3.Lerp(this.transform.position, _target, Time.deltaTime * followSpeed);
             }
         }
+        else
+        {
+            moveCameraX();
+        }
     }
-    
+
     void FixedUpdate()
     {
         if (useFixedUpdate && _canFollow)
@@ -96,5 +97,13 @@ public class PlatformerCameraFollow : MonoBehaviour
         yield return new WaitForSeconds(startDelay);
 
         _canFollow = true;
+    }
+
+    private void moveCameraX()
+    {
+        //if (LevelManager.isReversed)
+        xOffset = -xOffset;
+        //else
+        //    _target.x += xOffset;
     }
 }
