@@ -8,7 +8,7 @@ public class FallingRockVisual : MonoBehaviour {
 
     Vector3 playerPos;
     // Track if in reversal state
-    private bool isReversed;
+    public bool isReversed;
     // Track if rock is currently falling
     private bool isFalling;
     // If rock is expended, it will not trigger again until reversal is done
@@ -21,12 +21,20 @@ public class FallingRockVisual : MonoBehaviour {
     float rockResetDelay = 2f;
     private GameObject playerObject;
 
+    private SpriteRenderer sprite;
+
     // Use this for initialization
     void Start ()
     {
+        sprite = GetComponent<SpriteRenderer>();
+        if (isReversed)
+        {
+            sprite.flipX = true;
+        }
         // Get the position we will reset the rock to later
         originalRockPos = gameObject.transform.position;
         rb = gameObject.GetComponent<Rigidbody>();
+        rb.useGravity = false;
         playerObject = GameObject.FindGameObjectWithTag("Player");
         // If reversal is active we want to flip the rock's trigger point
         LevelManager.CheckpointReverse.AddListener(flipRockOrientation);
