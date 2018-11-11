@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,7 +13,7 @@ public class Checkpoint : MonoBehaviour
 {
     Camera mainCam;
     PlatformerCameraFollow follower;
-    public float cameraStallDistance;
+    public float cameraStallDistance = 10;
 
     //define as rversal point
     public bool reversalPoint;
@@ -46,7 +47,8 @@ public class Checkpoint : MonoBehaviour
 
         if (!LM.isReversed)
         {
-            if (playerPos.x >= transform.position.x - cameraStallDistance && playerPos.x < transform.position.x)
+            // if the player is to the left of the checkpoint and the level is not reversed 
+            if (playerPos.x >= transform.position.x - cameraStallDistance && playerPos.x < transform.position.x && !Reached && isClose(playerPos.y, transform.position.y))
             {
                 stallCam();
             }
@@ -55,13 +57,21 @@ public class Checkpoint : MonoBehaviour
         }
         else
         {
-            if (playerPos.x <= transform.position.x + cameraStallDistance && playerPos.x > transform.position.x)
+            // if the player is to the right of the checkpoint and the level is reversed
+            if (playerPos.x <= transform.position.x + cameraStallDistance && playerPos.x > transform.position.x && !Reached && isClose(playerPos.y, transform.position.y))
             {
                 stallCam();
             }
             else
                 resumeCam();
         }
+    }
+
+    private bool isClose(float y1, float y2)
+    {
+        if (Math.Abs(y1 - y2) <= 3)
+            return true;
+        return false;
     }
 
     /// <summary>
@@ -84,15 +94,16 @@ public class Checkpoint : MonoBehaviour
 
     private void stallCam()
     {
-        Debug.Log("stallCam");
+        Debug.Log("Stalled");
         follower.isFollowing = false;
         cameraIsStalled = true;
     }
 
     private void resumeCam()
     {
-        Debug.Log("resumeCam");
+        Debug.Log("Resumed");
         follower.isFollowing = true;
+        cameraIsStalled = false;
     }
 
     private void TurnAroundAndReset() //trigger this method when the last checkpoint is reached

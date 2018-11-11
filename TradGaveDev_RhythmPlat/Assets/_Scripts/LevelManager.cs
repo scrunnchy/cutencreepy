@@ -59,6 +59,12 @@ public class LevelManager : MonoBehaviour
         pauseCamera.enabled = false;
 
         audio = mainCam.GetComponent<AudioSource>();
+        CheckpointReverse.AddListener(reverseLevel);
+    }
+
+    private void reverseLevel()
+    {
+        isReversed = !isReversed;
     }
 
     // Update is called once per frame
