@@ -51,7 +51,7 @@ public class GroundSpikes : MonoBehaviour
         bool playerOnRight = (playerPos.x - this.transform.position.x) < spikeTriggerDistance;
         bool playerOnLeft = (this.transform.position.x - playerPos.x) < spikeTriggerDistance;
         bool playerWithinRangeY = playerPos.y <= transform.position.y + 3 && playerPos.y >= transform.position.y - 3;
-        bool playerWithinRangeX = playerPos.x <= transform.position.x + 3 && playerPos.x >= transform.position.x - 3;
+        bool playerWithinRangeX = playerPos.x <= transform.position.x + .1 && playerPos.x >= transform.position.x - 3;
         if (!LM.isReversed)
         {
             if (!isExpended && playerOnLeft && playerWithinRangeY && playerWithinRangeX)
