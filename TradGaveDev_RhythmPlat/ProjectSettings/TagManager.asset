@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UICamera
   - BackgroundCamera
+  - Flat2_VM
   layers:
   - Default
   - TransparentFX

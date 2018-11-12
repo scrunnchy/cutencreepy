@@ -44,9 +44,9 @@ public class PlayerControl : MonoBehaviour
     public float yVelocityLowerLimit = 5f;
 
     [Header("Action Delays and Cooldowns")]
-    private float slideDelay = .5f;
-    private float dodgeDelay = .5f;
-    private float dashDelay = .5f;
+    public float slideDelay = .5f;
+    public float dodgeDelay = .5f;
+    public float dashDelay = .5f;
     public float dashCooldown = .2f;
     public float dodgeCooldown = .2f;
 
@@ -213,30 +213,27 @@ public class PlayerControl : MonoBehaviour
 
     private void Jump()
     {
-        // First part of Jump
-        // Vi, time (2/3)slideDelay+.5(-9.8 * gravityMultiplier)((2/3)slideDelay)^2
-        // x = 20*0.31496063+.5(-9.8*gMUp)(0.31496063)^2
-        // Second part of Jump
-        // x = Vi, time (1/3) slideDelay + .5(-9.8 * gravityMultiplier)((1/3)slideDelay)^2
-        // x = 0*0.157480315 + .5(-9.8 * gMDown)(0.157480315)^2
-        // 20*0.31496063+.5(-9.8*gMUp)(0.31496063)^2 = 0*0.157480315 + .5(-9.8 * gMDown)(0.157480315)^2
-        // gMUp = .25gMDown + 12.9592
-        // 
-        //
-        //
-        //
-        //Input.GetAxis(jumpAxis) > 0f
-        // !_inJump
-        if (Input.GetAxis(jumpAxis) > 0f)
+        RaycastHit raycastHit;
+        if (Physics.Raycast(this.transform.position, Vector3.down, out raycastHit, 1.2f) && Input.GetAxis(jumpAxis) > 0f)
         {
-            anim.SetBool("Jumping", true);
-            // Nuke player y velocity and set jump force
-            _characterVelocity.y = 0f;
-            _characterVelocity.y = 20f;
-            //_force.y = jumpForce;
+            if (raycastHit.collider.gameObject == GameObject.FindGameObjectWithTag("Flat2_VM"))
+            {
+                anim.SetBool("Jumping", true);
+                _characterVelocity.y = 40f;
+                _inJump = true;
+                _canJump = false;
+            }
+            else
+            {
+                anim.SetBool("Jumping", true);
+                // Nuke player y velocity and set jump force
+                _characterVelocity.y = 0f;
+                _characterVelocity.y = 20f;
+                //_force.y = jumpForce;
 
-            _inJump = true;
-            _canJump = false;
+                _inJump = true;
+                _canJump = false;
+            }
         }
     }
 
