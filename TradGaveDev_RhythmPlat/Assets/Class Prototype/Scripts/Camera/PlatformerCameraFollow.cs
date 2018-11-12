@@ -54,7 +54,7 @@ public class PlatformerCameraFollow : MonoBehaviour
         {
             _canFollow = true;
         }
-        
+
         audioSource = GetComponent<AudioSource>();
         audioSource.time = timeOffset;
         audioSource.Play();
@@ -65,11 +65,14 @@ public class PlatformerCameraFollow : MonoBehaviour
 
     void Update()
     {
-        if (isFollowing)
-        {
+        //if (isFollowing)
+        //{
             _target = followTransform.position;
             _target.y += yOffset;
-            _target.x += xOffset;
+            if (LevelManager.isReversed)
+                _target.x -= xOffset;
+            else
+                _target.x += xOffset;
 
             if (lookAhead)
             {
@@ -80,13 +83,9 @@ public class PlatformerCameraFollow : MonoBehaviour
             _target += _zOffset;
             if (!useFixedUpdate && _canFollow)
             {
-                this.transform.position = Vector3.Lerp(this.transform.position, _target, Time.deltaTime * followSpeed);
+                transform.position = Vector3.Lerp(transform.position, _target, Time.deltaTime * followSpeed);
             }
-        }
-        else
-        {
-            moveCameraX();
-        }
+        //}
     }
 
     void FixedUpdate()
@@ -105,18 +104,11 @@ public class PlatformerCameraFollow : MonoBehaviour
         _canFollow = true;
     }
 
-    private void moveCameraX()
-    {
-        //if (LevelManager.isReversed)
-        xOffset = -xOffset;
-        //else
-        //    _target.x += xOffset;
-    }
     private void ReverseMusic()
     {
         reversed = !reversed;
         if (reversed)
-        audioSource.outputAudioMixerGroup = mixer;
+            audioSource.outputAudioMixerGroup = mixer;
         else
             audioSource.outputAudioMixerGroup = null;
     }
