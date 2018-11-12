@@ -14,7 +14,7 @@ public class CameraStaller : MonoBehaviour
     private GameObject playerObject;
     private bool cameraIsStalled;
     private bool colliderOnLeft;
-    private BoxCollider boxC;
+    public BoxCollider boxC;
     // Use this for initialization
     void Start()
     {
@@ -60,7 +60,6 @@ public class CameraStaller : MonoBehaviour
 
     private void FlipCollider()
     {
-        Debug.Log("fliping collider");
         if (colliderOnLeft)
         {
             //move collider to the right side
