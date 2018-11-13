@@ -180,7 +180,7 @@ public class PlayerControl : MonoBehaviour
             _inSlidePhase1 = false;
             _inSlidePhase2 = true;
         }
-        if ((_inSlidePhase2 && !(Input.GetAxis("Slide") > 0f)) || !isGrounded)
+        if ((_inSlidePhase2 && !(Input.GetAxis("Slide") > 0f)))
         {
             anim.SetBool("Sliding", false);
             _inSlidePhase2 = false;
