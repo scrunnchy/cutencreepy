@@ -98,8 +98,6 @@ public class PlatformVerticalMovement : MonoBehaviour {
         // If we go into this code, we are either currently at bottom or regular platform positions
         if (moveUpwards)
          {
-            if ((playerPos.x < transform.position.x + .5 && playerPos.x > transform.position.x - .5) && (playerPos.y < transform.position.y + 2 && playerPos.y > transform.position.y - 2))
-            LevelManager.PlatformRise.Invoke();
              if ((platformOriginalHeight.y - transform.position.y) < .5)
              {
                  // move from platform original position to top position
