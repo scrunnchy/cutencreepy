@@ -34,7 +34,6 @@ public class PlayerControl : MonoBehaviour
     public float slowDownSpeed;
 
     [Header("Jump Properties")]
-    public float jumpForce = 5f;
     public float fallMultiplier = 20f;
     
     [Range(0f, 1f)]
@@ -46,7 +45,6 @@ public class PlayerControl : MonoBehaviour
     [Header("Action Delays and Cooldowns")]
     public float slideDelay = .5f;
     public float dodgeDelay = .5f;
-    public float dashDelay = .5f;
     public float dashCooldown = .2f;
     public float dodgeCooldown = .2f;
 
@@ -149,11 +147,6 @@ public class PlayerControl : MonoBehaviour
                 anim.SetFloat("yHeight", _characterController.transform.position.y);
             if (_characterVelocity.y <= 0)
             _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-            //&& _characterController.transform.position.y > 2
-            /*if (_characterVelocity.y < yVelocityLowerLimit)
-            {
-                _characterVelocity += Vector3.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
-            }*/
 
             // If we haven't reached terminal velocity, apply gravity
             if (_characterVelocity.y > -terminalVelocity)

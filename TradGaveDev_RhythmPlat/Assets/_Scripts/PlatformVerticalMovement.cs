@@ -29,6 +29,10 @@ public class PlatformVerticalMovement : MonoBehaviour {
     // amount of meters we want to offset the positions
     public float yOffset = 0;
 
+    private Vector3 playerPos;
+
+    public bool showVelocity;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -48,6 +52,8 @@ public class PlatformVerticalMovement : MonoBehaviour {
         
         // Calculate the journey length.
         journeyLength = Vector3.Distance(startMarker, endMarker);
+
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
 
         if (moveDownwards)
         {
@@ -72,13 +78,14 @@ public class PlatformVerticalMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update()
     {
-
         journeyLength = Vector3.Distance(startMarker, endMarker);
         //Debug.Log(journeyLength);
         // Distance moved = time * speed.
-        float distCovered = (Time.time - startTime) * speed;
+        float distCovered = ((Time.time - startTime) * speed/8);
         // Fraction of journey completed = current distance divided by total distance.
         float fracJourney = distCovered / journeyLength;
+        //if (showVelocity)
+            //Debug.Log(fracJourney);
         //Debug.Log(fracJourney);
         // Set our position as a fraction of the distance between the markers.
         transform.position = Vector3.Lerp(startMarker, endMarker, fracJourney);
@@ -91,6 +98,8 @@ public class PlatformVerticalMovement : MonoBehaviour {
         // If we go into this code, we are either currently at bottom or regular platform positions
         if (moveUpwards)
          {
+            if ((playerPos.x < transform.position.x + .5 && playerPos.x > transform.position.x - .5) && (playerPos.y < transform.position.y + 2 && playerPos.y > transform.position.y - 2))
+            LevelManager.PlatformRise.Invoke();
              if ((platformOriginalHeight.y - transform.position.y) < .5)
              {
                  // move from platform original position to top position
