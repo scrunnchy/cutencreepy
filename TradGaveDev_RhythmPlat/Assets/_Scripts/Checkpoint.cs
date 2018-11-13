@@ -47,6 +47,8 @@ public class Checkpoint : MonoBehaviour
         {
             Debug.Log("checkpoint reached");
             Reached = true;
+            //consume candy
+            GetComponent<SpriteRenderer>().enabled = false;
             //trigger "CheckpointCollision" event
             LevelManager.CheckpointCollision.Invoke();
             //trigger reversal conditionally
