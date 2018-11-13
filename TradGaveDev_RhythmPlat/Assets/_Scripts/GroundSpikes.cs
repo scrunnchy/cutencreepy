@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GroundSpikes : MonoBehaviour {
+public class GroundSpikes : MonoBehaviour
+{
 
     // track if obstacle is expended from hitting player
     private bool isExpended;
     //store reference to Level Manager
     public LevelManager LM;
-    
+
     //The speed at which the spikes will move up.
     public float speed = 1f;
     //The amount of units the spikes will move up
@@ -28,7 +29,8 @@ public class GroundSpikes : MonoBehaviour {
     //private bool isMoving = false;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
 
         if (enemyPlayerCollision == null)
         {
@@ -40,24 +42,29 @@ public class GroundSpikes : MonoBehaviour {
         //Register for reversal.
         LevelManager.CheckpointReverse.AddListener(RespondToReverse);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         playerPos = GameObject.FindGameObjectWithTag("Player").transform.position;
+
+        bool playerOnRight = (playerPos.x - this.transform.position.x) < spikeTriggerDistance;
+        bool playerOnLeft = (this.transform.position.x - playerPos.x) < spikeTriggerDistance;
+        bool playerWithinRangeY = playerPos.y <= transform.position.y + 3 && playerPos.y >= transform.position.y - 3;
+        bool playerWithinRangeX = playerPos.x <= transform.position.x + .1 && playerPos.x >= transform.position.x - 3;
         if (!LM.isReversed)
         {
-            if (!isExpended && ((this.transform.position.x - playerPos.x) < spikeTriggerDistance))
+            if (!isExpended && playerOnLeft && playerWithinRangeY && playerWithinRangeX)
             {
                 isExpended = true;
                 //move the spike upwards
                 //isMoving = true;
                 moveSprite();
             }
-
         }
         else
         {
-            if (!isExpended && ((playerPos.x - this.transform.position.x) < spikeTriggerDistance))
+            if (!isExpended && playerOnRight && playerWithinRangeY && playerWithinRangeX)
             {
                 isExpended = true;
                 //move the spike upwards
@@ -94,7 +101,7 @@ public class GroundSpikes : MonoBehaviour {
                 enemyPlayerCollision.Invoke();
             }
         }
-        
+
     }
 
     private void OnTriggerExit(Collider other)

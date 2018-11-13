@@ -24,6 +24,10 @@ public class Enemy : MonoBehaviour {
     private SpriteRenderer spriteR;
     //store reference to box collider component
     private BoxCollider boxC;
+    //reference particle generator transform
+    private Transform particlesT;
+
+    private GameObject[] pieces;
     private void Awake()
     {
 
@@ -34,6 +38,8 @@ public class Enemy : MonoBehaviour {
     // retrieve collider component
     // register as an event listener for beats and level reversal
     void Start () {
+
+        particlesT = GetComponentInChildren<Transform>();
 
         //set sprites in dictionary with names
         if (spriteSet == null)
@@ -72,11 +78,22 @@ public class Enemy : MonoBehaviour {
         //Register for reversal.
         LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
+        pieces = new GameObject[transform.childCount];
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            pieces[i] = transform.GetChild(i).gameObject;
+        }
+
         //disappear if enemy is to appear during reversals
         if (AppearsAtReverse)
         {
             boxC.enabled = false;
             spriteR.enabled = false;
+            //turn off children
+            foreach (GameObject go in pieces)
+            {
+                go.SetActive(false);
+            }
         }
 
         //indicate that the enemy starts out normally
@@ -121,7 +138,6 @@ public class Enemy : MonoBehaviour {
             if (gotHit)
             {
                 // trigger Damage event
-                Debug.Log("player hit");
                 LevelManager.enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
@@ -155,6 +171,9 @@ public class Enemy : MonoBehaviour {
             spriteR.flipX = true;
             //swap sprite to needed version
             SwapSpriteToReverse();
+            //flip particle effect.
+            particlesT.Translate(-3f, 0f, 0f);
+            particlesT.Rotate(0f, 180f, 0f);
         }
         else
         {
@@ -164,6 +183,9 @@ public class Enemy : MonoBehaviour {
             spriteR.flipX = false;
             //swap sprite to needed version
             SwapSpriteToNormal();
+            //flip particle effect.
+            particlesT.Translate(3f, 0f, 0f);
+            particlesT.Rotate(0f, 180f, 0f);
         }
 
         //appear/disapear based on state depending on settings
@@ -178,6 +200,19 @@ public class Enemy : MonoBehaviour {
             {
                 boxC.enabled = true;
                 spriteR.enabled = true;
+            }
+
+            foreach (GameObject go in pieces)
+            {
+                //swap to active or innactive based on current state
+                if (go.activeSelf)
+                {
+                    go.SetActive(false);
+                }
+                else
+                {
+                    go.SetActive(true);
+                }
             }
         }
 
