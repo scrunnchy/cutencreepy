@@ -143,5 +143,6 @@ public class PlatformVerticalMovement : MonoBehaviour {
                  startTime = Time.time;
              }
          }
+
     }
 }
