@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour {
     // register as an event listener for beats and level reversal
     void Start () {
 
-        particlesT = GetComponentInChildren<Transform>();
+        particlesT = transform.GetChild(0);
 
         //set sprites in dictionary with names
         if (spriteSet == null)
@@ -173,7 +173,7 @@ public class Enemy : MonoBehaviour {
             SwapSpriteToReverse();
             //flip particle effect.
             particlesT.Translate(-3f, 0f, 0f);
-            particlesT.Rotate(0f, 180f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
         }
         else
         {
@@ -185,7 +185,7 @@ public class Enemy : MonoBehaviour {
             SwapSpriteToNormal();
             //flip particle effect.
             particlesT.Translate(3f, 0f, 0f);
-            particlesT.Rotate(0f, 180f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
         }
 
         //appear/disapear based on state depending on settings
