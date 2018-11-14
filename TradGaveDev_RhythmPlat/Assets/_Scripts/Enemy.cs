@@ -36,7 +36,6 @@ public class Enemy : MonoBehaviour {
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
         animator = this.GetComponent<Animator>();
-        isReversed = false;
         animator.SetBool("Reversed", isReversed);
     }
     // On start, an enemy will:
@@ -148,7 +147,7 @@ public class Enemy : MonoBehaviour {
             if (gotHit)
             {
                 // trigger Damage event
-                //LevelManager.enemyPlayerCollision.Invoke();
+                LevelManager.enemyPlayerCollision.Invoke();
                 isExpended = true;
             }
         }
