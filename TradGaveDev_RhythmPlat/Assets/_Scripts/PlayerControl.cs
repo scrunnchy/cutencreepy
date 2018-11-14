@@ -206,6 +206,7 @@ public class PlayerControl : MonoBehaviour
 
     private void Jump()
     {
+        Debug.Log(_characterVelocity.y);
         RaycastHit raycastHit;
         if (Physics.Raycast(this.transform.position, Vector3.down, out raycastHit, 1.2f) && Input.GetAxis(jumpAxis) > 0f)
         {
