@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114455918833864742}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81,12 +81,13 @@ MonoBehaviour:
   frictionCoefficient: 0.85
   massCoeficcient: 0.85
   slowDownSpeed: 0.2
-  jumpForce: 5
   fallMultiplier: 30
   airControl: 0.85
   regularGravityMultiplier: 6.5
   terminalVelocity: 25
   yVelocityLowerLimit: 0
+  slideDelay: 0.5
+  dodgeDelay: 0.5
   dashCooldown: 0.2
   dodgeCooldown: 0.2
   _inJump: 0

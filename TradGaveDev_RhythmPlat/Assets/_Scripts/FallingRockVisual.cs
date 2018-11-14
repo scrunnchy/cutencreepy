@@ -45,10 +45,10 @@ public class FallingRockVisual : MonoBehaviour {
     {
         // Constantly update playe rposition so rock can accurately tell if it should fall
         playerPos = playerObject.transform.position;
-        bool playerWithinRangeY = playerPos.y <= transform.position.y + 0 && playerPos.y >= transform.position.y - 5;
+        //bool playerWithinRangeY = playerPos.y <= transform.position.y + 0 && playerPos.y >= transform.position.y - 5;
         // We go into the if statement if we are not in reversal and we can still make the rock fall
         if (!isReversed && !isExpended) {
-            if ((this.transform.position.x - playerPos.x) < rockTriggerDistance && playerWithinRangeY)
+            if ((this.transform.position.x - playerPos.x) < rockTriggerDistance )
             {
                 isExpended = true;
                 isFalling = true;
@@ -57,7 +57,7 @@ public class FallingRockVisual : MonoBehaviour {
         }
         // else we are either in reversal or rock is expended. 
         else {
-            if ((playerPos.x - this.transform.position.x) < rockTriggerDistance +.1 && playerWithinRangeY && !isExpended)
+            if ((playerPos.x - this.transform.position.x) < rockTriggerDistance +.1 && !isExpended)
             {
                 isExpended = true;
                 isFalling = true;
