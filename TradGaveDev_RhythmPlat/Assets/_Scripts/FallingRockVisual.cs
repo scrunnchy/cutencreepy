@@ -22,11 +22,13 @@ public class FallingRockVisual : MonoBehaviour {
     private GameObject playerObject;
 
     private SpriteRenderer sprite;
+    private Transform particlesT;
 
     // Use this for initialization
     void Start ()
     {
         sprite = GetComponent<SpriteRenderer>();
+        particlesT = transform.parent.GetChild(2);
         if (isReversed)
         {
             sprite.flipX = true;
@@ -79,6 +81,17 @@ public class FallingRockVisual : MonoBehaviour {
     {
         isExpended = false;
         isReversed = true;
+        //rotate the particle effect into position for reversal
+        if (isReversed)
+        {
+            particlesT.Translate(3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
+        }
+        else
+        {
+            particlesT.Translate(-3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
+        }
     }
     IEnumerator ResetRock()
     {
