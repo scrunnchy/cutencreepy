@@ -22,7 +22,7 @@ public class Checkpoint : MonoBehaviour
     private GameObject playerObject;
     private CameraStaller cs;
     private bool reversed;
-
+    
     void Start()
     {
         LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
@@ -39,16 +39,16 @@ public class Checkpoint : MonoBehaviour
     {
         Vector3 playerPos = playerObject.transform.position;
         //if player is at checkpoint
-        if (!Reached 
-            && (playerPos.x > (transform.position.x - .1)) 
+        if (!Reached
+            && (playerPos.x > (transform.position.x - .1))
             && (playerPos.x < (transform.position.x + .1))
-            && (playerPos.y > (transform.position.y - 2))
-            && (playerPos.y < (transform.position.y + 2)))
+            && (playerPos.y > (transform.position.y - 3))
+            && (playerPos.y < (transform.position.y + 3)))
         {
             Debug.Log("checkpoint reached");
             Reached = true;
             //consume candy
-            GetComponent<SpriteRenderer>().enabled = false;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
             //trigger "CheckpointCollision" event
             LevelManager.CheckpointCollision.Invoke();
             //trigger reversal conditionally
@@ -68,19 +68,7 @@ public class Checkpoint : MonoBehaviour
     private void TurnAroundAndReset() //trigger this method when the last checkpoint is reached
     {
         reversed = !reversed;
-        //will behave direcitonally if not a reversal point.
-        if (!reversalPoint)
-        {
-            // always flip to the direction not currently facing
-            if (!GetComponent<SpriteRenderer>().flipX)
-            {
-                GetComponent<SpriteRenderer>().flipX = true;
-            }
-            else
-            {
-                GetComponent<SpriteRenderer>().flipX = false;
-            }
-        }
+        
         //if this is not the checkpoint that was reached, then orient the collider correctly.
         if (!Reached)
         {
