@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: cdf653bef1fcb2c408e43d42a3ac5ab5
+guid: 8622145fd35a19243984dc108f420d77
 TextureImporter:
   fileIDToRecycleName:
     21300000: Play
     21300002: Quit
     21300004: Pause
-    21300006: Green
-    21300008: Red
-    21300010: Reverser
+    21300006: Reverse
+    21300008: Goal
+    21300010: Restart
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
         width: 312.66666
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8542d51b4abb3b540be509ade776da32
+      spriteID: 208ef21b7d26c2f45a886be861288080
       vertices: []
       indices: 
       edges: []
@@ -118,13 +118,13 @@ TextureImporter:
         width: 312.66666
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54cbce631d4a9b34cab481b49e1ac278
+      spriteID: a112633a37d5df642bec7a34fe53d673
       vertices: []
       indices: 
       edges: []
@@ -138,59 +138,59 @@ TextureImporter:
         width: 312.66666
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c23ee3559eb0c304087628ba99b8767e
+      spriteID: f7efd6c068e63164cb991277ba64e5b2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green
+      name: Reverse
       rect:
         serializedVersion: 2
-        x: 33
-        y: 35
-        width: 139
-        height: 222
+        x: 20
+        y: 0
+        width: 160
+        height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 607ccf6ed177436408fc5e9f38de2cc1
+      spriteID: 5a5d4d2a4bbcd2548a081532dc319f72
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Red
+      name: Goal
       rect:
         serializedVersion: 2
-        x: 360
-        y: 142
-        width: 166
-        height: 163
+        x: 355
+        y: 0
+        width: 179
+        height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 654abb76ad1c91d44a91cb8b1b62f1f5
+      spriteID: e44dc39699e9b3c4db9c4d90c34f0459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reverser
+      name: Restart
       rect:
         serializedVersion: 2
         x: 624
@@ -198,13 +198,13 @@ TextureImporter:
         width: 312.66666
         height: 313
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 561a4829dee8c5842b68e7423557e29c
+      spriteID: 8565bcb204643e9439dd34bc48c15735
       vertices: []
       indices: 
       edges: []
@@ -212,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 16c2f7f381476944faab91124e420b0e
+    spriteID: 7d12f9673aac9f744b31eeced22e880d
     vertices: []
     indices: 
     edges: []
