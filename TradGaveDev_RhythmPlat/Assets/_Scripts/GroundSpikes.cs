@@ -9,6 +9,8 @@ public class GroundSpikes : MonoBehaviour
 
     // track if obstacle is expended from hitting player
     private bool isExpended;
+    private bool isReversed;
+
     //store reference to Level Manager
     public LevelManager LM;
 
@@ -25,20 +27,21 @@ public class GroundSpikes : MonoBehaviour
 
     //store reference to sprite renderer component
     private SpriteRenderer spriteR;
+    private Transform particlesT;
 
     //private bool isMoving = false;
 
     // Use this for initialization
     void Start()
     {
-
+        particlesT = transform.parent.GetChild(0);
         if (enemyPlayerCollision == null)
         {
             enemyPlayerCollision = new UnityEvent();
         }
         LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         spriteR = gameObject.transform.parent.gameObject.GetComponentInChildren<SpriteRenderer>();
-
+        isReversed = false;
         //Register for reversal.
         LevelManager.CheckpointReverse.AddListener(RespondToReverse);
     }
@@ -81,6 +84,18 @@ public class GroundSpikes : MonoBehaviour
     private void RespondToReverse()
     {
         isExpended = false;
+        isReversed = true;
+        //rotate the particle effect into position for reversal
+        if (isReversed)
+        {
+            particlesT.Translate(3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
+        }
+        else
+        {
+            particlesT.Translate(-3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
+        }
     }
 
     /// <summary>
