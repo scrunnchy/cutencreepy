@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 212142196380895414}
   - component: {fileID: 114316765511237354}
   - component: {fileID: 54194649010294352}
+  - component: {fileID: 95616926287700094}
   m_Layer: 0
   m_Name: FunkyFrankenstein
   m_TagString: Untagged
@@ -253,7 +254,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1569603918491038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.7, z: 0}
+  m_LocalPosition: {x: 2.0817313, y: 18.965818, z: -17.993555}
   m_LocalScale: {x: 0.33333334, y: 1, z: 0.33333334}
   m_Children:
   - {fileID: 4033461509019606}
@@ -287,6 +288,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2, y: 6, z: 2}
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!95 &95616926287700094
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1569603918491038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bfa2e5eca7c6cc345a58f543cdebb656, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114316765511237354
 MonoBehaviour:
   m_ObjectHideFlags: 1

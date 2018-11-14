@@ -1,0 +1,1548 @@
+fileFormatVersion: 2
+guid: f78c873d2df958346afc837eb362af06
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: NEW Zumba Zombie_0
+    21300002: NEW Zumba Zombie_1
+    21300004: NEW Zumba Zombie_2
+    21300006: NEW Zumba Zombie_3
+    21300008: NEW Zumba Zombie_4
+    21300010: NEW Zumba Zombie_5
+    21300012: NEW Zumba Zombie_6
+    21300014: NEW Zumba Zombie_7
+    21300016: NEW Zumba Zombie_8
+    21300018: NEW Zumba Zombie_9
+    21300020: NEW Zumba Zombie_10
+    21300022: NEW Zumba Zombie_11
+    21300024: NEW Zumba Zombie_12
+    21300026: NEW Zumba Zombie_13
+    21300028: NEW Zumba Zombie_14
+    21300030: NEW Zumba Zombie_15
+    21300032: NEW Zumba Zombie_16
+    21300034: NEW Zumba Zombie_17
+    21300036: NEW Zumba Zombie_18
+    21300038: NEW Zumba Zombie_19
+    21300040: NEW Zumba Zombie_20
+    21300042: NEW Zumba Zombie_21
+    21300044: NEW Zumba Zombie_22
+    21300046: NEW Zumba Zombie_23
+    21300048: NEW Zumba Zombie_24
+    21300050: NEW Zumba Zombie_25
+    21300052: NEW Zumba Zombie_26
+    21300054: NEW Zumba Zombie_27
+    21300056: NEW Zumba Zombie_28
+    21300058: NEW Zumba Zombie_29
+    21300060: NEW Zumba Zombie_30
+    21300062: NEW Zumba Zombie_31
+    21300064: NEW Zumba Zombie_32
+    21300066: NEW Zumba Zombie_33
+    21300068: NEW Zumba Zombie_34
+    21300070: NEW Zumba Zombie_35
+    21300072: NEW Zumba Zombie_36
+    21300074: NEW Zumba Zombie_37
+    21300076: NEW Zumba Zombie_38
+    21300078: NEW Zumba Zombie_39
+    21300080: NEW Zumba Zombie_40
+    21300082: NEW Zumba Zombie_41
+    21300084: NEW Zumba Zombie_42
+    21300086: NEW Zumba Zombie_43
+    21300088: NEW Zumba Zombie_44
+    21300090: NEW Zumba Zombie_45
+    21300092: NEW Zumba Zombie_46
+    21300094: NEW Zumba Zombie_47
+    21300096: NEW Zumba Zombie_48
+    21300098: NEW Zumba Zombie_49
+    21300100: NEW Zumba Zombie_50
+    21300102: NEW Zumba Zombie_51
+    21300104: NEW Zumba Zombie_52
+    21300106: NEW Zumba Zombie_53
+    21300108: NEW Zumba Zombie_54
+    21300110: NEW Zumba Zombie_55
+    21300112: NEW Zumba Zombie_56
+    21300114: NEW Zumba Zombie_57
+    21300116: NEW Zumba Zombie_58
+    21300118: NEW Zumba Zombie_59
+    21300120: NEW Zumba Zombie_60
+    21300122: NEW Zumba Zombie_61
+    21300124: NEW Zumba Zombie_62
+    21300126: NEW Zumba Zombie_63
+    21300128: NEW Zumba Zombie_64
+    21300130: NEW Zumba Zombie_65
+    21300132: NEW Zumba Zombie_66
+    21300134: NEW Zumba Zombie_67
+    21300136: NEW Zumba Zombie_68
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fe28bc7c533cb459b5c73c8c06d79e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079079e8637ef7540a397f07b170d7a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28078e70a0673bd41a5698f96db8a93a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafe8f938d7382645ba376654b3d8dee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf197db6e62433940923c1660134be5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81d8bb4017f3e24c9134e4b6745be70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e3126fe2cb38b40bfd26c453bd47fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_7
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c708e5e97438c544780cd3a5998e6dd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_8
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad85b504f228e144ae3b61b10ddd26f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_9
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9e7f2a1d0a9f84eb9388a090caabe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_10
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b1015cda48a24bb1dbf1de2187bdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_11
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b573a6e25bddf0f4baa4442d5f244e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5a7e5661b15004da6c4b9e6e0dd725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8accec0b9d7ac43881ecb5e2d52584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd1554ecb7b3e4438cc7cf30bbb482e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f6569102f68a14d881a5563bb7278c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd8b0ecc2c37b840aa9191370b6bbee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_17
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610622e7b4231de4589ca39c1dba680d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_18
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a5418f76abb6a469417a21eebf579b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_19
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bd06e5c21c84849a74cb2b85201f52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_20
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd522d34866e31244813461d03024cca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_21
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aaf40f83acf1946a228526ba2b79d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_22
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18c04cb1421a644191e0a94a912c75a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_23
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c4001fe7df9384382dd4af186bd9bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed557cd080ecce4b8357d4484448c2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5f5081f9fb4f7409d08765ba010622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c4e8c71e78fcd469d621817f4048c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5cd35e4917f1a4488a54868f03aead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_28
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53131a18f047e0342adeb5e90cc22a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_29
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0a2893001dc64e8a9204805568eb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_30
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0955e9e3509a0a46ab2959a3cd78a82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_31
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e91c56e3057d342bcb49f5b46ab338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_32
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd53a0fa4d9064468a352ddc5df38c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_33
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b37063fd3c6ac049bf7515e22b9ec30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_34
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d059676a67ff4b8ecf36c2fa8b04f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_35
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182d1bf5742809b469c93b11df634d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fb0cdf09381714d862554992d7529f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f69fdd30f78604392352c080959ee1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ce3c9648c0ab341bb91ce22b8304a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_39
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f9b073850090048aa8055f3bd1f2d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_40
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1f549ad573f774580aa4ac5a868f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_41
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ddefa4cb640a44ca3834a3c1165a09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_42
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b72f5425126a4a419faabd492f12812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_43
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315ff1cbe6fe8e64c91db9a026323890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_44
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e5488ac3578564eaab21e775cc1e4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_45
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcd6bb292d3cf94c9c0ea9f73fc5770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_46
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37acd809868a4dc4eac9b1b6b19c0229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_47
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ecd7b3e61f92f4db0b9d059744daea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31d284215e018b4dacc61c1f1287e60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb62b19ee7fa07745964b4df5e20466a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ee3eff1c589245b376352ce692e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec151bf406b5a340b2daaceede2168c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_52
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be90203847961f488d60dec3d913a07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_53
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a746b89c0f3ed21478148ca22877e26f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_54
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c1051210715614ca11f5df7bf6a3a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_55
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9575e70901bb432448382c195934ff13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_56
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e65058b711b85b4f855ad594bfbbd51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_57
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cc5ad430c322a4fbc8a619e87bb8b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_58
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bf4b54d0af49c46bb4407ed3436392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_59
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1003f44819fc7842adb7cf7544de466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54cbcb1cae2f8444ab9c19c0aa38307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_61
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f454d7d05e2c44b78ae037ee00fc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa3288a2e22d82489b5a883707c6038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ebce18136d0540a59b6a9e2c2760f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_64
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e537a41a134f6cf4f93465f521b56a37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_65
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5098d3abf39f3344ea1e41fa7a0fce97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_66
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a5bc3e8dcf3646bac92d45381e60b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_67
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6561112df690604b9c3e353c4a23467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEW Zumba Zombie_68
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b95ff8e07c51554d9ec3885579cf3c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 60fb461f19777f34484259c7bc4c19f5
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
