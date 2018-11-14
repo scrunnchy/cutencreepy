@@ -27,12 +27,16 @@ public class Enemy : MonoBehaviour {
     //reference particle generator transform
     private Transform particlesT;
 
+    private Animator animator;
+
     private GameObject[] pieces;
     private void Awake()
     {
 
         spriteR = GetComponent<SpriteRenderer>();
         boxC = GetComponent<BoxCollider>();
+        animator = this.GetComponent<Animator>();
+        animator.SetBool("Reversed", isReversed);
     }
     // On start, an enemy will:
     // retrieve collider component
@@ -72,9 +76,7 @@ public class Enemy : MonoBehaviour {
         {
             spriteR.sprite = spriteSet["ZUMBA_ZOMBIE"];
         }
-
-        //Register for koreography beats.
-        Koreographer.Instance.RegisterForEvents("SingleBeatTrack", IdleAnimation);
+        
         //Register for reversal.
         LevelManager.CheckpointReverse.AddListener(ChangeAppearanceOnReverse);
 
@@ -102,7 +104,14 @@ public class Enemy : MonoBehaviour {
 	
 	// Once per frame, 
 	void Update () {
-
+        if (isReversed)
+        {
+            this.animator.SetBool("Reversed", true);
+        }
+        else
+        {
+            this.animator.SetBool("Reversed", false);
+        }
 	}
 
     /// <summary>
@@ -145,15 +154,6 @@ public class Enemy : MonoBehaviour {
     }
 
     /// <summary>
-    /// On the relevant beat, an enemy will initiate its dance animation.
-    /// </summary>
-    /// <param name="beat"></param>
-    private void IdleAnimation(KoreographyEvent beat)
-    {
-        //No animation implimented yet.
-    }
-
-    /// <summary>
     /// Triggers as soon as the reversal point is reached.
     /// Flips the enemy sprite such that it faces the player. 
     /// resets the enemy to be no longer expended. 
@@ -162,31 +162,6 @@ public class Enemy : MonoBehaviour {
     /// </summary>
     private void ChangeAppearanceOnReverse() 
     {
-        // take action depending on enemy's current state 
-        if (isReversed)
-        {
-            //toggle orientation
-            isReversed = false;
-            //flip the sprite direction accordingly
-            spriteR.flipX = true;
-            //swap sprite to needed version
-            SwapSpriteToReverse();
-            //flip particle effect.
-            particlesT.Translate(-3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
-        else
-        {
-            //toggle orientation
-            isReversed = true;
-            //flip the sprite direction accordingly
-            spriteR.flipX = false;
-            //swap sprite to needed version
-            SwapSpriteToNormal();
-            //flip particle effect.
-            particlesT.Translate(3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
 
         //appear/disapear based on state depending on settings
         if (AppearsAtReverse || DisapearsAtReverse)
@@ -201,77 +176,42 @@ public class Enemy : MonoBehaviour {
                 boxC.enabled = true;
                 spriteR.enabled = true;
             }
-
-            foreach (GameObject go in pieces)
+        }
+        // take action depending on enemy's current state 
+        if (isReversed)
+        {
+            if (this.isActiveAndEnabled)
             {
-                //swap to active or innactive based on current state
-                if (go.activeSelf)
-                {
-                    go.SetActive(false);
-                }
-                else
-                {
-                    go.SetActive(true);
-                }
+
+                animator.SetBool("Reversed", false);
             }
+            //toggle orientation
+            isReversed = false;
+            //flip the sprite direction accordingly
+            //spriteR.flipX = true;
+            //swap sprite to needed version
+            //SwapSpriteToReverse();
+            //flip particle effect.
+            particlesT.Translate(-3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
+        }
+        else
+        {
+            if (this.isActiveAndEnabled)
+            {
+                //Debug.Log("isReversed");
+                Debug.Log(this.gameObject.name);
+                this.animator.SetBool("Reversed", true);
+            }
+            //toggle orientation
+            isReversed = true;
+            //flip the sprite direction accordingly
+            spriteR.flipX = false;
+            //flip particle effect.
+            particlesT.Translate(3f, 0f, 0f);
+            particlesT.Rotate(180f, 180f, 0f);
         }
 
         isExpended = false;
-    }
-
-    /// <summary>
-    /// Helper method to change this enemy's sprite to the reversed version
-    /// </summary>
-    private void SwapSpriteToReverse()
-    {
-        //set sprite to reverse version based on type.
-        if (enemyTypeKey == 0)
-        {
-            spriteR.sprite = spriteSet["R_BEAT_BAT"];
-        }
-        else if (enemyTypeKey == 1)
-        {
-            spriteR.sprite = spriteSet["R_FUNKY_FRANKENSTEIN"];
-        }
-        else if (enemyTypeKey == 2)
-        {
-            spriteR.sprite = spriteSet["R_MELODY_MUMMY"];
-        }
-        else if (enemyTypeKey == 3)
-        {
-            spriteR.sprite = spriteSet["R_SALSA_SPIDER"];
-        }
-        else if (enemyTypeKey == 4)
-        {
-            spriteR.sprite = spriteSet["R_ZUMBA_ZOMBIE"];
-        }
-    }
-
-    /// <summary>
-    /// Helper method to change this enemy's sprite to the normal version
-    /// </summary>
-    private void SwapSpriteToNormal()
-    {
-        //set sprite to normal version based on type.
-        if (enemyTypeKey == 0)
-        {
-            spriteR.sprite = spriteSet["BEAT_BAT"];
-        }
-        else if (enemyTypeKey == 1)
-        {
-            spriteR.sprite = spriteSet["FUNKY_FRANKENSTEIN"];
-        }
-        else if (enemyTypeKey == 2)
-        {
-            spriteR.sprite = spriteSet["MELODY_MUMMY"];
-        }
-        else if (enemyTypeKey == 3)
-        {
-            spriteR.sprite = spriteSet["SALSA_SPIDER"];
-        }
-        else if (enemyTypeKey == 4)
-        {
-            spriteR.sprite = spriteSet["ZUMBA_ZOMBIE"];
-        }
     }
 }

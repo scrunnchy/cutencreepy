@@ -1,0 +1,1548 @@
+fileFormatVersion: 2
+guid: 25b1389914741b44d8b11ba187d53832
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ZumbaZombie_REVERSE_0
+    21300002: ZumbaZombie_REVERSE_1
+    21300004: ZumbaZombie_REVERSE_2
+    21300006: ZumbaZombie_REVERSE_3
+    21300008: ZumbaZombie_REVERSE_4
+    21300010: ZumbaZombie_REVERSE_5
+    21300012: ZumbaZombie_REVERSE_6
+    21300014: ZumbaZombie_REVERSE_7
+    21300016: ZumbaZombie_REVERSE_8
+    21300018: ZumbaZombie_REVERSE_9
+    21300020: ZumbaZombie_REVERSE_10
+    21300022: ZumbaZombie_REVERSE_11
+    21300024: ZumbaZombie_REVERSE_12
+    21300026: ZumbaZombie_REVERSE_13
+    21300028: ZumbaZombie_REVERSE_14
+    21300030: ZumbaZombie_REVERSE_15
+    21300032: ZumbaZombie_REVERSE_16
+    21300034: ZumbaZombie_REVERSE_17
+    21300036: ZumbaZombie_REVERSE_18
+    21300038: ZumbaZombie_REVERSE_19
+    21300040: ZumbaZombie_REVERSE_20
+    21300042: ZumbaZombie_REVERSE_21
+    21300044: ZumbaZombie_REVERSE_22
+    21300046: ZumbaZombie_REVERSE_23
+    21300048: ZumbaZombie_REVERSE_24
+    21300050: ZumbaZombie_REVERSE_25
+    21300052: ZumbaZombie_REVERSE_26
+    21300054: ZumbaZombie_REVERSE_27
+    21300056: ZumbaZombie_REVERSE_28
+    21300058: ZumbaZombie_REVERSE_29
+    21300060: ZumbaZombie_REVERSE_30
+    21300062: ZumbaZombie_REVERSE_31
+    21300064: ZumbaZombie_REVERSE_32
+    21300066: ZumbaZombie_REVERSE_33
+    21300068: ZumbaZombie_REVERSE_34
+    21300070: ZumbaZombie_REVERSE_35
+    21300072: ZumbaZombie_REVERSE_36
+    21300074: ZumbaZombie_REVERSE_37
+    21300076: ZumbaZombie_REVERSE_38
+    21300078: ZumbaZombie_REVERSE_39
+    21300080: ZumbaZombie_REVERSE_40
+    21300082: ZumbaZombie_REVERSE_41
+    21300084: ZumbaZombie_REVERSE_42
+    21300086: ZumbaZombie_REVERSE_43
+    21300088: ZumbaZombie_REVERSE_44
+    21300090: ZumbaZombie_REVERSE_45
+    21300092: ZumbaZombie_REVERSE_46
+    21300094: ZumbaZombie_REVERSE_47
+    21300096: ZumbaZombie_REVERSE_48
+    21300098: ZumbaZombie_REVERSE_49
+    21300100: ZumbaZombie_REVERSE_50
+    21300102: ZumbaZombie_REVERSE_51
+    21300104: ZumbaZombie_REVERSE_52
+    21300106: ZumbaZombie_REVERSE_53
+    21300108: ZumbaZombie_REVERSE_54
+    21300110: ZumbaZombie_REVERSE_55
+    21300112: ZumbaZombie_REVERSE_56
+    21300114: ZumbaZombie_REVERSE_57
+    21300116: ZumbaZombie_REVERSE_58
+    21300118: ZumbaZombie_REVERSE_59
+    21300120: ZumbaZombie_REVERSE_60
+    21300122: ZumbaZombie_REVERSE_61
+    21300124: ZumbaZombie_REVERSE_62
+    21300126: ZumbaZombie_REVERSE_63
+    21300128: ZumbaZombie_REVERSE_64
+    21300130: ZumbaZombie_REVERSE_65
+    21300132: ZumbaZombie_REVERSE_66
+    21300134: ZumbaZombie_REVERSE_67
+    21300136: ZumbaZombie_REVERSE_68
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8673254eb47364ea82fd2b7485610f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a0945e93334c64ba2d852d12a14b7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c2e246d1a81ac4b94829517eca625a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc57a875ace66748a476a610e79b0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d16fa9bd8dc3645a51be1a96bd514c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3b7e3197465a24f9e7a3338a088167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52d6e0fe33ecc647b653e883b31312b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_7
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b5bce9a770318498f42ef391b485e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_8
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e298123801d7334bb9609f51122decf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_9
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12833ac89d7531a4f83e8a78bdace6ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_10
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8678bdb8aede8b04ba47645c512d7297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_11
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b2020e97f89ac48b685c9692107d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99591437e3e4ae42b44011ecf8e9a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73efb8af7e7e65b44834fe4d071762cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084cec025fd77c443b0c67868537cf4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b872ef04bdac9554c87b6ffc64198251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7baec36d081b1c46803447bccaf5f40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_17
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fbe26fd400860418db7126229466fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_18
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ac9d93f7b56fc478de4546eb541583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_19
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1280b6200deda49b9e9ebb3aa672d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_20
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aa186049f76d24bb3f607512b640ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_21
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ec7484fefc4004b987f7404d2143fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_22
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a94077fe562e945b1d695844a399bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_23
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2dd6a27b66459409081ac3f015cb47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dafeaf35cee504a80968aebc18d10c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7e4da481fd434459f352033070e417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d250dee627e3eb648b36080aa486ce8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c1e2cf2124dac46ab9e5aafecb4581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_28
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddb592a00e119146a18425a44f0d26a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_29
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edfbd4f5777b4443b1b6db1b114073e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_30
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18104d6b55276534a8ca36e44752de41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_31
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ba63fe813b0a44eb4fd0769a172e80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_32
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4073f8fedfd5f1949ba0d0d0b69ac646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_33
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bdc557d7212604084a8c6f015a539c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_34
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7015eafbee08e534082e87790967f720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_35
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d02c9fb350b05478b131735a7ac75c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbfb1f01d7845c43845b83f903e6775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bff46955e681fe4fa80e025f7a72e91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf2d3101807a534db6c4f005c8faa3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_39
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab2ff78786e27f4f9570289d411ace3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_40
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e849c42018f88b7459e3e7bb2fc0ca9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_41
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e027488ee18f4d80579042cd670c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_42
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5f2668cfa1e894ea054399affdd9a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_43
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e37632ab82fb34b9d5be4dfab0857f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_44
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34ad43b3bbd6524c9f2169c40c26ad1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_45
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d4c60039fc2ae40864221388a97cca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_46
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d0644211a2e3542b0b52b5c9015e1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_47
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901c1e59b662440459d7650a0f2608c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfdd2e43d113b243a3bce082c440281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2f399ee3ebdf84aacf1a009412ec06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb6485a1bd6c14eadce35bc23e3edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bcdeb6c86bb96489b470b9bf09a21c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_52
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15251637ce11db94d965a070aa318a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_53
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e116d1bd441d4d89b61230a3b1c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_54
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5367c520e990c74aa1d2e7f4802816c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_55
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc39581e3b1b7544185a7742c0102876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_56
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bccd036199febd45bc4ccc435f957ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_57
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf21133db15e80499e13838825f47f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_58
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0421e18f2117942b49c634b0ffb5eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_59
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa6f8ca7cf92a444bb0f87166df15f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29994448f8fd84d46a14ed4d8319a931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_61
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5a95e22e1a46f499a9610bb79ea86e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b175eaf99c3aa4088157d2262c5b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5309664965a334084553599428844f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_64
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a08431a03f828459a07873310fe75c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_65
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b69901e5d4777458906ea89c34ed63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_66
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292e2e12bbdb7474c97e3e9e865e91f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_67
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1e78be36c90904ba3f91a7e5e3bef5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZumbaZombie_REVERSE_68
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc411077eb7a4c244b5c37029428d876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 65c1070f4f363794da0eab8e8471497a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

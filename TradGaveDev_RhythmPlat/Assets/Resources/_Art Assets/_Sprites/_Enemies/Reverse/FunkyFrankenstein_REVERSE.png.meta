@@ -1,0 +1,1821 @@
+fileFormatVersion: 2
+guid: 5ee6e69068281f94d9cc1acd517b94d4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FunkyFrankenstein_REVERSE_0
+    21300002: FunkyFrankenstein_REVERSE_1
+    21300004: FunkyFrankenstein_REVERSE_2
+    21300006: FunkyFrankenstein_REVERSE_3
+    21300008: FunkyFrankenstein_REVERSE_4
+    21300010: FunkyFrankenstein_REVERSE_5
+    21300012: FunkyFrankenstein_REVERSE_6
+    21300014: FunkyFrankenstein_REVERSE_7
+    21300016: FunkyFrankenstein_REVERSE_8
+    21300018: FunkyFrankenstein_REVERSE_9
+    21300020: FunkyFrankenstein_REVERSE_10
+    21300022: FunkyFrankenstein_REVERSE_11
+    21300024: FunkyFrankenstein_REVERSE_12
+    21300026: FunkyFrankenstein_REVERSE_13
+    21300028: FunkyFrankenstein_REVERSE_14
+    21300030: FunkyFrankenstein_REVERSE_15
+    21300032: FunkyFrankenstein_REVERSE_16
+    21300034: FunkyFrankenstein_REVERSE_17
+    21300036: FunkyFrankenstein_REVERSE_18
+    21300038: FunkyFrankenstein_REVERSE_19
+    21300040: FunkyFrankenstein_REVERSE_20
+    21300042: FunkyFrankenstein_REVERSE_21
+    21300044: FunkyFrankenstein_REVERSE_22
+    21300046: FunkyFrankenstein_REVERSE_23
+    21300048: FunkyFrankenstein_REVERSE_24
+    21300050: FunkyFrankenstein_REVERSE_25
+    21300052: FunkyFrankenstein_REVERSE_26
+    21300054: FunkyFrankenstein_REVERSE_27
+    21300056: FunkyFrankenstein_REVERSE_28
+    21300058: FunkyFrankenstein_REVERSE_29
+    21300060: FunkyFrankenstein_REVERSE_30
+    21300062: FunkyFrankenstein_REVERSE_31
+    21300064: FunkyFrankenstein_REVERSE_32
+    21300066: FunkyFrankenstein_REVERSE_33
+    21300068: FunkyFrankenstein_REVERSE_34
+    21300070: FunkyFrankenstein_REVERSE_35
+    21300072: FunkyFrankenstein_REVERSE_36
+    21300074: FunkyFrankenstein_REVERSE_37
+    21300076: FunkyFrankenstein_REVERSE_38
+    21300078: FunkyFrankenstein_REVERSE_39
+    21300080: FunkyFrankenstein_REVERSE_40
+    21300082: FunkyFrankenstein_REVERSE_41
+    21300084: FunkyFrankenstein_REVERSE_42
+    21300086: FunkyFrankenstein_REVERSE_43
+    21300088: FunkyFrankenstein_REVERSE_44
+    21300090: FunkyFrankenstein_REVERSE_45
+    21300092: FunkyFrankenstein_REVERSE_46
+    21300094: FunkyFrankenstein_REVERSE_47
+    21300096: FunkyFrankenstein_REVERSE_48
+    21300098: FunkyFrankenstein_REVERSE_49
+    21300100: FunkyFrankenstein_REVERSE_50
+    21300102: FunkyFrankenstein_REVERSE_51
+    21300104: FunkyFrankenstein_REVERSE_52
+    21300106: FunkyFrankenstein_REVERSE_53
+    21300108: FunkyFrankenstein_REVERSE_54
+    21300110: FunkyFrankenstein_REVERSE_55
+    21300112: FunkyFrankenstein_REVERSE_56
+    21300114: FunkyFrankenstein_REVERSE_57
+    21300116: FunkyFrankenstein_REVERSE_58
+    21300118: FunkyFrankenstein_REVERSE_59
+    21300120: FunkyFrankenstein_REVERSE_60
+    21300122: FunkyFrankenstein_REVERSE_61
+    21300124: FunkyFrankenstein_REVERSE_62
+    21300126: FunkyFrankenstein_REVERSE_63
+    21300128: FunkyFrankenstein_REVERSE_64
+    21300130: FunkyFrankenstein_REVERSE_65
+    21300132: FunkyFrankenstein_REVERSE_66
+    21300134: FunkyFrankenstein_REVERSE_67
+    21300136: FunkyFrankenstein_REVERSE_68
+    21300138: FunkyFrankenstein_REVERSE_69
+    21300140: FunkyFrankenstein_REVERSE_70
+    21300142: FunkyFrankenstein_REVERSE_71
+    21300144: FunkyFrankenstein_REVERSE_72
+    21300146: FunkyFrankenstein_REVERSE_73
+    21300148: FunkyFrankenstein_REVERSE_74
+    21300150: FunkyFrankenstein_REVERSE_75
+    21300152: FunkyFrankenstein_REVERSE_76
+    21300154: FunkyFrankenstein_REVERSE_77
+    21300156: FunkyFrankenstein_REVERSE_78
+    21300158: FunkyFrankenstein_REVERSE_79
+    21300160: FunkyFrankenstein_REVERSE_80
+    21300162: FunkyFrankenstein_REVERSE_81
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 360
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80cee3440eed2f4093360c8f71402be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c74558681c87c46bd62bb3358f5c71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62ca3980cd3ade4ca5a71065ba6135c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2da60f307263c74785e908475a5f74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1a11fee2e19bd41ab7e94047904ab3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7e57592c06c0409ab66c0d2038779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457a6caa04077ca4d94d41e619ee8555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_7
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eda3f31ecf402543b49ebc10e8a6bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_8
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c0d2a96643954d8feac54ec85cc20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_9
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5928a776201ddc4d8414148b27a1a2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_10
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd3e7a3039e0346a169795a30b3840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_11
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 6372
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca4e51cbb436c24a98a4aee4b5b1b43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef299ac5778ad34d8255e47c8f3c84c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a6f1383cf6f5649a020a7d03c4ef0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_14
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f312b4a38d930b3468708ee4d7f8add9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_15
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d1b8ec896c04c4eaa74a3248b2c8fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_16
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e469d21664c7f47b82cb77d662fa7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_17
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dbb2b83c525fc4187c0b62acc3f138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_18
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66baf686877f0c0408c5538b004a25f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_19
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41ecbadd9c4cbf40a9a8d87e357c860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_20
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddd17c0d84c3d8479256950e1ee371e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_21
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900a6034bec7ebc45a6fc21d567eaa6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_22
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20a1708839b0204c83019f187615f38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_23
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 5310
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd8fac527f346d469fad6742366b3e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6da0f5feaad5b40a175e373b72cd3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07fe5b8cc9007f459cf2599f90b4581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_26
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec4b3c88dd1bf4d97f30b43b9fa857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df25ec408eba7f74fb84c5e04f2fb9e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_28
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dd51887d8ff58429a4c8e7b1adc8ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_29
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552a50096d407146a964df4a8d56ef2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_30
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d131e71613844c34c9e1200606a1e80e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_31
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16a5cfb14cf8f341bc0106826d464b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_32
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d65e3cabbc317648bbd8d6c8b07116c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_33
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4643806b2172d478a559de2b713636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_34
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717d8c0f45d63bb4f91acbe73b44595b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_35
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 4248
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42bae451ac7f7846b478ae266179b32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ec7b7e005dea648bb4797edfe280bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_37
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1e59b4be27dd043b9a215b2a46cc8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_38
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b270243c7ffb64942b797f820aee96ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_39
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4de750fd6599054ab133636918bc233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_40
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81c653d677b06a44af414fef3a3c1f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_41
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e030a7d115fb824fb9b75921816265f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_42
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcab0a4be7ca8d54d8d038f01dd274c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_43
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdceac414870e44d8ac485878c6389e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_44
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa566520d16dea47910557cd4c5cb33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_45
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d42df284aaa8d4a8c73edb7c043a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_46
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4412f9d705b84e498f66c9eca07c845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_47
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 3186
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01a7d16bc16e14dba5a93c038f7ee3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e5c6b06ae7864887a263d50b29476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_49
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab288a712d4c774684ab66e052dabb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb3eeecfd5bcfb46afc72ecda8f85d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f9ac12ed8ff784bbb6894b84b1fe99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_52
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf048bbec5bd6c448b73cea966331cd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_53
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9cf9210c1127547b6b604f3bda7b28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_54
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c455d7fb804154346b43df8c3f93966b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_55
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa78352dd9a14d24a884ad5ec2a9d9b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_56
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c30a38d4d44874aab60a6bec3344ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_57
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885a3f1b532ae9d4187da15ef5a5d859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_58
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2881236d41863b54ba1a8ed17d0c0d8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_59
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 2124
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c079f1f084993864698caa14a97baa97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817d5882290e42042b0896fff1ba1b62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_61
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db306b901dc185458b15fbddd7e4b91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_62
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76160cf3a2e8f44397072d3af6e9959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_63
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f4a801087fce140bfb4f3f95314297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_64
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f7d2300a69d5a49acc0d21e2bf4f43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_65
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd9adfb4d9e1c241bb72f25e50c8b78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_66
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3814c609103237418f35d39e93046ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_67
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe235ae86cdba447949fa6d92ab0261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_68
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e59d5ef950665645b79b10d9672291c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_69
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8786f4256a2e042847fe8632c264dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_70
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bc4ea0f96f5c24787cfcc0432b76e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_71
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 1062
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7cccf2be6b28d43bb276772f8502a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3395b669b69534687587ef0fc1f707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_73
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aec943cd9799654db84cc647b1ce364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_74
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f245ae41d6ec5449530deba86be08f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_75
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2854f4deba39ecb4a96a22ecbe9f4db2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_76
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cebf259ef19254b804841f20015362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_77
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd733c10f91704b48ba1835d83fe2a02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_78
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471a2d6216344cc429e5b922e3fa14f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_79
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98753aed68b7cd419c4e41c5eebf5b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_80
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4843d5a52e1b84c95ba49209ff17eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FunkyFrankenstein_REVERSE_81
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 1024
+        height: 1062
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957d4750d9a1a054caadda1863380061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 872bc54d4588a774cb8310f0806c5f65
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
