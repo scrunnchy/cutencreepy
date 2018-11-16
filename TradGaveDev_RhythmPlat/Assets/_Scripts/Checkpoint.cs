@@ -75,7 +75,7 @@ public class Checkpoint : MonoBehaviour
             Debug.Log("reorienting collider");
             if (reversed)
             {
-                cs.boxC.transform.Translate((cs.cameraStallDistance*2), 0f, 0f); 
+                //cs.boxC.transform.Translate((cs.cameraStallDistance*2), 0f, 0f); 
             }
             else
             {
