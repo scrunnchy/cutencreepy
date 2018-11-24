@@ -188,8 +188,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1786532265826716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.9585137, y: -2.4035, z: -11.979687}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.33333334, y: 1, z: 0.33333334}
   m_Children:
   - {fileID: 4924635428696300}
   - {fileID: 4795860706961226}
@@ -370,6 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b89944a19bdfe4fa8c3f9adbb9450d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isReversed: 0
   rockTriggerDistance: 5
 --- !u!114 &114717839694968500
 MonoBehaviour:
