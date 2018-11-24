@@ -182,7 +182,6 @@ public class Enemy : MonoBehaviour {
         {
             if (this.isActiveAndEnabled)
             {
-
                 animator.SetBool("Reversed", false);
             }
             //toggle orientation

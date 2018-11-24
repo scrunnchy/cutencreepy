@@ -33,7 +33,17 @@ public class PlatformReverser : MonoBehaviour {
         {
             foreach(GameObject go in pieces)
             {
-                go.SetActive(false);
+                //disable all box colliders or sprite renderers
+                SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
+                if (tempS != null)
+                {
+                    tempS.enabled = false;
+                }
+                BoxCollider tempB = go.GetComponent<BoxCollider>();
+                if (tempB != null)
+                {
+                    tempB.enabled = false;
+                }
             }
         }
     }
@@ -48,14 +58,16 @@ public class PlatformReverser : MonoBehaviour {
         {
             foreach (GameObject go in pieces)
             {
-                //swap to active or innactive based on current state
-                if (go.activeSelf)
+                //swap relevant components to active or innactive based on current state
+                SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
+                if (tempS != null && !tempS.enabled)
                 {
-                    go.SetActive(false);
+                    tempS.enabled = true;
                 }
-                else
+                BoxCollider tempB = go.GetComponent<BoxCollider>();
+                if (tempB != null && !tempB.enabled)
                 {
-                    go.SetActive(true);
+                    tempB.enabled = true;
                 }
             }
         }
