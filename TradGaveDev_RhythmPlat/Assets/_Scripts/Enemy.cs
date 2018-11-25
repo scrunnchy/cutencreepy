@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
     // track if enemy is expended from hitting player
     private bool isExpended;
     // track if enemy is in the reversed state
-    private bool isReversed;
+    private bool isReversed = false;
     //Produces the behaviour that an enemy will no longer be a threat or visible during reversals
     public bool DisapearsAtReverse;
     //Produces the behaviour that an enemy will only become visible and a threat during reversals
@@ -94,7 +94,21 @@ public class Enemy : MonoBehaviour {
             //turn off children
             foreach (GameObject go in pieces)
             {
-                go.SetActive(false);
+                ParticleSystem tempP = go.GetComponent<ParticleSystem>();
+                if (tempP != null)
+                {
+                    tempP.Pause();
+                }
+                SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
+                if (tempS != null)
+                {
+                    tempS.enabled = false;
+                }
+                BoxCollider tempB = go.GetComponent<BoxCollider>();
+                if (tempB != null && tempB.isTrigger)
+                {
+                    tempB.enabled = false;
+                }
             }
         }
 
@@ -176,6 +190,32 @@ public class Enemy : MonoBehaviour {
                 boxC.enabled = true;
                 spriteR.enabled = true;
             }
+            foreach (GameObject go in pieces)
+            {
+                //swap relevant components to active or innactive based on current state
+                SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
+                if (tempS != null)
+                {
+                    tempS.enabled = !tempS.enabled;
+                }
+                BoxCollider tempB = go.GetComponent<BoxCollider>();
+                if (tempB != null && tempB.isTrigger)
+                {
+                    tempB.enabled = !tempB.enabled;
+                }
+                ParticleSystem tempP = go.GetComponent<ParticleSystem>();
+                if (tempP != null)
+                {
+                    if (tempP.isPaused)
+                    {
+                        tempP.Play();
+                    }
+                    else
+                    {
+                        tempP.Pause();
+                    }
+                }
+            }
         }
         // take action depending on enemy's current state 
         if (isReversed)
@@ -186,13 +226,6 @@ public class Enemy : MonoBehaviour {
             }
             //toggle orientation
             isReversed = false;
-            //flip the sprite direction accordingly
-            //spriteR.flipX = true;
-            //swap sprite to needed version
-            //SwapSpriteToReverse();
-            //flip particle effect.
-            particlesT.Translate(-3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
         }
         else
         {
@@ -206,11 +239,11 @@ public class Enemy : MonoBehaviour {
             isReversed = true;
             //flip the sprite direction accordingly
             spriteR.flipX = false;
-            //flip particle effect.
-            particlesT.Translate(3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
+            
         }
-
+        //flip particle effect.
+        particlesT.Translate(3f, 0f, 0f);
+        particlesT.Rotate(180f, 180f, 0f);
         isExpended = false;
     }
 }

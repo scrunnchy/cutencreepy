@@ -28,7 +28,6 @@ public class Checkpoint : MonoBehaviour
         LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         Reached = false;
         playerObject = GameObject.FindGameObjectWithTag("Player");
-        cs = GetComponentInChildren<CameraStaller>();
         reversed = false;
         LevelManager.CheckpointReverse.AddListener(TurnAroundAndReset);
         
@@ -47,40 +46,19 @@ public class Checkpoint : MonoBehaviour
         {
             Debug.Log("checkpoint reached");
             Reached = true;
-            //consume candy
-            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
             //trigger "CheckpointCollision" event
             LevelManager.CheckpointCollision.Invoke();
             //trigger reversal conditionally
             if (reversalPoint)
                 LevelManager.CheckpointReverse.Invoke();
+            //consume candy
+            transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
-    private bool isClose(float y1, float y2)
-    {
-        if (Math.Abs(y1 - y2) <= 3)
-            return true;
-        return false;
-    }
-
-    
-    private void TurnAroundAndReset() //trigger this method when the last checkpoint is reached
+    private void TurnAroundAndReset() 
     {
         reversed = !reversed;
         
-        //if this is not the checkpoint that was reached, then orient the collider correctly.
-        if (!Reached)
-        {
-            Debug.Log("reorienting collider");
-            if (reversed)
-            {
-                //cs.boxC.transform.Translate((cs.cameraStallDistance*2), 0f, 0f); 
-            }
-            else
-            {
-                cs.boxC.transform.Translate(+(cs.cameraStallDistance * 2), 0f, 0f);
-            }
-        }
     }
 }

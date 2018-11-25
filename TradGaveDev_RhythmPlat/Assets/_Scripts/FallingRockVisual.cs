@@ -28,7 +28,7 @@ public class FallingRockVisual : MonoBehaviour {
     void Start ()
     {
         sprite = GetComponent<SpriteRenderer>();
-        particlesT = transform.parent.GetChild(2);
+        particlesT = transform.parent.GetChild(0);
         if (isReversed)
         {
             sprite.flipX = true;
@@ -73,6 +73,7 @@ public class FallingRockVisual : MonoBehaviour {
             if (rb.velocity.y == 0)
             {
                 isFalling = false;
+                rb.useGravity = false;
                 StartCoroutine("ResetRock");
             }
         }
@@ -80,23 +81,14 @@ public class FallingRockVisual : MonoBehaviour {
     private void flipRockOrientation()
     {
         isExpended = false;
-        isReversed = true;
+        isReversed = !isReversed;
         //rotate the particle effect into position for reversal
-        if (isReversed)
-        {
-            particlesT.Translate(3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
-        else
-        {
-            particlesT.Translate(-3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
+        particlesT.Translate(3f, 0f, 0f);
+        particlesT.Rotate(180f, 180f, 0f);
     }
     IEnumerator ResetRock()
     {
         yield return new WaitForSeconds(rockResetDelay);
         this.transform.position = originalRockPos;
-        rb.useGravity = false;
     }
 }

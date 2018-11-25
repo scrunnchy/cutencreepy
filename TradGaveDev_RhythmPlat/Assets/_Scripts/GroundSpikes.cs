@@ -84,18 +84,11 @@ public class GroundSpikes : MonoBehaviour
     private void RespondToReverse()
     {
         isExpended = false;
-        isReversed = true;
+        isReversed = !isReversed;
         //rotate the particle effect into position for reversal
-        if (isReversed)
-        {
-            particlesT.Translate(3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
-        else
-        {
-            particlesT.Translate(-3f, 0f, 0f);
-            particlesT.Rotate(180f, 180f, 0f);
-        }
+        
+        particlesT.Translate(3f, 0f, 0f);
+        particlesT.Rotate(180f, 180f, 0f);
     }
 
     /// <summary>

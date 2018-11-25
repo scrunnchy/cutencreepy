@@ -60,14 +60,14 @@ public class PlatformReverser : MonoBehaviour {
             {
                 //swap relevant components to active or innactive based on current state
                 SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
-                if (tempS != null && !tempS.enabled)
+                if (tempS != null)
                 {
-                    tempS.enabled = true;
+                    tempS.enabled = !tempS.enabled;
                 }
                 BoxCollider tempB = go.GetComponent<BoxCollider>();
-                if (tempB != null && !tempB.enabled)
+                if (tempB != null)
                 {
-                    tempB.enabled = true;
+                    tempB.enabled = !tempB.enabled;
                 }
             }
         }
