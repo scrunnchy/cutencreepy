@@ -13,27 +13,37 @@ public class HealthBarDisplay : MonoBehaviour
     public Texture2D progressBarEmpty;
     public Texture2D progressBarFull;
     Player player;
+    private int maxHealth;
+    private int LengthPerHealthUnit;
 
     private void Awake()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
     }
-
+    private void Start()
+    {
+        if (player != null)
+        {
+            maxHealth = player.playerHealth;
+            LengthPerHealthUnit = ((int)size.x / maxHealth);
+        }
+    }
 
     void OnGUI()
     {
+        if (player != null)
+        {
+            //draw the background:
+            GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
+            //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
+            GUI.DrawTexture(new Rect(0, 0, size.x, size.y), progressBarEmpty, ScaleMode.StretchToFill);
 
-        //draw the background:
-        GUI.BeginGroup(new Rect(pos.x, pos.y, size.x, size.y));
-        //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarEmpty);
-        GUI.DrawTexture(new Rect(0, 0, size.x, size.y), progressBarEmpty, ScaleMode.StretchToFill);
-
-        //draw the filled-in part:
-        GUI.BeginGroup(new Rect(0, 0, size.x, size.y));
-        //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarFull);
-        GUI.DrawTexture(new Rect(0, 0, player.playerHealth, size.y), progressBarFull, ScaleMode.StretchToFill);
-        GUI.EndGroup();
-        GUI.EndGroup();
-
+            //draw the filled-in part:
+            GUI.BeginGroup(new Rect(0, 0, LengthPerHealthUnit * player.playerHealth, size.y));
+            //GUI.Box(new Rect(0, 0, size.x, size.y), progressBarFull);
+            GUI.DrawTexture(new Rect(0, 0, LengthPerHealthUnit * player.playerHealth, size.y), progressBarFull, ScaleMode.StretchToFill);
+            GUI.EndGroup();
+            GUI.EndGroup();
+        }
     }
 }
