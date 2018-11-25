@@ -71,7 +71,7 @@ namespace Platformer
             if (playerHealth > 1)
             {
                 playerHealth -= 1;
-
+                Debug.Log("Hit");
                 //play damage animation (white sprite)
             }
             else
