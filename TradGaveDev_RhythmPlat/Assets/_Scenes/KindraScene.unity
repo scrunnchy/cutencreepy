@@ -290,49 +290,9 @@ Prefab:
       objectReference: {fileID: 951608641}
     - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
         type: 2}
-      propertyPath: LM
-      value: 
-      objectReference: {fileID: 1391888430}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
       propertyPath: LevelManager
       value: 
       objectReference: {fileID: 1391888430}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: startDelay
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: lookAheadAmount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: lookAhead
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: cameraDistanceFromPlayer
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 114742413766889636, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: xOffset
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 20502574056010752, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: m_Depth
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20502574056010752, guid: d6e2e970caa3ea34b97fdf0f982d3cb9,
-        type: 2}
-      propertyPath: m_ClearFlags
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6e2e970caa3ea34b97fdf0f982d3cb9, type: 2}
   m_IsPrefabAsset: 0
@@ -479,6 +439,10 @@ Prefab:
       propertyPath: m_Name
       value: MelodyMummy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
   m_IsPrefabAsset: 0
@@ -524,6 +488,10 @@ Prefab:
     - target: {fileID: 1150754677027514, guid: 73c1216dced45624ab31f9a5dce65a67, type: 2}
       propertyPath: m_Name
       value: Checkpoint (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173092548711140, guid: 73c1216dced45624ab31f9a5dce65a67, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73c1216dced45624ab31f9a5dce65a67, type: 2}
@@ -717,6 +685,10 @@ Prefab:
     - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
       propertyPath: m_Name
       value: MelodyMummy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
@@ -1247,6 +1219,10 @@ Prefab:
       propertyPath: m_Name
       value: MelodyMummy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
   m_IsPrefabAsset: 0
@@ -1292,6 +1268,10 @@ Prefab:
     - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
       propertyPath: m_Name
       value: MelodyMummy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1534106205789612, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d18a1fcae666041ace9985f1b6a1a4, type: 2}

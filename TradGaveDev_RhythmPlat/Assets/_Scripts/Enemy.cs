@@ -167,6 +167,14 @@ public class Enemy : MonoBehaviour {
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            LevelManager.enemyPlayerEndCollision.Invoke();
+        }
+    }
+
     /// <summary>
     /// Triggers as soon as the reversal point is reached.
     /// Flips the enemy sprite such that it faces the player. 

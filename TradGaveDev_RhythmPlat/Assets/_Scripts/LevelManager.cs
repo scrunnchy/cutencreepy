@@ -18,6 +18,7 @@ public class LevelManager : MonoBehaviour
     public static UnityEvent enemyPlayerCollision;
     public static UnityEvent CheckpointCollision;
     public static UnityEvent CheckpointReverse;
+    public static UnityEvent enemyPlayerEndCollision;
 
     Camera pauseCamera;
     Camera mainCam;
@@ -34,6 +35,8 @@ public class LevelManager : MonoBehaviour
         CheckpointCollision = new UnityEvent();
 
         CheckpointReverse = new UnityEvent();
+
+        enemyPlayerEndCollision = new UnityEvent();
 
         // ensure time is moving upon awake
         paused = false;
