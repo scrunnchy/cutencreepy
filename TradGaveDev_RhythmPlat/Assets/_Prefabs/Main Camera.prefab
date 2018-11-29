@@ -245,7 +245,7 @@ MonoBehaviour:
   Magnitude: 2
   Roughness: 10
   FadeOutTime: 2
-  slideAmount: 0.5
+  travelAmount: 0.5
 --- !u!114 &114449692132979640
 MonoBehaviour:
   m_ObjectHideFlags: 1
