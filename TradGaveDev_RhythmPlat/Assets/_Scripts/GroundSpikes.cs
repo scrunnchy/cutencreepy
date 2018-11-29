@@ -42,6 +42,7 @@ public class GroundSpikes : MonoBehaviour
         LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         spriteR = gameObject.transform.parent.gameObject.GetComponentInChildren<SpriteRenderer>();
         isReversed = false;
+        isExpended = false;
         //Register for reversal.
         LevelManager.CheckpointReverse.AddListener(RespondToReverse);
     }
