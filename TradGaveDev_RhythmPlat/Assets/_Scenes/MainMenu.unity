@@ -233,7 +233,7 @@ RectTransform:
   m_GameObject: {fileID: 67898868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1878, y: 0.72548, z: 1}
   m_Children: []
   m_Father: {fileID: 91913296}
   m_RootOrder: 1
@@ -314,7 +314,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 8622145fd35a19243984dc108f420d77, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d7ac6374fe9b6984f91ac6e523ff2305, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -564,7 +564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 903, y: -379}
+  m_AnchoredPosition: {x: 941, y: -397}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &958553203
@@ -638,7 +638,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0414ba3e5770c03468789db249fab091, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7ace0a0e318f6ec409f988a8d2957b34, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -741,7 +741,7 @@ RectTransform:
   m_GameObject: {fileID: 1724798840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2377306, y: 0.8895986, z: 1.00913}
   m_Children: []
   m_Father: {fileID: 91913296}
   m_RootOrder: 0
@@ -822,7 +822,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300002, guid: 8622145fd35a19243984dc108f420d77, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5fa54de2cb1cf5048a98c27697aac27b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
