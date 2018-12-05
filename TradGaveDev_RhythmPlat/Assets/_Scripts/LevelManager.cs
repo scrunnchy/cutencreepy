@@ -53,8 +53,10 @@ public class LevelManager : MonoBehaviour
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
         if (pauseObject != null)
+        {
             pauseCamera = pauseObject.GetComponent<Camera>();
-        pauseCamera.enabled = false;
+            pauseCamera.enabled = false;
+        }
 
         audio = mainCam.GetComponent<AudioSource>();
         CheckpointReverse.AddListener(reverseLevel);
@@ -77,25 +79,26 @@ public class LevelManager : MonoBehaviour
     /// <returns></returns>
     public void togglePause()
     {
-        // if paused, play
-        if (Time.timeScale == 0f)
-        {
-            // play audio
-            audio.Play();
-            UIM.pauseAudio.Pause();
-            Time.timeScale = 1f;
-            pauseCamera.enabled = false;
-            paused = false;
-        }
-        // if playing, pause
-        else
-        {
-            // pause audio
-            audio.Pause();
-            UIM.pauseAudio.Play();
-            Time.timeScale = 0f;
-            pauseCamera.enabled = true;
-            paused = true;
-        }
+        if (pauseCamera != null)
+            // if paused, play
+            if (Time.timeScale == 0f)
+            {
+                // play audio
+                audio.Play();
+                UIM.pauseAudio.Pause();
+                Time.timeScale = 1f;
+                pauseCamera.enabled = false;
+                paused = false;
+            }
+            // if playing, pause
+            else
+            {
+                // pause audio
+                audio.Pause();
+                UIM.pauseAudio.Play();
+                Time.timeScale = 0f;
+                pauseCamera.enabled = true;
+                paused = true;
+            }
     }
 }
