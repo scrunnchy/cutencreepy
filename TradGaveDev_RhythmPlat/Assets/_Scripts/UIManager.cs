@@ -56,7 +56,7 @@ public class UIManager : MonoBehaviour
             return gameObject.GetComponent<Button>();
         return null;
     }
-    
+
     private void checkForKeyStroke()
     {
         if (Input.GetButtonDown("pauseButton") && LM != null)

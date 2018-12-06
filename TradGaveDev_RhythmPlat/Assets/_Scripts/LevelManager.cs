@@ -22,6 +22,7 @@ public class LevelManager : MonoBehaviour
 
     Camera pauseCamera;
     Camera mainCam;
+    Canvas pauseCanvas;
     private AudioSource audio;
     UIManager UIM;
 
@@ -52,13 +53,16 @@ public class LevelManager : MonoBehaviour
         //Get camera and disable 
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
+        pauseCanvas = GameObject.Find("PauseCanvas").GetComponent<Canvas>();
         if (pauseObject != null)
         {
             pauseCamera = pauseObject.GetComponent<Camera>();
             pauseCamera.enabled = false;
         }
+        if (pauseCanvas != null)
+            pauseCanvas.enabled = false;
 
-        audio = mainCam.GetComponent<AudioSource>();
+            audio = mainCam.GetComponent<AudioSource>();
         CheckpointReverse.AddListener(reverseLevel);
     }
 
@@ -88,6 +92,7 @@ public class LevelManager : MonoBehaviour
                 UIM.pauseAudio.Pause();
                 Time.timeScale = 1f;
                 pauseCamera.enabled = false;
+                pauseCanvas.enabled = false;
                 paused = false;
             }
             // if playing, pause
@@ -98,6 +103,7 @@ public class LevelManager : MonoBehaviour
                 UIM.pauseAudio.Play();
                 Time.timeScale = 0f;
                 pauseCamera.enabled = true;
+                pauseCanvas.enabled = true;
                 paused = true;
             }
     }

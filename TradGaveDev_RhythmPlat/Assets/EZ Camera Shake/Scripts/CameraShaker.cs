@@ -22,6 +22,7 @@ namespace EZCameraShake
         public Vector3 DefaultRotInfluence = new Vector3(1, 1, 1);
 
         Vector3 posAddShake, rotAddShake;
+        LevelManager LM;
 
         List<CameraShakeInstance> cameraShakeInstances = new List<CameraShakeInstance>();
 
@@ -29,6 +30,11 @@ namespace EZCameraShake
         {
             Instance = this;
             instanceList.Add(gameObject.name, this);
+        }
+
+        private void Start()
+        {
+            LM = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         }
 
         void Update()
@@ -54,9 +60,11 @@ namespace EZCameraShake
                     rotAddShake += CameraUtilities.MultiplyVectors(c.UpdateShake(), c.RotationInfluence);
                 }
             }
-
-            transform.localPosition += posAddShake;
-            transform.localEulerAngles += rotAddShake;
+            if (!LM.paused)
+            {
+                transform.localPosition += posAddShake;
+                transform.localEulerAngles += rotAddShake;
+            }
         }
 
         /// <summary>
