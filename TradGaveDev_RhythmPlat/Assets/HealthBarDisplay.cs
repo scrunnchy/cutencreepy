@@ -14,7 +14,7 @@ public class HealthBarDisplay : MonoBehaviour
     public Texture2D progressBarFull;
     Player player;
     private int maxHealth;
-    private int LengthPerHealthUnit;
+    private float LengthPerHealthUnit;
 
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class HealthBarDisplay : MonoBehaviour
         if (player != null)
         {
             maxHealth = player.playerHealth;
-            LengthPerHealthUnit = ((int)size.x / maxHealth);
+            LengthPerHealthUnit = ((float)size.x / maxHealth);
         }
     }
 
