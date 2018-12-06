@@ -160,9 +160,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {x: 25, y: 35}
-  size: {x: 300, y: 20}
-  progressBarEmpty: {fileID: 2800000, guid: 0288fc195f9d35b4182b8d58840dceed, type: 3}
-  progressBarFull: {fileID: 2800000, guid: 9b35e606bb57c3b4a9d39e83292a3e1e, type: 3}
+  size: {x: 300, y: 30}
+  progressBarEmpty: {fileID: 2800000, guid: 52f20dd0ae9fb7e45b937722bf0f46fa, type: 3}
+  progressBarFull: {fileID: 2800000, guid: 075c9126e4682ec4e8382001b73db24b, type: 3}
 --- !u!114 &114971342538117592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -292,13 +292,13 @@ RectTransform:
   m_GameObject: {fileID: 1729661163668246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.8639, y: 0.9002293, z: 9.8639}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 224156390957761836}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 195}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
