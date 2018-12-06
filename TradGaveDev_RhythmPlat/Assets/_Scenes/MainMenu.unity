@@ -520,7 +520,7 @@ RectTransform:
   m_GameObject: {fileID: 883521236}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3284, y: 1, z: 1}
+  m_LocalScale: {x: 0.3284, y: 1.0125, z: 1}
   m_Children:
   - {fileID: 1025618498}
   - {fileID: 1973479059}
@@ -530,7 +530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 2, y: 0}
+  m_AnchoredPosition: {x: -1, y: 0}
   m_SizeDelta: {x: 812, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &883521238
@@ -615,7 +615,7 @@ RectTransform:
   m_GameObject: {fileID: 943096602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 13.618653, y: 4.991666, z: 6.753944}
+  m_LocalScale: {x: 13.618653, y: 4.7420826, z: 6.753944}
   m_Children: []
   m_Father: {fileID: 883521237}
   m_RootOrder: 2
@@ -832,7 +832,7 @@ RectTransform:
   m_GameObject: {fileID: 1025618497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.9202585, y: 4.2271, z: 4.2271}
+  m_LocalScale: {x: 9.9202585, y: 4.0685835, z: 4.2271}
   m_Children: []
   m_Father: {fileID: 883521237}
   m_RootOrder: 0
@@ -1145,7 +1145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 796, y: 528}
+  m_AnchoredPosition: {x: 796, y: 444}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1294009605
@@ -1519,7 +1519,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 586fd651e87427546b8a16e146b216a5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 478ca2ed3fff361499c3d868be78f4ff, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1726,7 +1726,7 @@ RectTransform:
   m_GameObject: {fileID: 1973479058}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 13.555608, y: 4.3732, z: 4.3732}
+  m_LocalScale: {x: 13.555608, y: 4.2092047, z: 4.3732}
   m_Children: []
   m_Father: {fileID: 883521237}
   m_RootOrder: 1
