@@ -99,14 +99,14 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("q"))
+        /*if (Input.GetKeyDown("q"))
         {
             Time.timeScale = slowDownSpeed;
         }
         if (Input.GetKeyDown("e"))
         {
             Time.timeScale = 1f;
-        }
+        }*/
         // Check if the player is currently grounded, sets inJump to true or false (opposite of isGrounded)
         if (isGrounded = Grounded())
         {
