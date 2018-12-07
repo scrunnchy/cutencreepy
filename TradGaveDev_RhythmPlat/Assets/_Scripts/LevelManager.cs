@@ -62,7 +62,7 @@ public class LevelManager : MonoBehaviour
         if (pauseCanvas != null)
             pauseCanvas.enabled = false;
 
-            audio = mainCam.GetComponent<AudioSource>();
+        audio = mainCam.GetComponent<AudioSource>();
         CheckpointReverse.AddListener(reverseLevel);
     }
 
