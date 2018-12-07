@@ -23,6 +23,7 @@ public class LevelManager : MonoBehaviour
     Camera pauseCamera;
     Camera mainCam;
     Canvas pauseCanvas;
+    Button playButton;
     private AudioSource audio;
     UIManager UIM;
 
@@ -54,6 +55,7 @@ public class LevelManager : MonoBehaviour
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
         pauseCanvas = GameObject.Find("PauseCanvas").GetComponent<Canvas>();
+        playButton = GameObject.Find("PlayButton").GetComponent<Button>();
         if (pauseObject != null)
         {
             pauseCamera = pauseObject.GetComponent<Camera>();
@@ -93,6 +95,7 @@ public class LevelManager : MonoBehaviour
                 Time.timeScale = 1f;
                 pauseCamera.enabled = false;
                 pauseCanvas.enabled = false;
+                playButton.interactable = false;
                 paused = false;
             }
             // if playing, pause
@@ -104,6 +107,7 @@ public class LevelManager : MonoBehaviour
                 Time.timeScale = 0f;
                 pauseCamera.enabled = true;
                 pauseCanvas.enabled = true;
+                playButton.interactable = true;
                 paused = true;
             }
     }
