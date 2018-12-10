@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 495619081}
   - component: {fileID: 495619080}
   m_Layer: 5
-  m_Name: ExitButton
+  m_Name: InfoExit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -324,7 +324,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1452612516}
-        m_MethodName: 
+        m_MethodName: closeScreen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
