@@ -54,8 +54,14 @@ public class LevelManager : MonoBehaviour
         //Get camera and disable 
         mainCam = Camera.main;
         GameObject pauseObject = GameObject.Find("Pause Camera");
-        pauseCanvas = GameObject.Find("PauseCanvas").GetComponent<Canvas>();
-        playButton = GameObject.Find("PlayButton").GetComponent<Button>();
+        if (GameObject.Find("PauseCanvas") != null)
+        {
+            pauseCanvas = GameObject.Find("PauseCanvas").GetComponent<Canvas>();
+        }
+        if (GameObject.Find("PlayButton") != null)
+        {
+            playButton = GameObject.Find("PlayButton").GetComponent<Button>();
+        }
         if (pauseObject != null)
         {
             pauseCamera = pauseObject.GetComponent<Camera>();
