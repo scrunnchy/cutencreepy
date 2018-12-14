@@ -54,6 +54,7 @@ namespace Platformer
 
         private void Update()
         {
+            isGrounded = pc.isGrounded;
             //Check if player has fallen into the kill zone
             if (!isGrounded)
             {
@@ -106,9 +107,10 @@ namespace Platformer
 
         private void checkForKillZone()
         {
-            if (_characterController.transform.position.y <= killZone)
+            //_characterController.transform.position.y <= killZone
+            _characterVelocity = pc.GetCharacterVelocity();
+            if (_characterVelocity.y < -90)
             {
-                
                 SceneManager.LoadScene(2);
             }
         }
