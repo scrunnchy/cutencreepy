@@ -109,7 +109,7 @@ namespace Platformer
         {
             //_characterController.transform.position.y <= killZone
             _characterVelocity = pc.GetCharacterVelocity();
-            if (_characterVelocity.y < -90)
+            if (_characterVelocity.y < -100)
             {
                 SceneManager.LoadScene(2);
             }

@@ -29,6 +29,8 @@ public class Enemy : MonoBehaviour {
 
     private Animator animator;
 
+    GameObject playerRef;
+
     private GameObject[] pieces;
     private void Awake()
     {
@@ -37,6 +39,7 @@ public class Enemy : MonoBehaviour {
         boxC = GetComponent<BoxCollider>();
         animator = this.GetComponent<Animator>();
         animator.SetBool("Reversed", isReversed);
+        playerRef = GameObject.FindGameObjectWithTag("Player");
     }
     // On start, an enemy will:
     // retrieve collider component
@@ -204,7 +207,15 @@ public class Enemy : MonoBehaviour {
                 SpriteRenderer tempS = go.GetComponent<SpriteRenderer>();
                 if (tempS != null)
                 {
-                    tempS.enabled = !tempS.enabled;
+                    if (playerRef.transform.position.y + 5 < this.transform.position.y)
+                    {
+                        tempS.enabled = false;
+                        animator.enabled = false;
+                    }
+                    else
+                    {
+                        tempS.enabled = !tempS.enabled;
+                    }
                 }
                 BoxCollider tempB = go.GetComponent<BoxCollider>();
                 if (tempB != null && tempB.isTrigger)
@@ -221,6 +232,7 @@ public class Enemy : MonoBehaviour {
                     else
                     {
                         tempP.Pause();
+                        tempP.Clear();
                     }
                 }
             }
